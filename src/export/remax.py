@@ -10,7 +10,7 @@ class Remax(object):
     }
 
     @staticmethod
-    def fetch_data(is_res: bool, is_sale: bool) -> pd.DataFrame:
+    def fetch_data(is_sale: bool) -> pd.DataFrame:
         page = 1
         data = pd.DataFrame()
 
@@ -42,9 +42,8 @@ class Remax(object):
             # Update progress bar
 
         # Add source and rename columns
-        data.insert(0, 'Is_Res', is_res)
-        data.insert(1, 'Is_Sale', is_sale)
-        data.insert(2, 'Source', 'Remax')
+        data.insert(0, 'Is_Sale', is_sale)
+        data.insert(1, 'Source', 'Remax')
 
         data = data.rename(columns={
             'MLS': 'Reference'
@@ -55,11 +54,11 @@ class Remax(object):
 
     @staticmethod
     def fetch_res_sale():
-        return Remax.fetch_data(True, True)
+        return Remax.fetch_data(True)
 
     @staticmethod
     def fetch_res_rent():
-        return Remax.fetch_data(True, False)
+        return Remax.fetch_data(False)
 
     @staticmethod
     def fetch_all():
