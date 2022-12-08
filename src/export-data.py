@@ -3,6 +3,7 @@ import pandas as pd
 from tqdm import tqdm
 
 from export.remax import Remax
+from export.regions import Regions
 
 
 if __name__ == "__main__":
@@ -15,7 +16,7 @@ if __name__ == "__main__":
     pbar = tqdm(total=2)
 
     # ===================================
-    # Fetching Remix Data
+    # Fetching Remax Data
     # ===================================
 
     remax = Remax.fetch_all()
@@ -29,6 +30,9 @@ if __name__ == "__main__":
     remax = pd.read_csv(remax_path)
 
     dataset = pd.concat([remax])
+    regions = Regions.region_mapping()
+
+    dataset = dataset.merge(regions, on='Town', how='left')
     dataset = dataset[pd.to_numeric(dataset['Price'], errors='coerce').notnull()]
 
     dataset.to_csv("dataset.csv", index=False)

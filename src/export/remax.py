@@ -17,7 +17,7 @@ class Remax(object):
         # Loop until an invalid page shows up
         while True:
             # Retrieve data based on dynamically built URL
-            url = f'https://remax-malta.com/api/properties?Residential={is_res}&Commercial={not is_res}&ForSale={is_sale}&ForRent={not is_sale}&page={page}&Take=250'
+            url = f'https://remax-malta.com/api/properties?Residential=True&Commercial=False&ForSale={is_sale}&ForRent={not is_sale}&page={page}&Take=250'
             request = requests.get(url, headers=Remax.header).json()
 
             # Break loop id data key not found
@@ -29,7 +29,7 @@ class Remax(object):
             page_data[['Latitude', 'Longitude']] = page_data['Coordinates'].apply(pd.Series)
 
             page_data = page_data[[
-                'MLS', 'Province', 'Town', 'PropertyType',
+                'MLS', 'Town', 'PropertyType',
                 'Latitude', 'Longitude',
                 'TotalRooms', 'TotalBedrooms', 'TotalBathrooms',
                 'TotalSqm', 'TotalIntArea', 'TotalExtArea', 'Price'
