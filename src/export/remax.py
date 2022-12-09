@@ -3,12 +3,10 @@ import pandas as pd
 
 from tqdm import tqdm
 
+from helper.scrape import Scrape
+
 
 class Remax(object):
-    header = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
-    }
-
     @staticmethod
     def fetch_data(is_sale: bool) -> pd.DataFrame:
         page = 1
@@ -18,7 +16,7 @@ class Remax(object):
         while True:
             # Retrieve data based on dynamically built URL
             url = f'https://remax-malta.com/api/properties?Residential=True&Commercial=False&ForSale={is_sale}&ForRent={not is_sale}&page={page}&Take=250'
-            request = requests.get(url, headers=Remax.header).json()
+            request = requests.get(url, headers=Scrape.header).json()
 
             # Break loop id data key not found
             if len(request['data']['Properties']) == 0:
@@ -38,8 +36,6 @@ class Remax(object):
             # Concatenate previous data frame with data of current page
             data = pd.concat([data, page_data])
             page += 1
-
-            # Update progress bar
 
         # Add source and rename columns
         data.insert(0, 'Is_Sale', is_sale)
