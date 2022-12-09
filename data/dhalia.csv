@@ -1,0 +1,1621 @@
+Is_Sale,Source,Reference,Town,PropertyType,Latitude,Longitude,TotalRooms,TotalBedrooms,TotalBathrooms,TotalSqm,TotalIntArea,TotalExtArea,Price
+True,Dhalia,P000238421,Gozo Fontana,House of Character,,,,3,,,,,410000
+True,Dhalia,P000238420,Sliema,Flats,,,,3,,,,,350000
+True,Dhalia,P000238419,San Gwann,Flats,,,,2,,,,,220000
+True,Dhalia,P000238418,Hamrun,Flats,,,,3,,,,,190000
+True,Dhalia,P000238417,Hamrun,Gr Floor Maisonette,,,,3,,,,,350000
+True,Dhalia,P000238413,L-Iklin,Penthouse,,,,3,,,,,425000
+True,Dhalia,P000238412,L-Iklin,Flats,,,,3,,,,,370000
+True,Dhalia,P000238411,L-Iklin,Flats,,,,3,,,,,370000
+True,Dhalia,P000238410,L-Iklin,Flats,,,,3,,,,,370000
+True,Dhalia,P000238409,L-Iklin,Flats,,,,4,,,,,370000
+True,Dhalia,P000238408,Naxxar,Penthouse,,,,2,,,,,583000
+True,Dhalia,P000238407,Naxxar,Flats,,,,3,,,,,397000
+True,Dhalia,P000238406,Naxxar,Flats,,,,3,,,,,386000
+True,Dhalia,P000238405,Naxxar,Flats,,,,2,,,,,355000
+True,Dhalia,P000238404,Naxxar,Maisonette,,,,2,,,,,370000
+True,Dhalia,P000238403,Sliema,Flats,,,,3,,,,,430000
+True,Dhalia,P000238402,Marsascala,Flats,,,,3,,,,,280000
+True,Dhalia,P000238400,Mellieha,Penthouse,,,,,,,,,595000
+True,Dhalia,P000238399,St Julians,Duplex Penthouse,,,,4,,,,,900000
+True,Dhalia,P000238398,Zebbug,Townhouse,,,,3,,,,,2118000
+True,Dhalia,P000238396,Tarxien,House of Character,,,,3,,,,,165000
+True,Dhalia,P000238395,Zebbug,Townhouse,,,,4,,,,,1350000
+True,Dhalia,P000238392,Gozo Marsalforn,Flats,,,,2,,,,,175000
+True,Dhalia,P000238387,Zebbug,Townhouse,,,,4,,,,,1350000
+True,Dhalia,P000238386,Marsaxlokk,Palazzo,,,,4,,,,,1650000
+True,Dhalia,P000238384,Madliena,Penthouse,,,,3,,,,,1500000
+True,Dhalia,P000238383,Gudja,House of Character,,,,3,,,,,850000
+True,Dhalia,P000238380,L-Iklin,Semi-Det Bungalow,,,,3,,,,,1650000
+True,Dhalia,P000238379,Rabat,Duplex Maisonette,,,,3,,,,,338000
+True,Dhalia,P000238378,Gozo In-Nadur,Flats,,,,3,,,,,255000
+True,Dhalia,P000238376,Gzira,Penthouse,,,,2,,,,,950000
+True,Dhalia,P000238375,Gzira,Flats,,,,2,,,,,900000
+True,Dhalia,P000238374,Gzira,Flats,,,,2,,,,,900000
+True,Dhalia,P000238371,Gozo Il-Qala,Flats,,,,3,,,,,200000
+True,Dhalia,P000238370,Gozo Il-Qala,Flats,,,,3,,,,,195000
+True,Dhalia,P000238368,Gozo In-Nadur,Flats,,,,3,,,,,210000
+True,Dhalia,P000238367,Zabbar,Penthouse,,,,1,,,,,250000
+True,Dhalia,P000238366,Zabbar,Penthouse,,,,2,,,,,280000
+True,Dhalia,P000238365,Zabbar,Flats,,,,2,,,,,210000
+True,Dhalia,P000238364,Zabbar,Flats,,,,3,,,,,225000
+True,Dhalia,P000238363,Zabbar,Flats,,,,2,,,,,210000
+True,Dhalia,P000238362,Zabbar,Flats,,,,3,,,,,225000
+True,Dhalia,P000238361,Zabbar,Flats,,,,2,,,,,230000
+True,Dhalia,P000238360,Zabbar,Flats,,,,3,,,,,250000
+True,Dhalia,P000238358,Xghajra,Flats,,,,2,,,,,217000
+True,Dhalia,P000238357,Sliema,Flats,,,,3,,,,,850000
+True,Dhalia,P000238354,Pieta,Maisonette,,,,3,,,,,250000
+True,Dhalia,P000238353,Pieta,Maisonette,,,,3,,,,,275000
+True,Dhalia,P000238348,Mellieha,Flats,,,,3,,,,,425000
+True,Dhalia,P000238342,Marsascala,Garage,,,,,,,,,212000
+True,Dhalia,P000238337,St Julians,House of Character,,,,3,,,,,745000
+True,Dhalia,P000238336,Luqa,Commercial,,,,,,,,,195000
+True,Dhalia,P000238335,Birkirkara,1st Floor Maisonette,,,,3,,,,,350000
+True,Dhalia,P000238334,Zurrieq,Flats,,,,2,,,,,215000
+True,Dhalia,P000238333,Pieta,Penthouse,,,,1,,,,,275000
+True,Dhalia,P000238331,Zurrieq,Flats,,,,2,,,,,215000
+True,Dhalia,P000238330,St Julians,Flats,,,,3,,,,,850000
+True,Dhalia,P000238325,Sliema,Flats,,,,2,,,,,320000
+True,Dhalia,P000238323,Birkirkara,1st Floor Maisonette,,,,3,,,,,225000
+True,Dhalia,P000238322,Msida,Flats,,,,2,,,,,159000
+True,Dhalia,P000238321,Msida,Flats,,,,2,,,,,172000
+True,Dhalia,P000238319,Msida,Flats,,,,2,,,,,157000
+True,Dhalia,P000238317,Fgura,Gr Floor Maisonette,,,,2,,,,,245000
+True,Dhalia,P000238316,Msida,Penthouse,,,,2,,,,,299000
+True,Dhalia,P000238315,Birkirkara,Flats,,,,2,,,,,297000
+True,Dhalia,P000238313,St Paul's Bay,Flats,,,,2,,,,,460000
+True,Dhalia,P000238310,Bahar ic-Caghaq,Terraced House,,,,4,,,,,1200000
+True,Dhalia,P000238308,Mosta,Duplex Penthouse,,,,3,,,,,750000
+True,Dhalia,P000238307,Mosta,Flats,,,,3,,,,,387000
+True,Dhalia,P000238306,Rabat,House of Character,,,,3,,,,,459000
+True,Dhalia,P000238305,Mosta,Flats,,,,3,,,,,365000
+True,Dhalia,P000238303,Mosta,Flats,,,,3,,,,,365000
+True,Dhalia,P000238302,Mosta,Maisonette,,,,3,,,,,270000
+True,Dhalia,P000238300,Birkirkara,1st Floor Maisonette,,,,2,,,,,260000
+True,Dhalia,P000238299,Gozo Kercem,Terraced House,,,,6,,,,,850000
+True,Dhalia,P000238298,Fgura,2nd Floor maisonette,,,,3,,,,,344000
+True,Dhalia,P000238296,Marsascala,Flats,,,,3,,,,,240000
+True,Dhalia,P000238295,Ta'Xbiex,Flats,,,,2,,,,,245000
+True,Dhalia,P000238294,Ta'Xbiex,Flats,,,,1,,,,,198000
+True,Dhalia,P000238293,Ta'Xbiex,Flats,,,,1,,,,,198000
+True,Dhalia,P000238292,Ta'L-ibrag,Flats,,,,3,,,,,440000
+True,Dhalia,P000238278,Gozo Kercem,Penthouse,,,,3,,,,,265000
+True,Dhalia,P000238269,Msida,Penthouse,,,,1,,,,,185000
+True,Dhalia,P000238268,Msida,Flats,,,,2,,,,,220000
+True,Dhalia,P000238267,Gozo Il-Qala,Plot,,,,5,,,,,300000
+True,Dhalia,P000238266,Santa Venera,Flats,,,,2,,,,,160000
+True,Dhalia,P000238265,Ta'L-ibrag,Maisonette,,,,3,,,,,370000
+True,Dhalia,P000238264,Gozo Marsalforn,Flats,,,,3,,,,,220000
+True,Dhalia,P000238263,Pieta,Flats,,,,3,,,,,220000
+True,Dhalia,P000238261,Santa Venera,1st Floor Maisonette,,,,3,,,,,312000
+True,Dhalia,P000238260,Gozo Sannat,Flats,,,,3,,,,,320000
+True,Dhalia,P000238259,Marsaxlokk,Plot,,,,,,,,,959000
+True,Dhalia,P000238258,Birkirkara,Maisonette,,,,3,,,,,415000
+True,Dhalia,P000238257,St Paul's Bay,Garage,,,,,,,,,200000
+True,Dhalia,P000238256,Ta'Xbiex,Flats,,,,2,,,,,250000
+True,Dhalia,P000238251,Swieqi,Penthouse,,,,1,,,,,499000
+True,Dhalia,P000238248,Attard,Flats,,,,2,,,,,350000
+True,Dhalia,P000238247,Attard,Flats,,,,3,,,,,295000
+True,Dhalia,P000238246,Attard,Flats,,,,3,,,,,290000
+True,Dhalia,P000238243,St Julians,Flats,,,,2,,,,,310000
+True,Dhalia,P000238241,St Julians,Flats,,,,2,,,,,310000
+True,Dhalia,P000238239,Bugibba,Flats,,,,1,,,,,175000
+True,Dhalia,P000238238,Fgura,Flats,,,,2,,,,,205000
+True,Dhalia,P000238237,Sliema,Garage,,,,,,,,,38000
+True,Dhalia,P000238236,Santa Venera,Flats,,,,2,,,,,245000
+True,Dhalia,P000238234,Gzira,Flats,,,,3,,,,,305000
+True,Dhalia,P000238233,Valletta,Townhouse,,,,4,,,,,1500000
+True,Dhalia,P000238231,Balzan,Flats,,,,3,,,,,335000
+True,Dhalia,P000238229,Mqabba,Farmhouse,,,,5,,,,,1100000
+True,Dhalia,P000238228,Santa Venera,Flats,,,,2,,,,,244000
+True,Dhalia,P000238227,Gozo Ghajnsielem,Flats,,,,2,,,,,160000
+True,Dhalia,P000238226,Qormi,Gr Floor Maisonette,,,,3,,,,,295000
+True,Dhalia,P000238224,Gudja,Flats,,,,2,,,,,234000
+True,Dhalia,P000238222,Mosta,Flats,,,,3,,,,,270000
+True,Dhalia,P000238219,Qormi,Flats,,,,4,,,,,275000
+True,Dhalia,P000238217,Qormi,Flats,,,,4,,,,,265000
+True,Dhalia,P000238216,Qormi,Flats,,,,4,,,,,255000
+True,Dhalia,P000238215,Ta'L-ibrag,Semi-Detached Villa,,,,4,,,,,1890000
+True,Dhalia,P000238214,Birkirkara,Duplex Penthouse,,,,3,,,,,255000
+True,Dhalia,P000238213,Floriana,Block of Flats,,,,6,,,,,750000
+True,Dhalia,P000238212,Sliema,1st Flr Mais (2flrs),,,,2,,,,,585000
+True,Dhalia,P000238211,Burmarrad,Garage,,,,,,,,,48000
+True,Dhalia,P000238210,Qrendi,Penthouse,,,,2,,,,,360000
+True,Dhalia,P000238209,Qrendi,Flats,,,,3,,,,,300000
+True,Dhalia,P000238206,Ghaxaq,Flats,,,,1,,,,,175000
+True,Dhalia,P000238204,Xemxija,Flats,,,,2,,,,,225000
+True,Dhalia,P000238203,Zabbar,2nd Floor maisonette,,,,3,,,,,249000
+True,Dhalia,P000238200,Burmarrad,Penthouse,,,,3,,,,,950000
+True,Dhalia,P000238199,Burmarrad,Flats,,,,3,,,,,660000
+True,Dhalia,P000238198,Burmarrad,Flats,,,,3,,,,,530000
+True,Dhalia,P000238197,Burmarrad,Flats,,,,3,,,,,392000
+True,Dhalia,P000238196,Burmarrad,Flats,,,,3,,,,,403000
+True,Dhalia,P000238195,Burmarrad,Flats,,,,3,,,,,382000
+True,Dhalia,P000238194,Burmarrad,Flats,,,,3,,,,,382000
+True,Dhalia,P000238193,Burmarrad,Flats,,,,3,,,,,371000
+True,Dhalia,P000238192,Qrendi,Duplex Apartment,,,,3,,,,,370000
+True,Dhalia,P000238191,Burmarrad,Flats,,,,3,,,,,382000
+True,Dhalia,P000238190,Msida,Penthouse,,,,1,,,,,205000
+True,Dhalia,P000238189,Burmarrad,Maisonette,,,,3,,,,,371000
+True,Dhalia,P000238188,Burmarrad,Maisonette,,,,3,,,,,360000
+True,Dhalia,P000238187,Naxxar,Gr Floor Maisonette,,,,3,,,,,290000
+True,Dhalia,P000238182,Fgura,Flats,,,,3,,,,,370000
+True,Dhalia,P000238177,St Julians,Townhouse,,,,3,,,,,1150000
+True,Dhalia,P000238176,St Paul's Bay,Flats,,,,2,,,,,235000
+True,Dhalia,P000238175,Gozo In-Nadur,Duplex Maisonette,,,,1,,,,,405000
+True,Dhalia,P000238174,Tarxien,Penthouse,,,,1,,,,,222000
+True,Dhalia,P000238171,Tarxien,Flats,,,,2,,,,,185000
+True,Dhalia,P000238170,Attard,Flats,,,,3,,,,,275000
+True,Dhalia,P000238169,Gzira,Flats,,,,3,,,,,350000
+True,Dhalia,P000238168,Fgura,Penthouse,,,,2,,,,,210000
+True,Dhalia,P000238167,Fgura,Penthouse,,,,3,,,,,255000
+True,Dhalia,P000238161,Fgura,Flats,,,,3,,,,,200000
+True,Dhalia,P000238160,Fgura,Gr Floor Maisonette,,,,3,,,,,213000
+True,Dhalia,P000238157,St Paul's Bay,Maisonette,,,,2,,,,,355000
+True,Dhalia,P000238156,St Paul's Bay,Maisonette,,,,2,,,,,345000
+True,Dhalia,P000238155,St Paul's Bay,Maisonette,,,,2,,,,,335000
+True,Dhalia,P000238154,St Paul's Bay,Maisonette,,,,2,,,,,325000
+True,Dhalia,P000238153,Ghaxaq,Townhouse,,,,3,,,,,1050000
+True,Dhalia,P000238152,St Paul's Bay,Maisonette,,,,2,,,,,325000
+True,Dhalia,P000238150,Ghaxaq,Townhouse,,,,2,,,,,550000
+True,Dhalia,P000238149,St Paul's Bay,Maisonette,,,,1,,,,,255000
+True,Dhalia,P000238147,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,318000
+True,Dhalia,P000238145,Senglea,House of Character,,,,3,,,,,520000
+True,Dhalia,P000238144,Qrendi,Flats,,,,3,,,,,282000
+True,Dhalia,P000238143,Fgura,Flats,,,,3,,,,,265000
+True,Dhalia,P000238142,Siggiewi,Penthouse,,,,3,,,,,520000
+True,Dhalia,P000238141,Siggiewi,Flats,,,,3,,,,,280000
+True,Dhalia,P000238139,Naxxar,Maisonette,,,,2,,,,,339000
+True,Dhalia,P000238138,Gozo Xaghra,Terraced House,,,,3,,,,,400000
+True,Dhalia,P000238137,Gozo Xaghra,Terraced House,,,,3,,,,,400000
+True,Dhalia,P000238135,Attard,Semi-Detached Villa,,,,4,,,,,1800000
+True,Dhalia,P000238131,Attard,1st Floor Maisonette,,,,4,,,,,460000
+True,Dhalia,P000238130,Sliema,Duplex Penthouse,,,,2,,,,,360000
+True,Dhalia,P000238128,Birkirkara,Penthouse,,,,2,,,,,300000
+True,Dhalia,P000238127,Birkirkara,Penthouse,,,,1,,,,,225000
+True,Dhalia,P000238118,Birkirkara,Flats,,,,2,,,,,200000
+True,Dhalia,P000238114,Birkirkara,Maisonette,,,,2,,,,,220000
+True,Dhalia,P000238112,Birkirkara,Maisonette,,,,3,,,,,315000
+True,Dhalia,P000238111,Attard,Semi-Detached Villa,,,,4,,,,,850000
+True,Dhalia,P000238109,Birkirkara,Gr Floor Maisonette,,,,1,,,,,185000
+True,Dhalia,P000238108,Zejtun,Townhouse,,,,5,,,,,1059000
+True,Dhalia,P000238107,Dingli,Flats,,,,3,,,,,371000
+True,Dhalia,P000238103,Zabbar,Flats,,,,1,,,,,164000
+True,Dhalia,P000238101,Floriana,Maisonette,,,,2,,,,,325000
+True,Dhalia,P000238100,Marsaxlokk,Penthouse,,,,3,,,,,546000
+True,Dhalia,P000238099,Marsaxlokk,Penthouse,,,,3,,,,,456000
+True,Dhalia,P000238098,Marsaxlokk,Penthouse,,,,3,,,,,416000
+True,Dhalia,P000238097,Marsaxlokk,Penthouse,,,,3,,,,,446000
+True,Dhalia,P000238096,Marsaxlokk,Penthouse,,,,2,,,,,326000
+True,Dhalia,P000238095,Marsaxlokk,Penthouse,,,,3,,,,,436000
+True,Dhalia,P000238093,Marsaxlokk,Flats,,,,3,,,,,271000
+True,Dhalia,P000238092,Gozo Xaghra,Penthouse,,,,3,,,,,250000
+True,Dhalia,P000238091,Marsaxlokk,Flats,,,,3,,,,,311000
+True,Dhalia,P000238089,Marsaxlokk,Flats,,,,3,,,,,291000
+True,Dhalia,P000238088,Marsaxlokk,Flats,,,,3,,,,,256000
+True,Dhalia,P000238087,Gozo Xaghra,Flats,,,,3,,,,,200000
+True,Dhalia,P000238082,Marsaxlokk,Flats,,,,3,,,,,256000
+True,Dhalia,P000238081,Marsaxlokk,Flats,,,,3,,,,,256000
+True,Dhalia,P000238080,Marsaxlokk,Flats,,,,3,,,,,296000
+True,Dhalia,P000238079,Marsaxlokk,Flats,,,,3,,,,,256000
+True,Dhalia,P000238078,Marsaxlokk,Flats,,,,3,,,,,296000
+True,Dhalia,P000238077,Fgura,Gr Floor Maisonette,,,,1,,,,,159000
+True,Dhalia,P000238075,Marsaxlokk,Flats,,,,3,,,,,276000
+True,Dhalia,P000238074,Marsaxlokk,Flats,,,,3,,,,,276000
+True,Dhalia,P000238073,Marsaxlokk,Flats,,,,3,,,,,246000
+True,Dhalia,P000238072,Rabat,1st Floor Maisonette,,,,2,,,,,350000
+True,Dhalia,P000238071,Marsaxlokk,Flats,,,,3,,,,,246000
+True,Dhalia,P000238070,Marsaxlokk,Maisonette,,,,3,,,,,286000
+True,Dhalia,P000238069,Marsaxlokk,Maisonette,,,,2,,,,,241000
+True,Dhalia,P000238068,Marsaxlokk,Maisonette,,,,3,,,,,296000
+True,Dhalia,P000238067,Marsaxlokk,Maisonette,,,,3,,,,,346000
+True,Dhalia,P000238066,Marsaxlokk,Maisonette,,,,3,,,,,326000
+True,Dhalia,P000238065,Marsaxlokk,Maisonette,,,,3,,,,,336000
+True,Dhalia,P000238064,Marsaxlokk,Maisonette,,,,1,,,,,186000
+True,Dhalia,P000238063,Marsaxlokk,Maisonette,,,,3,,,,,306000
+True,Dhalia,P000238062,Fgura,Gr Floor Maisonette,,,,3,,,,,243500
+True,Dhalia,P000238061,Santa Venera,Duplex Penthouse,,,,3,,,,,575000
+True,Dhalia,P000238060,Hamrun,Penthouse,,,,3,,,,,405000
+True,Dhalia,P000238059,Hamrun,Flats,,,,2,,,,,196000
+True,Dhalia,P000238058,Gozo Xaghra,Penthouse,,,,3,,,,,355000
+True,Dhalia,P000238057,Birzebbuga,Townhouse,,,,4,,,,,320000
+True,Dhalia,P000238055,Sliema,Flats,,,,3,,,,,380000
+True,Dhalia,P000238051,Gozo Xaghra,Maisonette,,,,2,,,,,230000
+True,Dhalia,P000238050,Senglea,1st Floor Maisonette,,,,1,,,,,143000
+True,Dhalia,P000238049,Qawra,Flats,,,,3,,,,,360000
+True,Dhalia,P000238047,Marsaxlokk,Flats,,,,3,,,,,480000
+True,Dhalia,P000238046,Gozo Fontana,Terraced House,,,,3,,,,,315000
+True,Dhalia,P000238045,Gozo Fontana,Terraced House,,,,3,,,,,315000
+True,Dhalia,P000238044,Fgura,Penthouse,,,,3,,,,,350000
+True,Dhalia,P000238042,Balzan,Penthouse,,,,2,,,,,395000
+True,Dhalia,P000238040,Balzan,Flats,,,,3,,,,,365000
+True,Dhalia,P000238038,Balzan,Flats,,,,3,,,,,360000
+True,Dhalia,P000238036,Balzan,Flats,,,,3,,,,,350000
+True,Dhalia,P000238034,Balzan,Maisonette,,,,3,,,,,360000
+True,Dhalia,P000238031,Mosta,Penthouse,,,,2,,,,,340000
+True,Dhalia,P000238025,Zejtun,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000238022,Zejtun,Flats,,,,3,,,,,250000
+True,Dhalia,P000238020,Zejtun,Flats,,,,3,,,,,245000
+True,Dhalia,P000238018,Zejtun,Flats,,,,3,,,,,300000
+True,Dhalia,P000238017,Zejtun,Maisonette,,,,3,,,,,395000
+True,Dhalia,P000238013,Mosta,Flats,,,,3,,,,,520000
+True,Dhalia,P000238012,Mosta,Flats,,,,2,,,,,255000
+True,Dhalia,P000238010,Mosta,Flats,,,,2,,,,,250000
+True,Dhalia,P000238006,Gozo Iz-Zebbug,Flats,,,,2,,,,,550000
+True,Dhalia,P000238004,Mosta,Flats,,,,2,,,,,225000
+True,Dhalia,P000238003,Mosta,Flats,,,,2,,,,,260000
+True,Dhalia,P000238002,St Julians,Flats,,,,3,,,,,600000
+True,Dhalia,P000238001,St Julians,Flats,,,,2,,,,,315000
+True,Dhalia,P000237998,St Julians,Flats,,,,2,,,,,300000
+True,Dhalia,P000237996,St Julians,Flats,,,,2,,,,,290000
+True,Dhalia,P000237994,St Julians,Flats,,,,2,,,,,285000
+True,Dhalia,P000237992,St Julians,Flats,,,,2,,,,,280000
+True,Dhalia,P000237990,St Julians,Flats,,,,1,,,,,250000
+True,Dhalia,P000237988,Paola,Garage,,,,,,,,,225000
+True,Dhalia,P000237987,St Julians,Flats,,,,3,,,,,425000
+True,Dhalia,P000237983,San Gwann,Flats,,,,2,,,,,245000
+True,Dhalia,P000237981,St Paul's Bay,Flats,,,,2,,,,,225000
+True,Dhalia,P000237978,Attard,House of Character,,,,4,,,,,1600000
+True,Dhalia,P000237977,St Julians,Gr Floor Maisonette,,,,3,,,,,382580
+True,Dhalia,P000237975,St Julians,Flats,,,,4,,,,,420000
+True,Dhalia,P000237972,St Julians,Flats,,,,2,,,,,425000
+True,Dhalia,P000237969,Marsascala,Garage,,,,,,,,,43000
+True,Dhalia,P000237968,Gozo Il-Qala,House of Character,,,,3,,,,,220000
+True,Dhalia,P000237966,Floriana,Flats,,,,2,,,,,595000
+True,Dhalia,P000237962,Tarxien,House of Character,,,,2,,,,,215000
+True,Dhalia,P000237958,Sliema,Garage,,,,,,,,,75000
+True,Dhalia,P000237957,Mellieha,Penthouse,,,,3,,,,,350000
+True,Dhalia,P000237953,Msida,Penthouse,,,,1,,,,,255000
+True,Dhalia,P000237952,Senglea,Townhouse,,,,3,,,,,395000
+True,Dhalia,P000237945,Attard,Flats,,,,2,,,,,240000
+True,Dhalia,P000237938,Xemxija,Flats,,,,3,,,,,235000
+True,Dhalia,P000237929,Valletta,Palazzo,,,,4,,,,,2400000
+True,Dhalia,P000237928,Gzira,Flats,,,,2,,,,,223000
+True,Dhalia,P000237927,Gzira,Flats,,,,2,,,,,225000
+True,Dhalia,P000237926,Gzira,Flats,,,,2,,,,,224000
+True,Dhalia,P000237920,Mellieha,Detached Bungalow,,,,3,,,,,1700000
+True,Dhalia,P000237918,Birkirkara,Townhouse,,,,3,,,,,425000
+True,Dhalia,P000237916,Birkirkara,Townhouse,,,,2,,,,,355000
+True,Dhalia,P000237915,Birkirkara,Townhouse,,,,3,,,,,340000
+True,Dhalia,P000237914,Marsascala,Flats,,,,3,,,,,285000
+True,Dhalia,P000237912,Gozo Sannat,Flats,,,,3,,,,,170000
+True,Dhalia,P000237910,Sliema,Penthouse,,,,3,,,,,825000
+True,Dhalia,P000237908,Gozo Sannat,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000237905,Gozo Sannat,Maisonette,,,,2,,,,,240000
+True,Dhalia,P000237903,Balzan,Flats,,,,3,,,,,434000
+True,Dhalia,P000237901,Gozo Ix-Xewkija,Terraced House,,,,2,,,,,325000
+True,Dhalia,P000237900,Gozo Ix-Xewkija,Terraced House,,,,3,,,,,325000
+True,Dhalia,P000237899,Gozo Ix-Xewkija,Penthouse,,,,2,,,,,180000
+True,Dhalia,P000237897,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,170000
+True,Dhalia,P000237896,Balzan,Townhouse,,,,3,,,,,2200000
+True,Dhalia,P000237894,Gozo L-Gharb,Penthouse,,,,2,,,,,398000
+True,Dhalia,P000237893,Gozo L-Gharb,Flats,,,,3,,,,,338000
+True,Dhalia,P000237892,Gozo L-Gharb,Maisonette,,,,2,,,,,308000
+True,Dhalia,P000237891,Gozo Ir-Rabat,Terraced House,,,,3,,,,,350000
+True,Dhalia,P000237887,St Paul's Bay,Penthouse,,,,2,,,,,276000
+True,Dhalia,P000237884,Hamrun,Shop,,,,,,,,,210000
+True,Dhalia,P000237882,Gozo Ir-Rabat,Terraced House,,,,3,,,,,420000
+True,Dhalia,P000237881,St Paul's Bay,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000237880,St Paul's Bay,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000237879,Hamrun,Maisonette,,,,3,,,,,271000
+True,Dhalia,P000237870,Zurrieq,Farmhouse,,,,4,,,,,2120000
+True,Dhalia,P000237869,Gharghur,Gr Floor Maisonette,,,,3,,,,,340000
+True,Dhalia,P000237867,Gharghur,Flats,,,,3,,,,,360000
+True,Dhalia,P000237866,Tarxien,Penthouse,,,,3,,,,,315000
+True,Dhalia,P000237854,Marsaxlokk,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000237852,Birzebbuga,Penthouse,,,,2,,,,,297000
+True,Dhalia,P000237851,Ghaxaq,Flats,,,,3,,,,,290000
+True,Dhalia,P000237850,Ghaxaq,Flats,,,,3,,,,,290000
+True,Dhalia,P000237849,Birzebbuga,Flats,,,,3,,,,,207000
+True,Dhalia,P000237848,Birzebbuga,Garage,,,,,,,,,190000
+True,Dhalia,P000237847,Naxxar,House of Character,,,,3,,,,,955000
+True,Dhalia,P000237845,Gozo Xaghra,Farmhouse,,,,3,,,,,635000
+True,Dhalia,P000237844,Gozo Ix-Xewkija,Farmhouse,,,,3,,,,,398000
+True,Dhalia,P000237843,Luqa,Flats,,,,1,,,,,204000
+True,Dhalia,P000237842,Qawra,Gr Floor Maisonette,,,,2,,,,,295000
+True,Dhalia,P000237841,Gozo Ix-Xewkija,Farmhouse,,,,4,,,,,358000
+True,Dhalia,P000237840,Gozo Ix-Xewkija,Farmhouse,,,,4,,,,,298000
+True,Dhalia,P000237837,Safi,Penthouse,,,,3,,,,,345000
+True,Dhalia,P000237835,Zejtun,1st Floor Maisonette,,,,3,,,,,339000
+True,Dhalia,P000237834,Msida,Flats,,,,2,,,,,190000
+True,Dhalia,P000237832,Gozo L-Gharb,Penthouse,,,,2,,,,,300000
+True,Dhalia,P000237831,San Gwann,Penthouse,,,,3,,,,,689000
+True,Dhalia,P000237829,Cospicua,Townhouse,,,,3,,,,,350000
+True,Dhalia,P000237827,Gozo Ir-Rabat,House of Character,,,,3,,,,,380000
+True,Dhalia,P000237825,Santa Venera,Flats,,,,1,,,,,225000
+True,Dhalia,P000237823,Santa Venera,Flats,,,,2,,,,,255000
+True,Dhalia,P000237821,Santa Venera,Flats,,,,2,,,,,255000
+True,Dhalia,P000237819,Santa Venera,Flats,,,,2,,,,,230000
+True,Dhalia,P000237817,Santa Venera,Flats,,,,2,,,,,230000
+True,Dhalia,P000237815,Santa Venera,Flats,,,,2,,,,,230000
+True,Dhalia,P000237813,Mosta,Flats,,,,3,,,,,350000
+True,Dhalia,P000237811,Santa Venera,Flats,,,,2,,,,,225000
+True,Dhalia,P000237810,Santa Venera,Flats,,,,2,,,,,225000
+True,Dhalia,P000237807,Santa Venera,Flats,,,,3,,,,,210000
+True,Dhalia,P000237805,Santa Venera,Flats,,,,2,,,,,225000
+True,Dhalia,P000237803,Santa Venera,Flats,,,,2,,,,,225000
+True,Dhalia,P000237800,Santa Venera,Flats,,,,3,,,,,210000
+True,Dhalia,P000237798,Sliema,Flats,,,,2,,,,,1050000
+True,Dhalia,P000237797,Santa Venera,Flats,,,,2,,,,,245000
+True,Dhalia,P000237795,Santa Venera,Flats,,,,2,,,,,245000
+True,Dhalia,P000237794,Santa Venera,Flats,,,,2,,,,,210000
+True,Dhalia,P000237790,San Gwann,Penthouse,,,,3,,,,,480000
+True,Dhalia,P000237787,San Gwann,Flats,,,,3,,,,,375000
+True,Dhalia,P000237786,San Gwann,Flats,,,,3,,,,,365000
+True,Dhalia,P000237784,San Gwann,Flats,,,,3,,,,,355000
+True,Dhalia,P000237783,Zabbar,Penthouse,,,,2,,,,,215000
+True,Dhalia,P000237780,Zabbar,Flats,,,,2,,,,,215000
+True,Dhalia,P000237778,Zabbar,Flats,,,,2,,,,,215000
+True,Dhalia,P000237777,Santa Venera,Duplex Penthouse,,,,2,,,,,360000
+True,Dhalia,P000237776,Birkirkara,1st Floor Maisonette,,,,2,,,,,498000
+True,Dhalia,P000237775,Floriana,Block of Flats,,,,8,,,,,1165000
+True,Dhalia,P000237773,Rabat,Plot,,,,,,,,,350000
+True,Dhalia,P000237772,Qawra,Penthouse,,,,1,,,,,205000
+True,Dhalia,P000237768,Qawra,Flats,,,,2,,,,,245000
+True,Dhalia,P000237762,Qawra,Flats,,,,2,,,,,247000
+True,Dhalia,P000237758,Qawra,Flats,,,,2,,,,,236000
+True,Dhalia,P000237755,Qawra,Flats,,,,2,,,,,225000
+True,Dhalia,P000237749,Qawra,Flats,,,,2,,,,,227000
+True,Dhalia,P000237743,Qawra,Flats,,,,2,,,,,225000
+True,Dhalia,P000237740,Qawra,Flats,,,,2,,,,,200000
+True,Dhalia,P000237738,Mellieha,Detached Villa,,,,9,,,,,3720000
+True,Dhalia,P000237735,Valletta,Penthouse,,,,2,,,,,1800000
+True,Dhalia,P000237734,Mellieha,Penthouse,,,,3,,,,,1060000
+True,Dhalia,P000237733,Hamrun,Flats,,,,2,,,,,180000
+True,Dhalia,P000237732,Hamrun,Townhouse,,,,4,,,,,424000
+True,Dhalia,P000237729,St Julians,Flats,,,,2,,,,,350000
+True,Dhalia,P000237728,Naxxar,Gr Floor Maisonette,,,,4,,,,,625000
+True,Dhalia,P000237724,Zurrieq,Flats,,,,2,,,,,255000
+True,Dhalia,P000237723,Zurrieq,Flats,,,,2,,,,,250000
+True,Dhalia,P000237722,Zurrieq,Penthouse,,,,2,,,,,297000
+True,Dhalia,P000237721,Zurrieq,Flats,,,,2,,,,,245000
+True,Dhalia,P000237720,Balzan,House of Character,,,,2,,,,,399000
+True,Dhalia,P000237719,Qrendi,Maisonette,,,,3,,,,,330000
+True,Dhalia,P000237718,Zejtun,Flats,,,,2,,,,,185000
+True,Dhalia,P000237717,Zurrieq,House of Character,,,,3,,,,,730000
+True,Dhalia,P000237713,Zabbar,Terraced House,,,,3,,,,,570000
+True,Dhalia,P000237712,Zebbug,Townhouse,,,,3,,,,,361000
+True,Dhalia,P000237708,Gozo Ghajnsielem,Flats,,,,3,,,,,148500
+True,Dhalia,P000237707,Gozo Ghajnsielem,Maisonette,,,,2,,,,,244500
+True,Dhalia,P000237703,Mellieha,Detached Villa,,,,6,,,,,1860000
+True,Dhalia,P000237701,Gozo Ghajnsielem,Flats,,,,3,,,,,215000
+True,Dhalia,P000237700,Gozo Xaghra,Maisonette,,,,3,,,,,160000
+True,Dhalia,P000237699,Hamrun,Maisonette,,,,3,,,,,265000
+True,Dhalia,P000237697,Gozo Kercem,Maisonette,,,,2,,,,,245000
+True,Dhalia,P000237696,Tarxien,Flats,,,,3,,,,,220000
+True,Dhalia,P000237692,Gozo Xaghra,Flats,,,,3,,,,,280000
+True,Dhalia,P000237690,Sliema,Townhouse,,,,5,,,,,850000
+True,Dhalia,P000237689,Luqa,Townhouse,,,,2,,,,,335000
+True,Dhalia,P000237688,Marsascala,Flats,,,,3,,,,,265000
+True,Dhalia,P000237687,Qrendi,Penthouse,,,,2,,,,,309000
+True,Dhalia,P000237686,Pieta,Garage,,,,,,,,,32500
+True,Dhalia,P000237684,Msida,Flats,,,,4,,,,,584000
+True,Dhalia,P000237683,Pieta,Flats,,,,1,,,,,165000
+True,Dhalia,P000237682,Fgura,Flats,,,,2,,,,,194000
+True,Dhalia,P000237681,Balzan,Garage,,,,,,,,,37000
+True,Dhalia,P000237680,Balzan,Garage,,,,,,,,,37000
+True,Dhalia,P000237679,Balzan,Garage,,,,,,,,,37000
+True,Dhalia,P000237678,Balzan,Garage,,,,,,,,,36000
+True,Dhalia,P000237677,Balzan,Garage,,,,,,,,,40000
+True,Dhalia,P000237676,Balzan,Garage,,,,,,,,,35000
+True,Dhalia,P000237675,Balzan,Garage,,,,,,,,,35000
+True,Dhalia,P000237674,Balzan,Garage,,,,,,,,,34000
+True,Dhalia,P000237673,Balzan,Garage,,,,,,,,,34000
+True,Dhalia,P000237672,Balzan,Garage,,,,,,,,,34000
+True,Dhalia,P000237660,Gudja,Penthouse,,,,3,,,,,583000
+True,Dhalia,P000237659,Gudja,Flats,,,,2,,,,,270000
+True,Dhalia,P000237657,Gudja,Flats,,,,1,,,,,235000
+True,Dhalia,P000237656,Gudja,Flats,,,,3,,,,,265000
+True,Dhalia,P000237655,Balzan,Flats,,,,3,,,,,220000
+True,Dhalia,P000237654,Gudja,Flats,,,,3,,,,,265000
+True,Dhalia,P000237653,Gudja,Flats,,,,3,,,,,242000
+True,Dhalia,P000237652,Gudja,Flats,,,,3,,,,,245000
+True,Dhalia,P000237651,Gudja,Maisonette,,,,2,,,,,235000
+True,Dhalia,P000237650,Gudja,Townhouse,,,,3,,,,,950000
+True,Dhalia,P000237649,Balzan,Flats,,,,1,,,,,204000
+True,Dhalia,P000237647,Gudja,Flats,,,,2,,,,,239500
+True,Dhalia,P000237646,Paola,Penthouse,,,,3,,,,,299250
+True,Dhalia,P000237645,Rabat,Penthouse,,,,3,,,,,605000
+True,Dhalia,P000237643,Rabat,Flats,,,,3,,,,,299500
+True,Dhalia,P000237642,Zurrieq,Townhouse,,,,3,,,,,1150000
+True,Dhalia,P000237641,Ghaxaq,Penthouse,,,,2,,,,,295000
+True,Dhalia,P000237640,Ghaxaq,Penthouse,,,,2,,,,,295000
+True,Dhalia,P000237639,Rabat,1st Floor Maisonette,,,,3,,,,,605000
+True,Dhalia,P000237636,Gozo Xlendi,Flats,,,,3,,,,,170000
+True,Dhalia,P000237634,Gozo Sannat,Penthouse,,,,3,,,,,442000
+True,Dhalia,P000237633,Gozo Sannat,Flats,,,,3,,,,,213000
+True,Dhalia,P000237631,Naxxar,Flats,,,,3,,,,,313000
+True,Dhalia,P000237628,Naxxar,Flats,,,,3,,,,,298000
+True,Dhalia,P000237626,Msida,Penthouse,,,,2,,,,,295000
+True,Dhalia,P000237625,Naxxar,Flats,,,,3,,,,,276000
+True,Dhalia,P000237624,San Gwann,Flats,,,,3,,,,,340000
+True,Dhalia,P000237620,Qormi,Penthouse,,,,1,,,,,201000
+True,Dhalia,P000237619,Qormi,Maisonette,,,,2,,,,,206500
+True,Dhalia,P000237616,Rabat,Townhouse,,,,3,,,,,590000
+True,Dhalia,P000237614,Sliema,Townhouse,,,,4,,,,,925000
+True,Dhalia,P000237613,Zabbar,Townhouse,,,,3,,,,,296500
+True,Dhalia,P000237612,Gozo Sannat,Flats,,,,2,,,,,154000
+True,Dhalia,P000237611,Gozo Sannat,Maisonette,,,,3,,,,,186000
+True,Dhalia,P000237609,Sliema,Flats,,,,4,,,,,450000
+True,Dhalia,P000237608,Paola,Maisonette,,,,1,,,,,150000
+True,Dhalia,P000237607,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237606,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237605,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237604,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237603,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237602,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237601,Paola,Flats,,,,1,,,,,150000
+True,Dhalia,P000237600,Bugibba,Penthouse,,,,2,,,,,265000
+True,Dhalia,P000237599,Gozo Il-Qala,Flats,,,,3,,,,,275000
+True,Dhalia,P000237598,Gozo Il-Qala,Flats,,,,3,,,,,270000
+True,Dhalia,P000237597,Mellieha,Penthouse,,,,3,,,,,550000
+True,Dhalia,P000237595,Zebbug,Farmhouse,,,,3,,,,,1700000
+True,Dhalia,P000237594,Swieqi,Garage,,,,,,,,,245000
+True,Dhalia,P000237592,Marsascala,Penthouse,,,,3,,,,,405000
+True,Dhalia,P000237591,Birzebbuga,Townhouse,,,,3,,,,,425000
+True,Dhalia,P000237590,Marsascala,Flats,,,,3,,,,,312500
+True,Dhalia,P000237589,Marsascala,Flats,,,,3,,,,,307000
+True,Dhalia,P000237588,Marsascala,Flats,,,,3,,,,,302000
+True,Dhalia,P000237586,Marsascala,Maisonette,,,,3,,,,,315000
+True,Dhalia,P000237584,Msida,Guest House - Hotel,,,,11,,,,,850000
+True,Dhalia,P000237583,Gharghur,Terraced House,,,,3,,,,,955000
+True,Dhalia,P000237582,Luqa,Townhouse,,,,1,,,,,230000
+True,Dhalia,P000237580,Luqa,Townhouse,,,,2,,,,,520000
+True,Dhalia,P000237579,Marsascala,Penthouse,,,,4,,,,,530000
+True,Dhalia,P000237573,Marsascala,Flats,,,,3,,,,,265000
+True,Dhalia,P000237571,Marsascala,Maisonette,,,,3,,,,,295000
+True,Dhalia,P000237570,Gharghur,Flats,,,,3,,,,,425000
+True,Dhalia,P000237568,Gzira,Flats,,,,2,,,,,245000
+True,Dhalia,P000237566,Gwardamangia,Townhouse,,,,4,,,,,1250000
+True,Dhalia,P000237565,Zebbug,House of Character,,,,3,,,,,2295000
+True,Dhalia,P000237564,Fgura,Garage,,,,,,,,,125000
+True,Dhalia,P000237561,Birkirkara,Garage,,,,,,,,,55000
+True,Dhalia,P000237560,Birkirkara,Garage,,,,,,,,,60000
+True,Dhalia,P000237559,Pieta,Flats,,,,2,,,,,241000
+True,Dhalia,P000237556,Gzira,Penthouse,,,,2,,,,,370000
+True,Dhalia,P000237555,Gzira,Flats,,,,3,,,,,354000
+True,Dhalia,P000237554,Naxxar,Maisonette,,,,2,,,,,350000
+True,Dhalia,P000237552,Gozo Il-Qala,Penthouse,,,,2,,,,,249000
+True,Dhalia,P000237551,Sliema,Flats,,,,3,,,,,1275000
+True,Dhalia,P000237550,Gozo Il-Qala,Flats,,,,2,,,,,154000
+True,Dhalia,P000237542,Birkirkara,Maisonette,,,,1,,,,,250000
+True,Dhalia,P000237540,Birkirkara,Commercial,,,,,,,,,895000
+True,Dhalia,P000237539,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,215000
+True,Dhalia,P000237538,Gozo Ix-Xewkija,Flats,,,,3,,,,,158000
+True,Dhalia,P000237537,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,235000
+True,Dhalia,P000237536,Gozo Ix-Xewkija,Flats,,,,2,,,,,139000
+True,Dhalia,P000237532,Gozo Ir-Rabat,Terraced House,,,,4,,,,,575000
+True,Dhalia,P000237530,Gozo Ir-Rabat,Terraced House,,,,6,,,,,760000
+True,Dhalia,P000237507,Xemxija,Semi-Detached Villa,,,,3,,,,,920000
+True,Dhalia,P000237506,Mosta,Semi-Detached Villa,,,,3,,,,,980000
+True,Dhalia,P000237505,Fgura,Flats,,,,3,,,,,245000
+True,Dhalia,P000237504,Fgura,Flats,,,,3,,,,,245000
+True,Dhalia,P000237503,Fgura,Flats,,,,3,,,,,240000
+True,Dhalia,P000237502,Mosta,Semi-Detached Villa,,,,3,,,,,980000
+True,Dhalia,P000237501,Fgura,Flats,,,,3,,,,,240000
+True,Dhalia,P000237500,Fgura,Flats,,,,3,,,,,235000
+True,Dhalia,P000237498,Cospicua,Townhouse,,,,3,,,,,595000
+True,Dhalia,P000237494,Fgura,Flats,,,,2,,,,,265000
+True,Dhalia,P000237493,Birzebbuga,1st Floor Maisonette,,,,3,,,,,370000
+True,Dhalia,P000237485,Marsascala,Garage,,,,,,,,,80000
+True,Dhalia,P000237476,Cospicua,Block of Flats,,,,4,,,,,990000
+True,Dhalia,P000237475,Madliena,Gr Floor Maisonette,,,,3,,,,,695000
+True,Dhalia,P000237474,Cospicua,Townhouse,,,,4,,,,,990000
+True,Dhalia,P000237473,Marsascala,Garage,,,,,,,,,117000
+True,Dhalia,P000237472,Paola,Terraced House,,,,4,,,,,475000
+True,Dhalia,P000237467,Senglea,Duplex Maisonette,,,,3,,,,,235000
+True,Dhalia,P000237463,Gzira,Flats,,,,2,,,,,249000
+True,Dhalia,P000237461,Gzira,Flats,,,,2,,,,,245000
+True,Dhalia,P000237458,Gzira,Flats,,,,2,,,,,229000
+True,Dhalia,P000237456,Gzira,Flats,,,,2,,,,,225000
+True,Dhalia,P000237454,Gzira,Flats,,,,2,,,,,219000
+True,Dhalia,P000237451,Gzira,Flats,,,,2,,,,,259000
+True,Dhalia,P000237447,Gzira,Flats,,,,2,,,,,249000
+True,Dhalia,P000237443,Gzira,Flats,,,,2,,,,,215000
+True,Dhalia,P000237442,Gzira,Maisonette,,,,2,,,,,269000
+True,Dhalia,P000237440,Gzira,Maisonette,,,,2,,,,,249000
+True,Dhalia,P000237439,Mellieha,Gr Floor Maisonette,,,,2,,,,,285000
+True,Dhalia,P000237438,Gudja,Flats,,,,3,,,,,235000
+True,Dhalia,P000237437,Qormi,House of Character,,,,2,,,,,265000
+True,Dhalia,P000237436,Zebbug,House of Character,,,,3,,,,,980000
+True,Dhalia,P000237433,Luqa,Townhouse,,,,4,,,,,408000
+True,Dhalia,P000237431,Birkirkara,Flats,,,,2,,,,,240000
+True,Dhalia,P000237430,Mosta,Townhouse,,,,2,,,,,615000
+True,Dhalia,P000237428,Rabat,Palazzo,,,,5,,,,,2400000
+True,Dhalia,P000237425,Vittoriosa,Townhouse,,,,2,,,,,320000
+True,Dhalia,P000237423,Mosta,Penthouse,,,,1,,,,,595000
+True,Dhalia,P000237422,Hamrun,Flats,,,,4,,,,,239000
+True,Dhalia,P000237421,Hamrun,Flats,,,,4,,,,,228000
+True,Dhalia,P000237418,Mosta,Flats,,,,3,,,,,297000
+True,Dhalia,P000237416,Marsascala,Flats,,,,3,,,,,530000
+True,Dhalia,P000237414,Mosta,Gr Floor Maisonette,,,,2,,,,,360000
+True,Dhalia,P000237413,Swieqi,Flats,,,,3,,,,,340000
+True,Dhalia,P000237412,Birkirkara,House of Character,,,,3,,,,,499000
+True,Dhalia,P000237411,Marsascala,Flats,,,,3,,,,,355000
+True,Dhalia,P000237410,Marsascala,Flats,,,,3,,,,,355000
+True,Dhalia,P000237407,Ghaxaq,Terraced House,,,,3,,,,,660000
+True,Dhalia,P000237405,Zebbug,Terraced House,,,,3,,,,,650000
+True,Dhalia,P000237404,Zurrieq,Flats,,,,2,,,,,225000
+True,Dhalia,P000237402,Pieta,Flats,,,,3,,,,,290000
+True,Dhalia,P000237401,Mellieha,Penthouse,,,,2,,,,,385000
+True,Dhalia,P000237400,Zebbug,House of Character,,,,3,,,,,550000
+True,Dhalia,P000237398,Birkirkara,Townhouse,,,,3,,,,,349000
+True,Dhalia,P000237397,Gozo Marsalforn,Flats,,,,3,,,,,180000
+True,Dhalia,P000237395,Gozo Marsalforn,Flats,,,,3,,,,,180000
+True,Dhalia,P000237394,Qormi,Penthouse,,,,3,,,,,285000
+True,Dhalia,P000237393,Qormi,Flats,,,,3,,,,,239000
+True,Dhalia,P000237392,Qormi,Flats,,,,3,,,,,235000
+True,Dhalia,P000237391,Qormi,Flats,,,,3,,,,,228000
+True,Dhalia,P000237390,Zabbar,House of Character,,,,3,,,,,478000
+True,Dhalia,P000237373,Kalkara,Townhouse,,,,,,,,,1600000
+True,Dhalia,P000237372,Marsascala,Duplex Apartment,,,,3,,,,,405000
+True,Dhalia,P000237371,Marsascala,Flats,,,,2,,,,,205000
+True,Dhalia,P000237370,Marsascala,Flats,,,,2,,,,,205000
+True,Dhalia,P000237368,Birkirkara,Flats,,,,3,,,,,275000
+True,Dhalia,P000237365,St Julians,Duplex Maisonette,,,,2,,,,,297000
+True,Dhalia,P000237363,Fgura,Flats,,,,3,,,,,244000
+True,Dhalia,P000237360,St Julians,Flats,,,,3,,,,,700000
+True,Dhalia,P000237358,Fgura,Flats,,,,3,,,,,230000
+True,Dhalia,P000237353,Gozo Il-Qala,Maisonette,,,,1,,,,,135000
+True,Dhalia,P000237352,Siggiewi,House of Character,,,,3,,,,,795000
+True,Dhalia,P000237351,Gozo Il-Qala,Flats,,,,2,,,,,180000
+True,Dhalia,P000237350,Qormi,Flats,,,,3,,,,,265000
+True,Dhalia,P000237349,Vittoriosa,Guest House - Hotel,,,,6,,,,,2338600
+True,Dhalia,P000237348,Marsascala,Flats,,,,3,,,,,300000
+True,Dhalia,P000237347,Marsascala,Flats,,,,3,,,,,295000
+True,Dhalia,P000237346,Marsascala,Flats,,,,3,,,,,290000
+True,Dhalia,P000237345,Marsascala,Flats,,,,3,,,,,280000
+True,Dhalia,P000237343,Marsascala,Flats,,,,3,,,,,300000
+True,Dhalia,P000237341,Marsascala,Flats,,,,3,,,,,290000
+True,Dhalia,P000237340,Marsascala,Flats,,,,3,,,,,280000
+True,Dhalia,P000237339,Siggiewi,Flats,,,,3,,,,,228000
+True,Dhalia,P000237338,Gozo Xaghra,Flats,,,,2,,,,,187000
+True,Dhalia,P000237337,Gozo Xaghra,Flats,,,,2,,,,,157000
+True,Dhalia,P000237336,San Gwann,Penthouse,,,,2,,,,,265000
+True,Dhalia,P000237335,Gozo Xaghra,Flats,,,,1,,,,,124000
+True,Dhalia,P000237334,Lija,Semi-Detached Villa,,,,3,,,,,1490000
+True,Dhalia,P000237333,Hamrun,Townhouse,,,,2,,,,,297000
+True,Dhalia,P000237331,Gozo Ix-Xewkija,Townhouse,,,,3,,,,,425000
+True,Dhalia,P000237330,Birzebbuga,Penthouse,,,,2,,,,,412000
+True,Dhalia,P000237329,Birzebbuga,Penthouse,,,,2,,,,,337000
+True,Dhalia,P000237328,Qormi,House of Character,,,,4,,,,,435000
+True,Dhalia,P000237325,Gozo Sannat,Flats,,,,2,,,,,280000
+True,Dhalia,P000237321,Birzebbuga,Flats,,,,3,,,,,287000
+True,Dhalia,P000237317,Birzebbuga,Flats,,,,3,,,,,282000
+True,Dhalia,P000237316,Birzebbuga,Flats,,,,3,,,,,277000
+True,Dhalia,P000237314,Gozo Ir-Rabat,Flats,,,,2,,,,,166000
+True,Dhalia,P000237312,Gozo Ir-Rabat,Flats,,,,3,,,,,188000
+True,Dhalia,P000237311,Gozo Ir-Rabat,Flats,,,,3,,,,,213000
+True,Dhalia,P000237309,Gozo Ir-Rabat,Flats,,,,2,,,,,161000
+True,Dhalia,P000237308,Birzebbuga,Flats,,,,3,,,,,277000
+True,Dhalia,P000237307,Qormi,Flats,,,,2,,,,,192000
+True,Dhalia,P000237306,Qormi,Flats,,,,2,,,,,192000
+True,Dhalia,P000237305,Gozo Ir-Rabat,Flats,,,,2,,,,,166000
+True,Dhalia,P000237304,Birzebbuga,Flats,,,,3,,,,,267000
+True,Dhalia,P000237302,Birzebbuga,Flats,,,,2,,,,,237000
+True,Dhalia,P000237299,Cospicua,Townhouse,,,,2,,,,,375000
+True,Dhalia,P000237298,Gozo Ir-Rabat,Flats,,,,2,,,,,164000
+True,Dhalia,P000237297,Birzebbuga,Maisonette,,,,2,,,,,247000
+True,Dhalia,P000237290,Zebbug,Townhouse,,,,4,,,,,795000
+True,Dhalia,P000237281,Qormi,House of Character,,,,3,,,,,455000
+True,Dhalia,P000237280,Qormi,House of Character,,,,4,,,,,655000
+True,Dhalia,P000237275,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,388000
+True,Dhalia,P000237273,Qormi,Penthouse,,,,3,,,,,455000
+True,Dhalia,P000237272,Qormi,Flats,,,,3,,,,,255000
+True,Dhalia,P000237269,Qormi,Flats,,,,3,,,,,245000
+True,Dhalia,P000237264,Qormi,Flats,,,,3,,,,,205000
+True,Dhalia,P000237263,Gozo Ix-Xewkija,Flats,,,,3,,,,,268000
+True,Dhalia,P000237261,Qormi,Maisonette,,,,3,,,,,285000
+True,Dhalia,P000237260,Gozo Ix-Xewkija,Maisonette,,,,3,,,,,278000
+True,Dhalia,P000237258,Gozo Ix-Xewkija,Townhouse,,,,10,,,,,1700000
+True,Dhalia,P000237257,Qormi,Garage,,,,,,,,,43000
+True,Dhalia,P000237256,St Paul's Bay,Flats,,,,2,,,,,495000
+True,Dhalia,P000237255,Qormi,Penthouse,,,,3,,,,,350000
+True,Dhalia,P000237254,St Paul's Bay,Flats,,,,2,,,,,485000
+True,Dhalia,P000237252,Gozo Ix-Xewkija,Penthouse,,,,2,,,,,313000
+True,Dhalia,P000237251,Qormi,Flats,,,,3,,,,,328000
+True,Dhalia,P000237250,Zebbug,Townhouse,,,,3,,,,,635000
+True,Dhalia,P000237249,Gozo Ix-Xewkija,Flats,,,,3,,,,,263000
+True,Dhalia,P000237248,Qormi,Flats,,,,3,,,,,313000
+True,Dhalia,P000237247,Gozo Ix-Xewkija,Flats,,,,2,,,,,248000
+True,Dhalia,P000237246,Attard,Terraced House,,,,3,,,,,750000
+True,Dhalia,P000237245,Gozo Ix-Xewkija,Flats,,,,2,,,,,228000
+True,Dhalia,P000237244,Qormi,House of Character,,,,3,,,,,445000
+True,Dhalia,P000237243,Attard,Terraced House,,,,3,,,,,750000
+True,Dhalia,P000237242,Hamrun,Townhouse,,,,3,,,,,265000
+True,Dhalia,P000237241,Sliema,Penthouse,,,,3,,,,,700000
+True,Dhalia,P000237240,Gozo Sannat,Flats,,,,2,,,,,255000
+True,Dhalia,P000237239,Sliema,Flats,,,,3,,,,,1000000
+True,Dhalia,P000237237,Fgura,Penthouse,,,,3,,,,,285000
+True,Dhalia,P000237236,Fgura,Penthouse,,,,3,,,,,285000
+True,Dhalia,P000237235,Gozo Marsalforn,Flats,,,,2,,,,,180000
+True,Dhalia,P000237233,Fgura,Flats,,,,3,,,,,244000
+True,Dhalia,P000237231,Fgura,Flats,,,,3,,,,,233000
+True,Dhalia,P000237229,Fgura,Flats,,,,3,,,,,223000
+True,Dhalia,P000237227,Fgura,Maisonette,,,,3,,,,,260000
+True,Dhalia,P000237225,Zejtun,2nd Floor maisonette,,,,3,,,,,381000
+True,Dhalia,P000237221,Sliema,Flats,,,,2,,,,,850000
+True,Dhalia,P000237217,Gharghur,Maisonette,,,,2,,,,,320000
+True,Dhalia,P000237216,Marsascala,Penthouse,,,,3,,,,,430000
+True,Dhalia,P000237214,Bahrija,Flats,,,,3,,,,,285000
+True,Dhalia,P000237212,Sliema,Flats,,,,3,,,,,785000
+True,Dhalia,P000237211,Qormi,Shop,,,,,,,,,400000
+True,Dhalia,P000237210,Mellieha,Gr Floor Maisonette,,,,3,,,,,295000
+True,Dhalia,P000237206,Gozo Ghajnsielem,Penthouse,,,,3,,,,,180000
+True,Dhalia,P000237200,Siggiewi,House of Character,,,,3,,,,,650000
+True,Dhalia,P000237196,Vittoriosa,Palazzo,,,,4,,,,,1271000
+True,Dhalia,P000237193,Ghaxaq,Flats,,,,2,,,,,244000
+True,Dhalia,P000237192,Ghaxaq,Flats,,,,2,,,,,228000
+True,Dhalia,P000237191,Ghaxaq,Maisonette,,,,2,,,,,239000
+True,Dhalia,P000237185,Gozo Sannat,House of Character,,,,6,,,,,730000
+True,Dhalia,P000237183,Gozo Sannat,House of Character,,,,6,,,,,720000
+True,Dhalia,P000237182,Gozo Sannat,House of Character,,,,6,,,,,760000
+True,Dhalia,P000237181,Marsascala,Penthouse,,,,2,,,,,325000
+True,Dhalia,P000237179,Paola,Penthouse,,,,2,,,,,190000
+True,Dhalia,P000237178,Paola,Penthouse,,,,2,,,,,180000
+True,Dhalia,P000237169,Rabat,Flats,,,,3,,,,,385000
+True,Dhalia,P000237167,Gharghur,Flats,,,,3,,,,,425000
+True,Dhalia,P000237165,Gharghur,Maisonette,,,,2,,,,,345000
+True,Dhalia,P000237164,Birkirkara,Garage,,,,1,,,,,233000
+True,Dhalia,P000237163,Birkirkara,Flats,,,,1,,,,,244000
+True,Dhalia,P000237162,St Julians,Garage,,,,,,,,,35000
+True,Dhalia,P000237159,Birkirkara,Flats,,,,2,,,,,233000
+True,Dhalia,P000237158,Pieta,Garage,,,,,,,,,185000
+True,Dhalia,P000237157,Birzebbuga,Townhouse,,,,1,,,,,795000
+True,Dhalia,P000237156,Mosta,Flats,,,,3,,,,,265000
+True,Dhalia,P000237155,Mosta,Flats,,,,3,,,,,265000
+True,Dhalia,P000237153,Mosta,Flats,,,,3,,,,,265000
+True,Dhalia,P000237151,Mosta,Flats,,,,3,,,,,265000
+True,Dhalia,P000237150,Ta'L-ibrag,Gr Floor Maisonette,,,,3,,,,,388000
+True,Dhalia,P000237147,Birzebbuga,Penthouse,,,,2,,,,,320000
+True,Dhalia,P000237144,Birzebbuga,Flats,,,,2,,,,,275000
+True,Dhalia,P000237143,Mellieha,Flats,,,,1,,,,,305000
+True,Dhalia,P000237138,Sliema,Townhouse,,,,4,,,,,784000
+True,Dhalia,P000237134,Lija,Maisonette,,,,3,,,,,340000
+True,Dhalia,P000237132,L-Iklin,Detached Bungalow,,,,5,,,,,2500000
+True,Dhalia,P000237130,Birzebbuga,Flats,,,,2,,,,,180000
+True,Dhalia,P000237125,Birzebbuga,Flats,,,,2,,,,,200000
+True,Dhalia,P000237123,Birzebbuga,Maisonette,,,,3,,,,,240000
+True,Dhalia,P000237122,Qawra,Flats,,,,3,,,,,320000
+True,Dhalia,P000237120,Sliema,Flats,,,,1,,,,,255000
+True,Dhalia,P000237118,Lija,House of Character,,,,4,,,,,3000000
+True,Dhalia,P000237116,Mellieha,Garage,,,,,,,,,85000
+True,Dhalia,P000237115,Mellieha,Garage,,,,,,,,,45000
+True,Dhalia,P000237114,Mellieha,Penthouse,,,,2,,,,,630000
+True,Dhalia,P000237113,Mellieha,Flats,,,,3,,,,,477000
+True,Dhalia,P000237112,Mellieha,Flats,,,,3,,,,,477000
+True,Dhalia,P000237111,Mellieha,Flats,,,,3,,,,,371000
+True,Dhalia,P000237110,Mellieha,Maisonette,,,,3,,,,,371000
+True,Dhalia,P000237109,Fgura,Penthouse,,,,2,,,,,236000
+True,Dhalia,P000237108,Marsascala,Gr Floor Maisonette,,,,2,,,,,245000
+True,Dhalia,P000237107,Siggiewi,Townhouse,,,,3,,,,,424000
+True,Dhalia,P000237100,St Paul's Bay,Flats,,,,2,,,,,179000
+True,Dhalia,P000237085,Kirkop,Flats,,,,2,,,,,286000
+True,Dhalia,P000237083,Gzira,Flats,,,,2,,,,,325000
+True,Dhalia,P000237068,Rabat,House of Character,,,,3,,,,,952000
+True,Dhalia,P000237067,Qormi,Penthouse,,,,3,,,,,397000
+True,Dhalia,P000237066,Siggiewi,Maisonette,,,,3,,,,,450000
+True,Dhalia,P000237063,Qormi,Penthouse,,,,3,,,,,285000
+True,Dhalia,P000237062,Qormi,Flats,,,,3,,,,,239000
+True,Dhalia,P000237061,Qormi,Flats,,,,3,,,,,235000
+True,Dhalia,P000237060,Qormi,Flats,,,,3,,,,,228000
+True,Dhalia,P000237055,Gudja,Townhouse,,,,3,,,,,556000
+True,Dhalia,P000237052,Fgura,Flats,,,,3,,,,,200000
+True,Dhalia,P000237051,Fgura,Flats,,,,3,,,,,200000
+True,Dhalia,P000237050,Fgura,Flats,,,,3,,,,,200000
+True,Dhalia,P000237046,Gharghur,Townhouse,,,,3,,,,,519000
+True,Dhalia,P000237040,Gozo Marsalforn,Flats,,,,2,,,,,150000
+True,Dhalia,P000237038,Zabbar,Duplex Maisonette,,,,3,,,,,245000
+True,Dhalia,P000237035,Santa Venera,Office,,,,,,,,,2200000
+True,Dhalia,P000237027,Qormi,Flats,,,,3,,,,,250000
+True,Dhalia,P000237026,Marsascala,Penthouse,,,,2,,,,,299500
+True,Dhalia,P000237025,Mosta,Garage,,,,,,,,,35000
+True,Dhalia,P000237023,Mosta,Penthouse,,,,2,,,,,415000
+True,Dhalia,P000237021,Mosta,Flats,,,,3,,,,,308000
+True,Dhalia,P000237018,Mosta,Flats,,,,3,,,,,288000
+True,Dhalia,P000237017,Mosta,Gr Floor Maisonette,,,,3,,,,,340000
+True,Dhalia,P000237013,Mosta,Flats,,,,3,,,,,318000
+True,Dhalia,P000237011,Mosta,Flats,,,,3,,,,,308000
+True,Dhalia,P000237008,Mosta,Flats,,,,3,,,,,298000
+True,Dhalia,P000237006,Mosta,Flats,,,,3,,,,,325000
+True,Dhalia,P000237001,Attard,Flats,,,,3,,,,,250000
+True,Dhalia,P000237000,Birkirkara,Townhouse,,,,4,,,,,850000
+True,Dhalia,P000236999,Attard,1st Floor Maisonette,,,,3,,,,,350000
+True,Dhalia,P000236998,Marsascala,Maisonette,,,,3,,,,,235000
+True,Dhalia,P000236997,Marsaxlokk,Penthouse,,,,2,,,,,380000
+True,Dhalia,P000236995,Marsaxlokk,Flats,,,,2,,,,,225000
+True,Dhalia,P000236994,Marsaxlokk,Flats,,,,2,,,,,225000
+True,Dhalia,P000236993,Marsaxlokk,Flats,,,,2,,,,,225000
+True,Dhalia,P000236992,Sliema,Penthouse,,,,2,,,,,690000
+True,Dhalia,P000236990,Marsaxlokk,Flats,,,,2,,,,,220000
+True,Dhalia,P000236987,Naxxar,Gr Floor Maisonette,,,,2,,,,,290000
+True,Dhalia,P000236985,Marsascala,Flats,,,,3,,,,,300000
+True,Dhalia,P000236984,Valletta,Flats,,,,2,,,,,450000
+True,Dhalia,P000236980,Zabbar,Townhouse,,,,3,,,,,330000
+True,Dhalia,P000236977,Birkirkara,Duplex Apartment,,,,3,,,,,298000
+True,Dhalia,P000236972,Zebbiegh,Terraced House,,,,3,,,,,585000
+True,Dhalia,P000236969,Gozo Fontana,Penthouse,,,,2,,,,,188000
+True,Dhalia,P000236968,Gozo Fontana,Flats,,,,3,,,,,171000
+True,Dhalia,P000236967,Gozo Fontana,Flats,,,,2,,,,,148000
+True,Dhalia,P000236966,Msida,Penthouse,,,,2,,,,,314000
+True,Dhalia,P000236960,Sliema,Flats,,,,3,,,,,530000
+True,Dhalia,P000236955,Zurrieq,Penthouse,,,,3,,,,,385000
+True,Dhalia,P000236953,Zurrieq,Maisonette,,,,2,,,,,275000
+True,Dhalia,P000236948,Senglea,Palazzo,,,,4,,,,,465000
+True,Dhalia,P000236946,Sliema,Townhouse,,,,3,,,,,1500000
+True,Dhalia,P000236944,Msida,Flats,,,,3,,,,,259000
+True,Dhalia,P000236939,Gozo Ghajnsielem,Flats,,,,3,,,,,795000
+True,Dhalia,P000236938,Balzan,House of Character,,,,4,,,,,1200000
+True,Dhalia,P000236935,Cospicua,Flats,,,,2,,,,,213000
+True,Dhalia,P000236923,Siggiewi,Flats,,,,3,,,,,485000
+True,Dhalia,P000236922,Gozo Marsalforn,Flats,,,,2,,,,,231000
+True,Dhalia,P000236921,Qormi,House of Character,,,,3,,,,,742000
+True,Dhalia,P000236920,Gozo Marsalforn,Flats,,,,2,,,,,208000
+True,Dhalia,P000236919,Gozo Marsalforn,Flats,,,,3,,,,,275000
+True,Dhalia,P000236918,Gozo Marsalforn,Flats,,,,1,,,,,183000
+True,Dhalia,P000236917,Sliema,Townhouse,,,,3,,,,,1250000
+True,Dhalia,P000236915,Swieqi,Gr Floor Maisonette,,,,3,,,,,543000
+True,Dhalia,P000236914,Gozo Sannat,Penthouse,,,,2,,,,,155000
+True,Dhalia,P000236913,Gozo Sannat,Flats,,,,2,,,,,125000
+True,Dhalia,P000236912,St Paul's Bay,Penthouse,,,,3,,,,,455000
+True,Dhalia,P000236911,Gozo Sannat,Flats,,,,2,,,,,120000
+True,Dhalia,P000236910,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,178000
+True,Dhalia,P000236909,L-Iklin,Flats,,,,2,,,,,250000
+True,Dhalia,P000236908,Zurrieq,Flats,,,,1,,,,,170000
+True,Dhalia,P000236907,Zurrieq,Flats,,,,3,,,,,340000
+True,Dhalia,P000236906,Valletta,House of Character,,,,6,,,,,1800000
+True,Dhalia,P000236903,Gozo Sannat,Penthouse,,,,2,,,,,160000
+True,Dhalia,P000236902,Gozo Sannat,Flats,,,,3,,,,,140000
+True,Dhalia,P000236901,Gozo Sannat,Flats,,,,3,,,,,130000
+True,Dhalia,P000236900,St Julians,Penthouse,,,,1,,,,,432000
+True,Dhalia,P000236899,St Julians,Flats,,,,2,,,,,316000
+True,Dhalia,P000236896,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,138000
+True,Dhalia,P000236894,St Julians,Flats,,,,2,,,,,313000
+True,Dhalia,P000236890,St Julians,Flats,,,,2,,,,,310000
+True,Dhalia,P000236886,St Julians,Flats,,,,2,,,,,307000
+True,Dhalia,P000236882,St Julians,Flats,,,,2,,,,,304000
+True,Dhalia,P000236878,St Julians,Maisonette,,,,2,,,,,337000
+True,Dhalia,P000236875,St Julians,Garage,,,,,,,,,35500
+True,Dhalia,P000236872,St Julians,Garage,,,,,,,,,71500
+True,Dhalia,P000236868,St Julians,Block of Flats,,,,2,,,,,313000
+True,Dhalia,P000236865,Rabat,Detached Bungalow,,,,4,,,,,3150000
+True,Dhalia,P000236864,Pieta,Flats,,,,2,,,,,204000
+True,Dhalia,P000236863,Qormi,Penthouse,,,,3,,,,,255000
+True,Dhalia,P000236862,Qormi,Flats,,,,3,,,,,202000
+True,Dhalia,P000236861,Qormi,Maisonette,,,,2,,,,,255000
+True,Dhalia,P000236857,Marsascala,Penthouse,,,,3,,,,,350000
+True,Dhalia,P000236853,Marsascala,Flats,,,,2,,,,,280000
+True,Dhalia,P000236852,Marsascala,Flats,,,,2,,,,,280000
+True,Dhalia,P000236840,Marsascala,Flats,,,,2,,,,,265000
+True,Dhalia,P000236839,Marsascala,Flats,,,,2,,,,,265000
+True,Dhalia,P000236835,Marsascala,Flats,,,,2,,,,,265000
+True,Dhalia,P000236829,Marsascala,Flats,,,,2,,,,,275000
+True,Dhalia,P000236827,Marsascala,Flats,,,,2,,,,,275000
+True,Dhalia,P000236825,Marsascala,Flats,,,,2,,,,,275000
+True,Dhalia,P000236821,Gozo L-Gharb,Penthouse,,,,2,,,,,180000
+True,Dhalia,P000236820,Zejtun,Townhouse,,,,3,,,,,585000
+True,Dhalia,P000236812,Gozo L-Gharb,Flats,,,,3,,,,,153000
+True,Dhalia,P000236811,Marsascala,Site,,,,1,,,,,450000
+True,Dhalia,P000236809,Swieqi,Penthouse,,,,2,,,,,495000
+True,Dhalia,P000236808,Swieqi,Flats,,,,3,,,,,370000
+True,Dhalia,P000236807,Swieqi,Flats,,,,3,,,,,360000
+True,Dhalia,P000236806,Swieqi,Flats,,,,3,,,,,350000
+True,Dhalia,P000236805,Swieqi,Gr Floor Maisonette,,,,3,,,,,445000
+True,Dhalia,P000236804,Msida,Penthouse,,,,1,,,,,225000
+True,Dhalia,P000236803,Qormi,Townhouse,,,,3,,,,,365000
+True,Dhalia,P000236802,Sliema,Townhouse,,,,2,,,,,445000
+True,Dhalia,P000236800,Gozo L-Gharb,Maisonette,,,,2,,,,,149000
+True,Dhalia,P000236797,Pieta,Semi-Detached Villa,,,,3,,,,,590000
+True,Dhalia,P000236795,Gozo Ghajnsielem,Penthouse,,,,1,,,,,180000
+True,Dhalia,P000236793,The Village,Block of Flats,,,,7,,,,,1200000
+False,Dhalia,P000238421,Gozo Fontana,House of Character,,,,3,,,,,410000
+False,Dhalia,P000238420,Sliema,Flats,,,,3,,,,,350000
+False,Dhalia,P000238419,San Gwann,Flats,,,,2,,,,,220000
+False,Dhalia,P000238418,Hamrun,Flats,,,,3,,,,,190000
+False,Dhalia,P000238417,Hamrun,Gr Floor Maisonette,,,,3,,,,,350000
+False,Dhalia,P000238413,L-Iklin,Penthouse,,,,3,,,,,425000
+False,Dhalia,P000238412,L-Iklin,Flats,,,,3,,,,,370000
+False,Dhalia,P000238411,L-Iklin,Flats,,,,3,,,,,370000
+False,Dhalia,P000238410,L-Iklin,Flats,,,,3,,,,,370000
+False,Dhalia,P000238409,L-Iklin,Flats,,,,4,,,,,370000
+False,Dhalia,P000238408,Naxxar,Penthouse,,,,2,,,,,583000
+False,Dhalia,P000238407,Naxxar,Flats,,,,3,,,,,397000
+False,Dhalia,P000238406,Naxxar,Flats,,,,3,,,,,386000
+False,Dhalia,P000238405,Naxxar,Flats,,,,2,,,,,355000
+False,Dhalia,P000238404,Naxxar,Maisonette,,,,2,,,,,370000
+False,Dhalia,P000238403,Sliema,Flats,,,,3,,,,,430000
+False,Dhalia,P000238402,Marsascala,Flats,,,,3,,,,,280000
+False,Dhalia,P000238400,Mellieha,Penthouse,,,,,,,,,595000
+False,Dhalia,P000238399,St Julians,Duplex Penthouse,,,,4,,,,,900000
+False,Dhalia,P000238398,Zebbug,Townhouse,,,,3,,,,,2118000
+False,Dhalia,P000238396,Tarxien,House of Character,,,,3,,,,,165000
+False,Dhalia,P000238395,Zebbug,Townhouse,,,,4,,,,,1350000
+False,Dhalia,P000238392,Gozo Marsalforn,Flats,,,,2,,,,,175000
+False,Dhalia,P000238387,Zebbug,Townhouse,,,,4,,,,,1350000
+False,Dhalia,P000238386,Marsaxlokk,Palazzo,,,,4,,,,,1650000
+False,Dhalia,P000238384,Madliena,Penthouse,,,,3,,,,,1500000
+False,Dhalia,P000238383,Gudja,House of Character,,,,3,,,,,850000
+False,Dhalia,P000238380,L-Iklin,Semi-Det Bungalow,,,,3,,,,,1650000
+False,Dhalia,P000238379,Rabat,Duplex Maisonette,,,,3,,,,,338000
+False,Dhalia,P000238378,Gozo In-Nadur,Flats,,,,3,,,,,255000
+False,Dhalia,P000238376,Gzira,Penthouse,,,,2,,,,,950000
+False,Dhalia,P000238375,Gzira,Flats,,,,2,,,,,900000
+False,Dhalia,P000238374,Gzira,Flats,,,,2,,,,,900000
+False,Dhalia,P000238371,Gozo Il-Qala,Flats,,,,3,,,,,200000
+False,Dhalia,P000238370,Gozo Il-Qala,Flats,,,,3,,,,,195000
+False,Dhalia,P000238368,Gozo In-Nadur,Flats,,,,3,,,,,210000
+False,Dhalia,P000238367,Zabbar,Penthouse,,,,1,,,,,250000
+False,Dhalia,P000238366,Zabbar,Penthouse,,,,2,,,,,280000
+False,Dhalia,P000238365,Zabbar,Flats,,,,2,,,,,210000
+False,Dhalia,P000238364,Zabbar,Flats,,,,3,,,,,225000
+False,Dhalia,P000238363,Zabbar,Flats,,,,2,,,,,210000
+False,Dhalia,P000238362,Zabbar,Flats,,,,3,,,,,225000
+False,Dhalia,P000238361,Zabbar,Flats,,,,2,,,,,230000
+False,Dhalia,P000238360,Zabbar,Flats,,,,3,,,,,250000
+False,Dhalia,P000238358,Xghajra,Flats,,,,2,,,,,217000
+False,Dhalia,P000238357,Sliema,Flats,,,,3,,,,,850000
+False,Dhalia,P000238354,Pieta,Maisonette,,,,3,,,,,250000
+False,Dhalia,P000238353,Pieta,Maisonette,,,,3,,,,,275000
+False,Dhalia,P000238348,Mellieha,Flats,,,,3,,,,,425000
+False,Dhalia,P000238342,Marsascala,Garage,,,,,,,,,212000
+False,Dhalia,P000238337,St Julians,House of Character,,,,3,,,,,745000
+False,Dhalia,P000238336,Luqa,Commercial,,,,,,,,,195000
+False,Dhalia,P000238335,Birkirkara,1st Floor Maisonette,,,,3,,,,,350000
+False,Dhalia,P000238334,Zurrieq,Flats,,,,2,,,,,215000
+False,Dhalia,P000238333,Pieta,Penthouse,,,,1,,,,,275000
+False,Dhalia,P000238331,Zurrieq,Flats,,,,2,,,,,215000
+False,Dhalia,P000238330,St Julians,Flats,,,,3,,,,,850000
+False,Dhalia,P000238325,Sliema,Flats,,,,2,,,,,320000
+False,Dhalia,P000238323,Birkirkara,1st Floor Maisonette,,,,3,,,,,225000
+False,Dhalia,P000238322,Msida,Flats,,,,2,,,,,159000
+False,Dhalia,P000238321,Msida,Flats,,,,2,,,,,172000
+False,Dhalia,P000238319,Msida,Flats,,,,2,,,,,157000
+False,Dhalia,P000238317,Fgura,Gr Floor Maisonette,,,,2,,,,,245000
+False,Dhalia,P000238316,Msida,Penthouse,,,,2,,,,,299000
+False,Dhalia,P000238315,Birkirkara,Flats,,,,2,,,,,297000
+False,Dhalia,P000238313,St Paul's Bay,Flats,,,,2,,,,,460000
+False,Dhalia,P000238310,Bahar ic-Caghaq,Terraced House,,,,4,,,,,1200000
+False,Dhalia,P000238308,Mosta,Duplex Penthouse,,,,3,,,,,750000
+False,Dhalia,P000238307,Mosta,Flats,,,,3,,,,,387000
+False,Dhalia,P000238306,Rabat,House of Character,,,,3,,,,,459000
+False,Dhalia,P000238305,Mosta,Flats,,,,3,,,,,365000
+False,Dhalia,P000238303,Mosta,Flats,,,,3,,,,,365000
+False,Dhalia,P000238302,Mosta,Maisonette,,,,3,,,,,270000
+False,Dhalia,P000238300,Birkirkara,1st Floor Maisonette,,,,2,,,,,260000
+False,Dhalia,P000238299,Gozo Kercem,Terraced House,,,,6,,,,,850000
+False,Dhalia,P000238298,Fgura,2nd Floor maisonette,,,,3,,,,,344000
+False,Dhalia,P000238296,Marsascala,Flats,,,,3,,,,,240000
+False,Dhalia,P000238295,Ta'Xbiex,Flats,,,,2,,,,,245000
+False,Dhalia,P000238294,Ta'Xbiex,Flats,,,,1,,,,,198000
+False,Dhalia,P000238293,Ta'Xbiex,Flats,,,,1,,,,,198000
+False,Dhalia,P000238292,Ta'L-ibrag,Flats,,,,3,,,,,440000
+False,Dhalia,P000238278,Gozo Kercem,Penthouse,,,,3,,,,,265000
+False,Dhalia,P000238269,Msida,Penthouse,,,,1,,,,,185000
+False,Dhalia,P000238268,Msida,Flats,,,,2,,,,,220000
+False,Dhalia,P000238267,Gozo Il-Qala,Plot,,,,5,,,,,300000
+False,Dhalia,P000238266,Santa Venera,Flats,,,,2,,,,,160000
+False,Dhalia,P000238265,Ta'L-ibrag,Maisonette,,,,3,,,,,370000
+False,Dhalia,P000238264,Gozo Marsalforn,Flats,,,,3,,,,,220000
+False,Dhalia,P000238263,Pieta,Flats,,,,3,,,,,220000
+False,Dhalia,P000238261,Santa Venera,1st Floor Maisonette,,,,3,,,,,312000
+False,Dhalia,P000238260,Gozo Sannat,Flats,,,,3,,,,,320000
+False,Dhalia,P000238259,Marsaxlokk,Plot,,,,,,,,,959000
+False,Dhalia,P000238258,Birkirkara,Maisonette,,,,3,,,,,415000
+False,Dhalia,P000238257,St Paul's Bay,Garage,,,,,,,,,200000
+False,Dhalia,P000238256,Ta'Xbiex,Flats,,,,2,,,,,250000
+False,Dhalia,P000238251,Swieqi,Penthouse,,,,1,,,,,499000
+False,Dhalia,P000238248,Attard,Flats,,,,2,,,,,350000
+False,Dhalia,P000238247,Attard,Flats,,,,3,,,,,295000
+False,Dhalia,P000238246,Attard,Flats,,,,3,,,,,290000
+False,Dhalia,P000238243,St Julians,Flats,,,,2,,,,,310000
+False,Dhalia,P000238241,St Julians,Flats,,,,2,,,,,310000
+False,Dhalia,P000238239,Bugibba,Flats,,,,1,,,,,175000
+False,Dhalia,P000238238,Fgura,Flats,,,,2,,,,,205000
+False,Dhalia,P000238237,Sliema,Garage,,,,,,,,,38000
+False,Dhalia,P000238236,Santa Venera,Flats,,,,2,,,,,245000
+False,Dhalia,P000238234,Gzira,Flats,,,,3,,,,,305000
+False,Dhalia,P000238233,Valletta,Townhouse,,,,4,,,,,1500000
+False,Dhalia,P000238231,Balzan,Flats,,,,3,,,,,335000
+False,Dhalia,P000238229,Mqabba,Farmhouse,,,,5,,,,,1100000
+False,Dhalia,P000238228,Santa Venera,Flats,,,,2,,,,,244000
+False,Dhalia,P000238227,Gozo Ghajnsielem,Flats,,,,2,,,,,160000
+False,Dhalia,P000238226,Qormi,Gr Floor Maisonette,,,,3,,,,,295000
+False,Dhalia,P000238224,Gudja,Flats,,,,2,,,,,234000
+False,Dhalia,P000238222,Mosta,Flats,,,,3,,,,,270000
+False,Dhalia,P000238219,Qormi,Flats,,,,4,,,,,275000
+False,Dhalia,P000238217,Qormi,Flats,,,,4,,,,,265000
+False,Dhalia,P000238216,Qormi,Flats,,,,4,,,,,255000
+False,Dhalia,P000238215,Ta'L-ibrag,Semi-Detached Villa,,,,4,,,,,1890000
+False,Dhalia,P000238214,Birkirkara,Duplex Penthouse,,,,3,,,,,255000
+False,Dhalia,P000238213,Floriana,Block of Flats,,,,6,,,,,750000
+False,Dhalia,P000238212,Sliema,1st Flr Mais (2flrs),,,,2,,,,,585000
+False,Dhalia,P000238211,Burmarrad,Garage,,,,,,,,,48000
+False,Dhalia,P000238210,Qrendi,Penthouse,,,,2,,,,,360000
+False,Dhalia,P000238209,Qrendi,Flats,,,,3,,,,,300000
+False,Dhalia,P000238206,Ghaxaq,Flats,,,,1,,,,,175000
+False,Dhalia,P000238204,Xemxija,Flats,,,,2,,,,,225000
+False,Dhalia,P000238203,Zabbar,2nd Floor maisonette,,,,3,,,,,249000
+False,Dhalia,P000238200,Burmarrad,Penthouse,,,,3,,,,,950000
+False,Dhalia,P000238199,Burmarrad,Flats,,,,3,,,,,660000
+False,Dhalia,P000238198,Burmarrad,Flats,,,,3,,,,,530000
+False,Dhalia,P000238197,Burmarrad,Flats,,,,3,,,,,392000
+False,Dhalia,P000238196,Burmarrad,Flats,,,,3,,,,,403000
+False,Dhalia,P000238195,Burmarrad,Flats,,,,3,,,,,382000
+False,Dhalia,P000238194,Burmarrad,Flats,,,,3,,,,,382000
+False,Dhalia,P000238193,Burmarrad,Flats,,,,3,,,,,371000
+False,Dhalia,P000238192,Qrendi,Duplex Apartment,,,,3,,,,,370000
+False,Dhalia,P000238191,Burmarrad,Flats,,,,3,,,,,382000
+False,Dhalia,P000238190,Msida,Penthouse,,,,1,,,,,205000
+False,Dhalia,P000238189,Burmarrad,Maisonette,,,,3,,,,,371000
+False,Dhalia,P000238188,Burmarrad,Maisonette,,,,3,,,,,360000
+False,Dhalia,P000238187,Naxxar,Gr Floor Maisonette,,,,3,,,,,290000
+False,Dhalia,P000238182,Fgura,Flats,,,,3,,,,,370000
+False,Dhalia,P000238177,St Julians,Townhouse,,,,3,,,,,1150000
+False,Dhalia,P000238176,St Paul's Bay,Flats,,,,2,,,,,235000
+False,Dhalia,P000238175,Gozo In-Nadur,Duplex Maisonette,,,,1,,,,,405000
+False,Dhalia,P000238174,Tarxien,Penthouse,,,,1,,,,,222000
+False,Dhalia,P000238171,Tarxien,Flats,,,,2,,,,,185000
+False,Dhalia,P000238170,Attard,Flats,,,,3,,,,,275000
+False,Dhalia,P000238169,Gzira,Flats,,,,3,,,,,350000
+False,Dhalia,P000238168,Fgura,Penthouse,,,,2,,,,,210000
+False,Dhalia,P000238167,Fgura,Penthouse,,,,3,,,,,255000
+False,Dhalia,P000238161,Fgura,Flats,,,,3,,,,,200000
+False,Dhalia,P000238160,Fgura,Gr Floor Maisonette,,,,3,,,,,213000
+False,Dhalia,P000238157,St Paul's Bay,Maisonette,,,,2,,,,,355000
+False,Dhalia,P000238156,St Paul's Bay,Maisonette,,,,2,,,,,345000
+False,Dhalia,P000238155,St Paul's Bay,Maisonette,,,,2,,,,,335000
+False,Dhalia,P000238154,St Paul's Bay,Maisonette,,,,2,,,,,325000
+False,Dhalia,P000238153,Ghaxaq,Townhouse,,,,3,,,,,1050000
+False,Dhalia,P000238152,St Paul's Bay,Maisonette,,,,2,,,,,325000
+False,Dhalia,P000238150,Ghaxaq,Townhouse,,,,2,,,,,550000
+False,Dhalia,P000238149,St Paul's Bay,Maisonette,,,,1,,,,,255000
+False,Dhalia,P000238147,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,318000
+False,Dhalia,P000238145,Senglea,House of Character,,,,3,,,,,520000
+False,Dhalia,P000238144,Qrendi,Flats,,,,3,,,,,282000
+False,Dhalia,P000238143,Fgura,Flats,,,,3,,,,,265000
+False,Dhalia,P000238142,Siggiewi,Penthouse,,,,3,,,,,520000
+False,Dhalia,P000238141,Siggiewi,Flats,,,,3,,,,,280000
+False,Dhalia,P000238139,Naxxar,Maisonette,,,,2,,,,,339000
+False,Dhalia,P000238138,Gozo Xaghra,Terraced House,,,,3,,,,,400000
+False,Dhalia,P000238137,Gozo Xaghra,Terraced House,,,,3,,,,,400000
+False,Dhalia,P000238135,Attard,Semi-Detached Villa,,,,4,,,,,1800000
+False,Dhalia,P000238131,Attard,1st Floor Maisonette,,,,4,,,,,460000
+False,Dhalia,P000238130,Sliema,Duplex Penthouse,,,,2,,,,,360000
+False,Dhalia,P000238128,Birkirkara,Penthouse,,,,2,,,,,300000
+False,Dhalia,P000238127,Birkirkara,Penthouse,,,,1,,,,,225000
+False,Dhalia,P000238118,Birkirkara,Flats,,,,2,,,,,200000
+False,Dhalia,P000238114,Birkirkara,Maisonette,,,,2,,,,,220000
+False,Dhalia,P000238112,Birkirkara,Maisonette,,,,3,,,,,315000
+False,Dhalia,P000238111,Attard,Semi-Detached Villa,,,,4,,,,,850000
+False,Dhalia,P000238109,Birkirkara,Gr Floor Maisonette,,,,1,,,,,185000
+False,Dhalia,P000238108,Zejtun,Townhouse,,,,5,,,,,1059000
+False,Dhalia,P000238107,Dingli,Flats,,,,3,,,,,371000
+False,Dhalia,P000238103,Zabbar,Flats,,,,1,,,,,164000
+False,Dhalia,P000238101,Floriana,Maisonette,,,,2,,,,,325000
+False,Dhalia,P000238100,Marsaxlokk,Penthouse,,,,3,,,,,546000
+False,Dhalia,P000238099,Marsaxlokk,Penthouse,,,,3,,,,,456000
+False,Dhalia,P000238098,Marsaxlokk,Penthouse,,,,3,,,,,416000
+False,Dhalia,P000238097,Marsaxlokk,Penthouse,,,,3,,,,,446000
+False,Dhalia,P000238096,Marsaxlokk,Penthouse,,,,2,,,,,326000
+False,Dhalia,P000238095,Marsaxlokk,Penthouse,,,,3,,,,,436000
+False,Dhalia,P000238093,Marsaxlokk,Flats,,,,3,,,,,271000
+False,Dhalia,P000238092,Gozo Xaghra,Penthouse,,,,3,,,,,250000
+False,Dhalia,P000238091,Marsaxlokk,Flats,,,,3,,,,,311000
+False,Dhalia,P000238089,Marsaxlokk,Flats,,,,3,,,,,291000
+False,Dhalia,P000238088,Marsaxlokk,Flats,,,,3,,,,,256000
+False,Dhalia,P000238087,Gozo Xaghra,Flats,,,,3,,,,,200000
+False,Dhalia,P000238082,Marsaxlokk,Flats,,,,3,,,,,256000
+False,Dhalia,P000238081,Marsaxlokk,Flats,,,,3,,,,,256000
+False,Dhalia,P000238080,Marsaxlokk,Flats,,,,3,,,,,296000
+False,Dhalia,P000238079,Marsaxlokk,Flats,,,,3,,,,,256000
+False,Dhalia,P000238078,Marsaxlokk,Flats,,,,3,,,,,296000
+False,Dhalia,P000238077,Fgura,Gr Floor Maisonette,,,,1,,,,,159000
+False,Dhalia,P000238075,Marsaxlokk,Flats,,,,3,,,,,276000
+False,Dhalia,P000238074,Marsaxlokk,Flats,,,,3,,,,,276000
+False,Dhalia,P000238073,Marsaxlokk,Flats,,,,3,,,,,246000
+False,Dhalia,P000238072,Rabat,1st Floor Maisonette,,,,2,,,,,350000
+False,Dhalia,P000238071,Marsaxlokk,Flats,,,,3,,,,,246000
+False,Dhalia,P000238070,Marsaxlokk,Maisonette,,,,3,,,,,286000
+False,Dhalia,P000238069,Marsaxlokk,Maisonette,,,,2,,,,,241000
+False,Dhalia,P000238068,Marsaxlokk,Maisonette,,,,3,,,,,296000
+False,Dhalia,P000238067,Marsaxlokk,Maisonette,,,,3,,,,,346000
+False,Dhalia,P000238066,Marsaxlokk,Maisonette,,,,3,,,,,326000
+False,Dhalia,P000238065,Marsaxlokk,Maisonette,,,,3,,,,,336000
+False,Dhalia,P000238064,Marsaxlokk,Maisonette,,,,1,,,,,186000
+False,Dhalia,P000238063,Marsaxlokk,Maisonette,,,,3,,,,,306000
+False,Dhalia,P000238062,Fgura,Gr Floor Maisonette,,,,3,,,,,243500
+False,Dhalia,P000238061,Santa Venera,Duplex Penthouse,,,,3,,,,,575000
+False,Dhalia,P000238060,Hamrun,Penthouse,,,,3,,,,,405000
+False,Dhalia,P000238059,Hamrun,Flats,,,,2,,,,,196000
+False,Dhalia,P000238058,Gozo Xaghra,Penthouse,,,,3,,,,,355000
+False,Dhalia,P000238057,Birzebbuga,Townhouse,,,,4,,,,,320000
+False,Dhalia,P000238055,Sliema,Flats,,,,3,,,,,380000
+False,Dhalia,P000238051,Gozo Xaghra,Maisonette,,,,2,,,,,230000
+False,Dhalia,P000238050,Senglea,1st Floor Maisonette,,,,1,,,,,143000
+False,Dhalia,P000238049,Qawra,Flats,,,,3,,,,,360000
+False,Dhalia,P000238047,Marsaxlokk,Flats,,,,3,,,,,480000
+False,Dhalia,P000238046,Gozo Fontana,Terraced House,,,,3,,,,,315000
+False,Dhalia,P000238045,Gozo Fontana,Terraced House,,,,3,,,,,315000
+False,Dhalia,P000238044,Fgura,Penthouse,,,,3,,,,,350000
+False,Dhalia,P000238042,Balzan,Penthouse,,,,2,,,,,395000
+False,Dhalia,P000238040,Balzan,Flats,,,,3,,,,,365000
+False,Dhalia,P000238038,Balzan,Flats,,,,3,,,,,360000
+False,Dhalia,P000238036,Balzan,Flats,,,,3,,,,,350000
+False,Dhalia,P000238034,Balzan,Maisonette,,,,3,,,,,360000
+False,Dhalia,P000238031,Mosta,Penthouse,,,,2,,,,,340000
+False,Dhalia,P000238025,Zejtun,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000238022,Zejtun,Flats,,,,3,,,,,250000
+False,Dhalia,P000238020,Zejtun,Flats,,,,3,,,,,245000
+False,Dhalia,P000238018,Zejtun,Flats,,,,3,,,,,300000
+False,Dhalia,P000238017,Zejtun,Maisonette,,,,3,,,,,395000
+False,Dhalia,P000238013,Mosta,Flats,,,,3,,,,,520000
+False,Dhalia,P000238012,Mosta,Flats,,,,2,,,,,255000
+False,Dhalia,P000238010,Mosta,Flats,,,,2,,,,,250000
+False,Dhalia,P000238006,Gozo Iz-Zebbug,Flats,,,,2,,,,,550000
+False,Dhalia,P000238004,Mosta,Flats,,,,2,,,,,225000
+False,Dhalia,P000238003,Mosta,Flats,,,,2,,,,,260000
+False,Dhalia,P000238002,St Julians,Flats,,,,3,,,,,600000
+False,Dhalia,P000238001,St Julians,Flats,,,,2,,,,,315000
+False,Dhalia,P000237998,St Julians,Flats,,,,2,,,,,300000
+False,Dhalia,P000237996,St Julians,Flats,,,,2,,,,,290000
+False,Dhalia,P000237994,St Julians,Flats,,,,2,,,,,285000
+False,Dhalia,P000237992,St Julians,Flats,,,,2,,,,,280000
+False,Dhalia,P000237990,St Julians,Flats,,,,1,,,,,250000
+False,Dhalia,P000237988,Paola,Garage,,,,,,,,,225000
+False,Dhalia,P000237987,St Julians,Flats,,,,3,,,,,425000
+False,Dhalia,P000237983,San Gwann,Flats,,,,2,,,,,245000
+False,Dhalia,P000237981,St Paul's Bay,Flats,,,,2,,,,,225000
+False,Dhalia,P000237978,Attard,House of Character,,,,4,,,,,1600000
+False,Dhalia,P000237977,St Julians,Gr Floor Maisonette,,,,3,,,,,382580
+False,Dhalia,P000237975,St Julians,Flats,,,,4,,,,,420000
+False,Dhalia,P000237972,St Julians,Flats,,,,2,,,,,425000
+False,Dhalia,P000237969,Marsascala,Garage,,,,,,,,,43000
+False,Dhalia,P000237968,Gozo Il-Qala,House of Character,,,,3,,,,,220000
+False,Dhalia,P000237966,Floriana,Flats,,,,2,,,,,595000
+False,Dhalia,P000237962,Tarxien,House of Character,,,,2,,,,,215000
+False,Dhalia,P000237958,Sliema,Garage,,,,,,,,,75000
+False,Dhalia,P000237957,Mellieha,Penthouse,,,,3,,,,,350000
+False,Dhalia,P000237953,Msida,Penthouse,,,,1,,,,,255000
+False,Dhalia,P000237952,Senglea,Townhouse,,,,3,,,,,395000
+False,Dhalia,P000237945,Attard,Flats,,,,2,,,,,240000
+False,Dhalia,P000237938,Xemxija,Flats,,,,3,,,,,235000
+False,Dhalia,P000237929,Valletta,Palazzo,,,,4,,,,,2400000
+False,Dhalia,P000237928,Gzira,Flats,,,,2,,,,,223000
+False,Dhalia,P000237927,Gzira,Flats,,,,2,,,,,225000
+False,Dhalia,P000237926,Gzira,Flats,,,,2,,,,,224000
+False,Dhalia,P000237920,Mellieha,Detached Bungalow,,,,3,,,,,1700000
+False,Dhalia,P000237918,Birkirkara,Townhouse,,,,3,,,,,425000
+False,Dhalia,P000237916,Birkirkara,Townhouse,,,,2,,,,,355000
+False,Dhalia,P000237915,Birkirkara,Townhouse,,,,3,,,,,340000
+False,Dhalia,P000237914,Marsascala,Flats,,,,3,,,,,285000
+False,Dhalia,P000237912,Gozo Sannat,Flats,,,,3,,,,,170000
+False,Dhalia,P000237910,Sliema,Penthouse,,,,3,,,,,825000
+False,Dhalia,P000237908,Gozo Sannat,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000237905,Gozo Sannat,Maisonette,,,,2,,,,,240000
+False,Dhalia,P000237903,Balzan,Flats,,,,3,,,,,434000
+False,Dhalia,P000237901,Gozo Ix-Xewkija,Terraced House,,,,2,,,,,325000
+False,Dhalia,P000237900,Gozo Ix-Xewkija,Terraced House,,,,3,,,,,325000
+False,Dhalia,P000237899,Gozo Ix-Xewkija,Penthouse,,,,2,,,,,180000
+False,Dhalia,P000237897,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,170000
+False,Dhalia,P000237896,Balzan,Townhouse,,,,3,,,,,2200000
+False,Dhalia,P000237894,Gozo L-Gharb,Penthouse,,,,2,,,,,398000
+False,Dhalia,P000237893,Gozo L-Gharb,Flats,,,,3,,,,,338000
+False,Dhalia,P000237892,Gozo L-Gharb,Maisonette,,,,2,,,,,308000
+False,Dhalia,P000237891,Gozo Ir-Rabat,Terraced House,,,,3,,,,,350000
+False,Dhalia,P000237887,St Paul's Bay,Penthouse,,,,2,,,,,276000
+False,Dhalia,P000237884,Hamrun,Shop,,,,,,,,,210000
+False,Dhalia,P000237882,Gozo Ir-Rabat,Terraced House,,,,3,,,,,420000
+False,Dhalia,P000237881,St Paul's Bay,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000237880,St Paul's Bay,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000237879,Hamrun,Maisonette,,,,3,,,,,271000
+False,Dhalia,P000237870,Zurrieq,Farmhouse,,,,4,,,,,2120000
+False,Dhalia,P000237869,Gharghur,Gr Floor Maisonette,,,,3,,,,,340000
+False,Dhalia,P000237867,Gharghur,Flats,,,,3,,,,,360000
+False,Dhalia,P000237866,Tarxien,Penthouse,,,,3,,,,,315000
+False,Dhalia,P000237854,Marsaxlokk,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000237852,Birzebbuga,Penthouse,,,,2,,,,,297000
+False,Dhalia,P000237851,Ghaxaq,Flats,,,,3,,,,,290000
+False,Dhalia,P000237850,Ghaxaq,Flats,,,,3,,,,,290000
+False,Dhalia,P000237849,Birzebbuga,Flats,,,,3,,,,,207000
+False,Dhalia,P000237848,Birzebbuga,Garage,,,,,,,,,190000
+False,Dhalia,P000237847,Naxxar,House of Character,,,,3,,,,,955000
+False,Dhalia,P000237845,Gozo Xaghra,Farmhouse,,,,3,,,,,635000
+False,Dhalia,P000237844,Gozo Ix-Xewkija,Farmhouse,,,,3,,,,,398000
+False,Dhalia,P000237843,Luqa,Flats,,,,1,,,,,204000
+False,Dhalia,P000237842,Qawra,Gr Floor Maisonette,,,,2,,,,,295000
+False,Dhalia,P000237841,Gozo Ix-Xewkija,Farmhouse,,,,4,,,,,358000
+False,Dhalia,P000237840,Gozo Ix-Xewkija,Farmhouse,,,,4,,,,,298000
+False,Dhalia,P000237837,Safi,Penthouse,,,,3,,,,,345000
+False,Dhalia,P000237835,Zejtun,1st Floor Maisonette,,,,3,,,,,339000
+False,Dhalia,P000237834,Msida,Flats,,,,2,,,,,190000
+False,Dhalia,P000237832,Gozo L-Gharb,Penthouse,,,,2,,,,,300000
+False,Dhalia,P000237831,San Gwann,Penthouse,,,,3,,,,,689000
+False,Dhalia,P000237829,Cospicua,Townhouse,,,,3,,,,,350000
+False,Dhalia,P000237827,Gozo Ir-Rabat,House of Character,,,,3,,,,,380000
+False,Dhalia,P000237825,Santa Venera,Flats,,,,1,,,,,225000
+False,Dhalia,P000237823,Santa Venera,Flats,,,,2,,,,,255000
+False,Dhalia,P000237821,Santa Venera,Flats,,,,2,,,,,255000
+False,Dhalia,P000237819,Santa Venera,Flats,,,,2,,,,,230000
+False,Dhalia,P000237817,Santa Venera,Flats,,,,2,,,,,230000
+False,Dhalia,P000237815,Santa Venera,Flats,,,,2,,,,,230000
+False,Dhalia,P000237813,Mosta,Flats,,,,3,,,,,350000
+False,Dhalia,P000237811,Santa Venera,Flats,,,,2,,,,,225000
+False,Dhalia,P000237810,Santa Venera,Flats,,,,2,,,,,225000
+False,Dhalia,P000237807,Santa Venera,Flats,,,,3,,,,,210000
+False,Dhalia,P000237805,Santa Venera,Flats,,,,2,,,,,225000
+False,Dhalia,P000237803,Santa Venera,Flats,,,,2,,,,,225000
+False,Dhalia,P000237800,Santa Venera,Flats,,,,3,,,,,210000
+False,Dhalia,P000237798,Sliema,Flats,,,,2,,,,,1050000
+False,Dhalia,P000237797,Santa Venera,Flats,,,,2,,,,,245000
+False,Dhalia,P000237795,Santa Venera,Flats,,,,2,,,,,245000
+False,Dhalia,P000237794,Santa Venera,Flats,,,,2,,,,,210000
+False,Dhalia,P000237790,San Gwann,Penthouse,,,,3,,,,,480000
+False,Dhalia,P000237787,San Gwann,Flats,,,,3,,,,,375000
+False,Dhalia,P000237786,San Gwann,Flats,,,,3,,,,,365000
+False,Dhalia,P000237784,San Gwann,Flats,,,,3,,,,,355000
+False,Dhalia,P000237783,Zabbar,Penthouse,,,,2,,,,,215000
+False,Dhalia,P000237780,Zabbar,Flats,,,,2,,,,,215000
+False,Dhalia,P000237778,Zabbar,Flats,,,,2,,,,,215000
+False,Dhalia,P000237777,Santa Venera,Duplex Penthouse,,,,2,,,,,360000
+False,Dhalia,P000237776,Birkirkara,1st Floor Maisonette,,,,2,,,,,498000
+False,Dhalia,P000237775,Floriana,Block of Flats,,,,8,,,,,1165000
+False,Dhalia,P000237773,Rabat,Plot,,,,,,,,,350000
+False,Dhalia,P000237772,Qawra,Penthouse,,,,1,,,,,205000
+False,Dhalia,P000237768,Qawra,Flats,,,,2,,,,,245000
+False,Dhalia,P000237762,Qawra,Flats,,,,2,,,,,247000
+False,Dhalia,P000237758,Qawra,Flats,,,,2,,,,,236000
+False,Dhalia,P000237755,Qawra,Flats,,,,2,,,,,225000
+False,Dhalia,P000237749,Qawra,Flats,,,,2,,,,,227000
+False,Dhalia,P000237743,Qawra,Flats,,,,2,,,,,225000
+False,Dhalia,P000237740,Qawra,Flats,,,,2,,,,,200000
+False,Dhalia,P000237738,Mellieha,Detached Villa,,,,9,,,,,3720000
+False,Dhalia,P000237735,Valletta,Penthouse,,,,2,,,,,1800000
+False,Dhalia,P000237734,Mellieha,Penthouse,,,,3,,,,,1060000
+False,Dhalia,P000237733,Hamrun,Flats,,,,2,,,,,180000
+False,Dhalia,P000237732,Hamrun,Townhouse,,,,4,,,,,424000
+False,Dhalia,P000237729,St Julians,Flats,,,,2,,,,,350000
+False,Dhalia,P000237728,Naxxar,Gr Floor Maisonette,,,,4,,,,,625000
+False,Dhalia,P000237724,Zurrieq,Flats,,,,2,,,,,255000
+False,Dhalia,P000237723,Zurrieq,Flats,,,,2,,,,,250000
+False,Dhalia,P000237722,Zurrieq,Penthouse,,,,2,,,,,297000
+False,Dhalia,P000237721,Zurrieq,Flats,,,,2,,,,,245000
+False,Dhalia,P000237720,Balzan,House of Character,,,,2,,,,,399000
+False,Dhalia,P000237719,Qrendi,Maisonette,,,,3,,,,,330000
+False,Dhalia,P000237718,Zejtun,Flats,,,,2,,,,,185000
+False,Dhalia,P000237717,Zurrieq,House of Character,,,,3,,,,,730000
+False,Dhalia,P000237713,Zabbar,Terraced House,,,,3,,,,,570000
+False,Dhalia,P000237712,Zebbug,Townhouse,,,,3,,,,,361000
+False,Dhalia,P000237708,Gozo Ghajnsielem,Flats,,,,3,,,,,148500
+False,Dhalia,P000237707,Gozo Ghajnsielem,Maisonette,,,,2,,,,,244500
+False,Dhalia,P000237703,Mellieha,Detached Villa,,,,6,,,,,1860000
+False,Dhalia,P000237701,Gozo Ghajnsielem,Flats,,,,3,,,,,215000
+False,Dhalia,P000237700,Gozo Xaghra,Maisonette,,,,3,,,,,160000
+False,Dhalia,P000237699,Hamrun,Maisonette,,,,3,,,,,265000
+False,Dhalia,P000237697,Gozo Kercem,Maisonette,,,,2,,,,,245000
+False,Dhalia,P000237696,Tarxien,Flats,,,,3,,,,,220000
+False,Dhalia,P000237692,Gozo Xaghra,Flats,,,,3,,,,,280000
+False,Dhalia,P000237690,Sliema,Townhouse,,,,5,,,,,850000
+False,Dhalia,P000237689,Luqa,Townhouse,,,,2,,,,,335000
+False,Dhalia,P000237688,Marsascala,Flats,,,,3,,,,,265000
+False,Dhalia,P000237687,Qrendi,Penthouse,,,,2,,,,,309000
+False,Dhalia,P000237686,Pieta,Garage,,,,,,,,,32500
+False,Dhalia,P000237684,Msida,Flats,,,,4,,,,,584000
+False,Dhalia,P000237683,Pieta,Flats,,,,1,,,,,165000
+False,Dhalia,P000237682,Fgura,Flats,,,,2,,,,,194000
+False,Dhalia,P000237681,Balzan,Garage,,,,,,,,,37000
+False,Dhalia,P000237680,Balzan,Garage,,,,,,,,,37000
+False,Dhalia,P000237679,Balzan,Garage,,,,,,,,,37000
+False,Dhalia,P000237678,Balzan,Garage,,,,,,,,,36000
+False,Dhalia,P000237677,Balzan,Garage,,,,,,,,,40000
+False,Dhalia,P000237676,Balzan,Garage,,,,,,,,,35000
+False,Dhalia,P000237675,Balzan,Garage,,,,,,,,,35000
+False,Dhalia,P000237674,Balzan,Garage,,,,,,,,,34000
+False,Dhalia,P000237673,Balzan,Garage,,,,,,,,,34000
+False,Dhalia,P000237672,Balzan,Garage,,,,,,,,,34000
+False,Dhalia,P000237660,Gudja,Penthouse,,,,3,,,,,583000
+False,Dhalia,P000237659,Gudja,Flats,,,,2,,,,,270000
+False,Dhalia,P000237657,Gudja,Flats,,,,1,,,,,235000
+False,Dhalia,P000237656,Gudja,Flats,,,,3,,,,,265000
+False,Dhalia,P000237655,Balzan,Flats,,,,3,,,,,220000
+False,Dhalia,P000237654,Gudja,Flats,,,,3,,,,,265000
+False,Dhalia,P000237653,Gudja,Flats,,,,3,,,,,242000
+False,Dhalia,P000237652,Gudja,Flats,,,,3,,,,,245000
+False,Dhalia,P000237651,Gudja,Maisonette,,,,2,,,,,235000
+False,Dhalia,P000237650,Gudja,Townhouse,,,,3,,,,,950000
+False,Dhalia,P000237649,Balzan,Flats,,,,1,,,,,204000
+False,Dhalia,P000237647,Gudja,Flats,,,,2,,,,,239500
+False,Dhalia,P000237646,Paola,Penthouse,,,,3,,,,,299250
+False,Dhalia,P000237645,Rabat,Penthouse,,,,3,,,,,605000
+False,Dhalia,P000237643,Rabat,Flats,,,,3,,,,,299500
+False,Dhalia,P000237642,Zurrieq,Townhouse,,,,3,,,,,1150000
+False,Dhalia,P000237641,Ghaxaq,Penthouse,,,,2,,,,,295000
+False,Dhalia,P000237640,Ghaxaq,Penthouse,,,,2,,,,,295000
+False,Dhalia,P000237639,Rabat,1st Floor Maisonette,,,,3,,,,,605000
+False,Dhalia,P000237636,Gozo Xlendi,Flats,,,,3,,,,,170000
+False,Dhalia,P000237634,Gozo Sannat,Penthouse,,,,3,,,,,442000
+False,Dhalia,P000237633,Gozo Sannat,Flats,,,,3,,,,,213000
+False,Dhalia,P000237631,Naxxar,Flats,,,,3,,,,,313000
+False,Dhalia,P000237628,Naxxar,Flats,,,,3,,,,,298000
+False,Dhalia,P000237626,Msida,Penthouse,,,,2,,,,,295000
+False,Dhalia,P000237625,Naxxar,Flats,,,,3,,,,,276000
+False,Dhalia,P000237624,San Gwann,Flats,,,,3,,,,,340000
+False,Dhalia,P000237620,Qormi,Penthouse,,,,1,,,,,201000
+False,Dhalia,P000237619,Qormi,Maisonette,,,,2,,,,,206500
+False,Dhalia,P000237616,Rabat,Townhouse,,,,3,,,,,590000
+False,Dhalia,P000237614,Sliema,Townhouse,,,,4,,,,,925000
+False,Dhalia,P000237613,Zabbar,Townhouse,,,,3,,,,,296500
+False,Dhalia,P000237612,Gozo Sannat,Flats,,,,2,,,,,154000
+False,Dhalia,P000237611,Gozo Sannat,Maisonette,,,,3,,,,,186000
+False,Dhalia,P000237609,Sliema,Flats,,,,4,,,,,450000
+False,Dhalia,P000237608,Paola,Maisonette,,,,1,,,,,150000
+False,Dhalia,P000237607,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237606,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237605,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237604,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237603,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237602,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237601,Paola,Flats,,,,1,,,,,150000
+False,Dhalia,P000237600,Bugibba,Penthouse,,,,2,,,,,265000
+False,Dhalia,P000237599,Gozo Il-Qala,Flats,,,,3,,,,,275000
+False,Dhalia,P000237598,Gozo Il-Qala,Flats,,,,3,,,,,270000
+False,Dhalia,P000237597,Mellieha,Penthouse,,,,3,,,,,550000
+False,Dhalia,P000237595,Zebbug,Farmhouse,,,,3,,,,,1700000
+False,Dhalia,P000237594,Swieqi,Garage,,,,,,,,,245000
+False,Dhalia,P000237592,Marsascala,Penthouse,,,,3,,,,,405000
+False,Dhalia,P000237591,Birzebbuga,Townhouse,,,,3,,,,,425000
+False,Dhalia,P000237590,Marsascala,Flats,,,,3,,,,,312500
+False,Dhalia,P000237589,Marsascala,Flats,,,,3,,,,,307000
+False,Dhalia,P000237588,Marsascala,Flats,,,,3,,,,,302000
+False,Dhalia,P000237586,Marsascala,Maisonette,,,,3,,,,,315000
+False,Dhalia,P000237584,Msida,Guest House - Hotel,,,,11,,,,,850000
+False,Dhalia,P000237583,Gharghur,Terraced House,,,,3,,,,,955000
+False,Dhalia,P000237582,Luqa,Townhouse,,,,1,,,,,230000
+False,Dhalia,P000237580,Luqa,Townhouse,,,,2,,,,,520000
+False,Dhalia,P000237579,Marsascala,Penthouse,,,,4,,,,,530000
+False,Dhalia,P000237573,Marsascala,Flats,,,,3,,,,,265000
+False,Dhalia,P000237571,Marsascala,Maisonette,,,,3,,,,,295000
+False,Dhalia,P000237570,Gharghur,Flats,,,,3,,,,,425000
+False,Dhalia,P000237568,Gzira,Flats,,,,2,,,,,245000
+False,Dhalia,P000237566,Gwardamangia,Townhouse,,,,4,,,,,1250000
+False,Dhalia,P000237565,Zebbug,House of Character,,,,3,,,,,2295000
+False,Dhalia,P000237564,Fgura,Garage,,,,,,,,,125000
+False,Dhalia,P000237561,Birkirkara,Garage,,,,,,,,,55000
+False,Dhalia,P000237560,Birkirkara,Garage,,,,,,,,,60000
+False,Dhalia,P000237559,Pieta,Flats,,,,2,,,,,241000
+False,Dhalia,P000237556,Gzira,Penthouse,,,,2,,,,,370000
+False,Dhalia,P000237555,Gzira,Flats,,,,3,,,,,354000
+False,Dhalia,P000237554,Naxxar,Maisonette,,,,2,,,,,350000
+False,Dhalia,P000237552,Gozo Il-Qala,Penthouse,,,,2,,,,,249000
+False,Dhalia,P000237551,Sliema,Flats,,,,3,,,,,1275000
+False,Dhalia,P000237550,Gozo Il-Qala,Flats,,,,2,,,,,154000
+False,Dhalia,P000237542,Birkirkara,Maisonette,,,,1,,,,,250000
+False,Dhalia,P000237540,Birkirkara,Commercial,,,,,,,,,895000
+False,Dhalia,P000237539,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,215000
+False,Dhalia,P000237538,Gozo Ix-Xewkija,Flats,,,,3,,,,,158000
+False,Dhalia,P000237537,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,235000
+False,Dhalia,P000237536,Gozo Ix-Xewkija,Flats,,,,2,,,,,139000
+False,Dhalia,P000237532,Gozo Ir-Rabat,Terraced House,,,,4,,,,,575000
+False,Dhalia,P000237530,Gozo Ir-Rabat,Terraced House,,,,6,,,,,760000
+False,Dhalia,P000237507,Xemxija,Semi-Detached Villa,,,,3,,,,,920000
+False,Dhalia,P000237506,Mosta,Semi-Detached Villa,,,,3,,,,,980000
+False,Dhalia,P000237505,Fgura,Flats,,,,3,,,,,245000
+False,Dhalia,P000237504,Fgura,Flats,,,,3,,,,,245000
+False,Dhalia,P000237503,Fgura,Flats,,,,3,,,,,240000
+False,Dhalia,P000237502,Mosta,Semi-Detached Villa,,,,3,,,,,980000
+False,Dhalia,P000237501,Fgura,Flats,,,,3,,,,,240000
+False,Dhalia,P000237500,Fgura,Flats,,,,3,,,,,235000
+False,Dhalia,P000237498,Cospicua,Townhouse,,,,3,,,,,595000
+False,Dhalia,P000237494,Fgura,Flats,,,,2,,,,,265000
+False,Dhalia,P000237493,Birzebbuga,1st Floor Maisonette,,,,3,,,,,370000
+False,Dhalia,P000237485,Marsascala,Garage,,,,,,,,,80000
+False,Dhalia,P000237476,Cospicua,Block of Flats,,,,4,,,,,990000
+False,Dhalia,P000237475,Madliena,Gr Floor Maisonette,,,,3,,,,,695000
+False,Dhalia,P000237474,Cospicua,Townhouse,,,,4,,,,,990000
+False,Dhalia,P000237473,Marsascala,Garage,,,,,,,,,117000
+False,Dhalia,P000237472,Paola,Terraced House,,,,4,,,,,475000
+False,Dhalia,P000237467,Senglea,Duplex Maisonette,,,,3,,,,,235000
+False,Dhalia,P000237463,Gzira,Flats,,,,2,,,,,249000
+False,Dhalia,P000237461,Gzira,Flats,,,,2,,,,,245000
+False,Dhalia,P000237458,Gzira,Flats,,,,2,,,,,229000
+False,Dhalia,P000237456,Gzira,Flats,,,,2,,,,,225000
+False,Dhalia,P000237454,Gzira,Flats,,,,2,,,,,219000
+False,Dhalia,P000237451,Gzira,Flats,,,,2,,,,,259000
+False,Dhalia,P000237447,Gzira,Flats,,,,2,,,,,249000
+False,Dhalia,P000237443,Gzira,Flats,,,,2,,,,,215000
+False,Dhalia,P000237442,Gzira,Maisonette,,,,2,,,,,269000
+False,Dhalia,P000237440,Gzira,Maisonette,,,,2,,,,,249000
+False,Dhalia,P000237439,Mellieha,Gr Floor Maisonette,,,,2,,,,,285000
+False,Dhalia,P000237438,Gudja,Flats,,,,3,,,,,235000
+False,Dhalia,P000237437,Qormi,House of Character,,,,2,,,,,265000
+False,Dhalia,P000237436,Zebbug,House of Character,,,,3,,,,,980000
+False,Dhalia,P000237433,Luqa,Townhouse,,,,4,,,,,408000
+False,Dhalia,P000237431,Birkirkara,Flats,,,,2,,,,,240000
+False,Dhalia,P000237430,Mosta,Townhouse,,,,2,,,,,615000
+False,Dhalia,P000237428,Rabat,Palazzo,,,,5,,,,,2400000
+False,Dhalia,P000237425,Vittoriosa,Townhouse,,,,2,,,,,320000
+False,Dhalia,P000237423,Mosta,Penthouse,,,,1,,,,,595000
+False,Dhalia,P000237422,Hamrun,Flats,,,,4,,,,,239000
+False,Dhalia,P000237421,Hamrun,Flats,,,,4,,,,,228000
+False,Dhalia,P000237418,Mosta,Flats,,,,3,,,,,297000
+False,Dhalia,P000237416,Marsascala,Flats,,,,3,,,,,530000
+False,Dhalia,P000237414,Mosta,Gr Floor Maisonette,,,,2,,,,,360000
+False,Dhalia,P000237413,Swieqi,Flats,,,,3,,,,,340000
+False,Dhalia,P000237412,Birkirkara,House of Character,,,,3,,,,,499000
+False,Dhalia,P000237411,Marsascala,Flats,,,,3,,,,,355000
+False,Dhalia,P000237410,Marsascala,Flats,,,,3,,,,,355000
+False,Dhalia,P000237407,Ghaxaq,Terraced House,,,,3,,,,,660000
+False,Dhalia,P000237405,Zebbug,Terraced House,,,,3,,,,,650000
+False,Dhalia,P000237404,Zurrieq,Flats,,,,2,,,,,225000
+False,Dhalia,P000237402,Pieta,Flats,,,,3,,,,,290000
+False,Dhalia,P000237401,Mellieha,Penthouse,,,,2,,,,,385000
+False,Dhalia,P000237400,Zebbug,House of Character,,,,3,,,,,550000
+False,Dhalia,P000237398,Birkirkara,Townhouse,,,,3,,,,,349000
+False,Dhalia,P000237397,Gozo Marsalforn,Flats,,,,3,,,,,180000
+False,Dhalia,P000237395,Gozo Marsalforn,Flats,,,,3,,,,,180000
+False,Dhalia,P000237394,Qormi,Penthouse,,,,3,,,,,285000
+False,Dhalia,P000237393,Qormi,Flats,,,,3,,,,,239000
+False,Dhalia,P000237392,Qormi,Flats,,,,3,,,,,235000
+False,Dhalia,P000237391,Qormi,Flats,,,,3,,,,,228000
+False,Dhalia,P000237390,Zabbar,House of Character,,,,3,,,,,478000
+False,Dhalia,P000237373,Kalkara,Townhouse,,,,,,,,,1600000
+False,Dhalia,P000237372,Marsascala,Duplex Apartment,,,,3,,,,,405000
+False,Dhalia,P000237371,Marsascala,Flats,,,,2,,,,,205000
+False,Dhalia,P000237370,Marsascala,Flats,,,,2,,,,,205000
+False,Dhalia,P000237368,Birkirkara,Flats,,,,3,,,,,275000
+False,Dhalia,P000237365,St Julians,Duplex Maisonette,,,,2,,,,,297000
+False,Dhalia,P000237363,Fgura,Flats,,,,3,,,,,244000
+False,Dhalia,P000237360,St Julians,Flats,,,,3,,,,,700000
+False,Dhalia,P000237358,Fgura,Flats,,,,3,,,,,230000
+False,Dhalia,P000237353,Gozo Il-Qala,Maisonette,,,,1,,,,,135000
+False,Dhalia,P000237352,Siggiewi,House of Character,,,,3,,,,,795000
+False,Dhalia,P000237351,Gozo Il-Qala,Flats,,,,2,,,,,180000
+False,Dhalia,P000237350,Qormi,Flats,,,,3,,,,,265000
+False,Dhalia,P000237349,Vittoriosa,Guest House - Hotel,,,,6,,,,,2338600
+False,Dhalia,P000237348,Marsascala,Flats,,,,3,,,,,300000
+False,Dhalia,P000237347,Marsascala,Flats,,,,3,,,,,295000
+False,Dhalia,P000237346,Marsascala,Flats,,,,3,,,,,290000
+False,Dhalia,P000237345,Marsascala,Flats,,,,3,,,,,280000
+False,Dhalia,P000237343,Marsascala,Flats,,,,3,,,,,300000
+False,Dhalia,P000237341,Marsascala,Flats,,,,3,,,,,290000
+False,Dhalia,P000237340,Marsascala,Flats,,,,3,,,,,280000
+False,Dhalia,P000237339,Siggiewi,Flats,,,,3,,,,,228000
+False,Dhalia,P000237338,Gozo Xaghra,Flats,,,,2,,,,,187000
+False,Dhalia,P000237337,Gozo Xaghra,Flats,,,,2,,,,,157000
+False,Dhalia,P000237336,San Gwann,Penthouse,,,,2,,,,,265000
+False,Dhalia,P000237335,Gozo Xaghra,Flats,,,,1,,,,,124000
+False,Dhalia,P000237334,Lija,Semi-Detached Villa,,,,3,,,,,1490000
+False,Dhalia,P000237333,Hamrun,Townhouse,,,,2,,,,,297000
+False,Dhalia,P000237331,Gozo Ix-Xewkija,Townhouse,,,,3,,,,,425000
+False,Dhalia,P000237330,Birzebbuga,Penthouse,,,,2,,,,,412000
+False,Dhalia,P000237329,Birzebbuga,Penthouse,,,,2,,,,,337000
+False,Dhalia,P000237328,Qormi,House of Character,,,,4,,,,,435000
+False,Dhalia,P000237325,Gozo Sannat,Flats,,,,2,,,,,280000
+False,Dhalia,P000237321,Birzebbuga,Flats,,,,3,,,,,287000
+False,Dhalia,P000237317,Birzebbuga,Flats,,,,3,,,,,282000
+False,Dhalia,P000237316,Birzebbuga,Flats,,,,3,,,,,277000
+False,Dhalia,P000237314,Gozo Ir-Rabat,Flats,,,,2,,,,,166000
+False,Dhalia,P000237312,Gozo Ir-Rabat,Flats,,,,3,,,,,188000
+False,Dhalia,P000237311,Gozo Ir-Rabat,Flats,,,,3,,,,,213000
+False,Dhalia,P000237309,Gozo Ir-Rabat,Flats,,,,2,,,,,161000
+False,Dhalia,P000237308,Birzebbuga,Flats,,,,3,,,,,277000
+False,Dhalia,P000237307,Qormi,Flats,,,,2,,,,,192000
+False,Dhalia,P000237306,Qormi,Flats,,,,2,,,,,192000
+False,Dhalia,P000237305,Gozo Ir-Rabat,Flats,,,,2,,,,,166000
+False,Dhalia,P000237304,Birzebbuga,Flats,,,,3,,,,,267000
+False,Dhalia,P000237302,Birzebbuga,Flats,,,,2,,,,,237000
+False,Dhalia,P000237299,Cospicua,Townhouse,,,,2,,,,,375000
+False,Dhalia,P000237298,Gozo Ir-Rabat,Flats,,,,2,,,,,164000
+False,Dhalia,P000237297,Birzebbuga,Maisonette,,,,2,,,,,247000
+False,Dhalia,P000237290,Zebbug,Townhouse,,,,4,,,,,795000
+False,Dhalia,P000237281,Qormi,House of Character,,,,3,,,,,455000
+False,Dhalia,P000237280,Qormi,House of Character,,,,4,,,,,655000
+False,Dhalia,P000237275,Gozo Ix-Xewkija,Penthouse,,,,3,,,,,388000
+False,Dhalia,P000237273,Qormi,Penthouse,,,,3,,,,,455000
+False,Dhalia,P000237272,Qormi,Flats,,,,3,,,,,255000
+False,Dhalia,P000237269,Qormi,Flats,,,,3,,,,,245000
+False,Dhalia,P000237264,Qormi,Flats,,,,3,,,,,205000
+False,Dhalia,P000237263,Gozo Ix-Xewkija,Flats,,,,3,,,,,268000
+False,Dhalia,P000237261,Qormi,Maisonette,,,,3,,,,,285000
+False,Dhalia,P000237260,Gozo Ix-Xewkija,Maisonette,,,,3,,,,,278000
+False,Dhalia,P000237258,Gozo Ix-Xewkija,Townhouse,,,,10,,,,,1700000
+False,Dhalia,P000237257,Qormi,Garage,,,,,,,,,43000
+False,Dhalia,P000237256,St Paul's Bay,Flats,,,,2,,,,,495000
+False,Dhalia,P000237255,Qormi,Penthouse,,,,3,,,,,350000
+False,Dhalia,P000237254,St Paul's Bay,Flats,,,,2,,,,,485000
+False,Dhalia,P000237252,Gozo Ix-Xewkija,Penthouse,,,,2,,,,,313000
+False,Dhalia,P000237251,Qormi,Flats,,,,3,,,,,328000
+False,Dhalia,P000237250,Zebbug,Townhouse,,,,3,,,,,635000
+False,Dhalia,P000237249,Gozo Ix-Xewkija,Flats,,,,3,,,,,263000
+False,Dhalia,P000237248,Qormi,Flats,,,,3,,,,,313000
+False,Dhalia,P000237247,Gozo Ix-Xewkija,Flats,,,,2,,,,,248000
+False,Dhalia,P000237246,Attard,Terraced House,,,,3,,,,,750000
+False,Dhalia,P000237245,Gozo Ix-Xewkija,Flats,,,,2,,,,,228000
+False,Dhalia,P000237244,Qormi,House of Character,,,,3,,,,,445000
+False,Dhalia,P000237243,Attard,Terraced House,,,,3,,,,,750000
+False,Dhalia,P000237242,Hamrun,Townhouse,,,,3,,,,,265000
+False,Dhalia,P000237241,Sliema,Penthouse,,,,3,,,,,700000
+False,Dhalia,P000237240,Gozo Sannat,Flats,,,,2,,,,,255000
+False,Dhalia,P000237239,Sliema,Flats,,,,3,,,,,1000000
+False,Dhalia,P000237237,Fgura,Penthouse,,,,3,,,,,285000
+False,Dhalia,P000237236,Fgura,Penthouse,,,,3,,,,,285000
+False,Dhalia,P000237235,Gozo Marsalforn,Flats,,,,2,,,,,180000
+False,Dhalia,P000237233,Fgura,Flats,,,,3,,,,,244000
+False,Dhalia,P000237231,Fgura,Flats,,,,3,,,,,233000
+False,Dhalia,P000237229,Fgura,Flats,,,,3,,,,,223000
+False,Dhalia,P000237227,Fgura,Maisonette,,,,3,,,,,260000
+False,Dhalia,P000237225,Zejtun,2nd Floor maisonette,,,,3,,,,,381000
+False,Dhalia,P000237221,Sliema,Flats,,,,2,,,,,850000
+False,Dhalia,P000237217,Gharghur,Maisonette,,,,2,,,,,320000
+False,Dhalia,P000237216,Marsascala,Penthouse,,,,3,,,,,430000
+False,Dhalia,P000237214,Bahrija,Flats,,,,3,,,,,285000
+False,Dhalia,P000237212,Sliema,Flats,,,,3,,,,,785000
+False,Dhalia,P000237211,Qormi,Shop,,,,,,,,,400000
+False,Dhalia,P000237210,Mellieha,Gr Floor Maisonette,,,,3,,,,,295000
+False,Dhalia,P000237206,Gozo Ghajnsielem,Penthouse,,,,3,,,,,180000
+False,Dhalia,P000237200,Siggiewi,House of Character,,,,3,,,,,650000
+False,Dhalia,P000237196,Vittoriosa,Palazzo,,,,4,,,,,1271000
+False,Dhalia,P000237193,Ghaxaq,Flats,,,,2,,,,,244000
+False,Dhalia,P000237192,Ghaxaq,Flats,,,,2,,,,,228000
+False,Dhalia,P000237191,Ghaxaq,Maisonette,,,,2,,,,,239000
+False,Dhalia,P000237185,Gozo Sannat,House of Character,,,,6,,,,,730000
+False,Dhalia,P000237183,Gozo Sannat,House of Character,,,,6,,,,,720000
+False,Dhalia,P000237182,Gozo Sannat,House of Character,,,,6,,,,,760000
+False,Dhalia,P000237181,Marsascala,Penthouse,,,,2,,,,,325000
+False,Dhalia,P000237179,Paola,Penthouse,,,,2,,,,,190000
+False,Dhalia,P000237178,Paola,Penthouse,,,,2,,,,,180000
+False,Dhalia,P000237169,Rabat,Flats,,,,3,,,,,385000
+False,Dhalia,P000237167,Gharghur,Flats,,,,3,,,,,425000
+False,Dhalia,P000237165,Gharghur,Maisonette,,,,2,,,,,345000
+False,Dhalia,P000237164,Birkirkara,Garage,,,,1,,,,,233000
+False,Dhalia,P000237163,Birkirkara,Flats,,,,1,,,,,244000
+False,Dhalia,P000237162,St Julians,Garage,,,,,,,,,35000
+False,Dhalia,P000237159,Birkirkara,Flats,,,,2,,,,,233000
+False,Dhalia,P000237158,Pieta,Garage,,,,,,,,,185000
+False,Dhalia,P000237157,Birzebbuga,Townhouse,,,,1,,,,,795000
+False,Dhalia,P000237156,Mosta,Flats,,,,3,,,,,265000
+False,Dhalia,P000237155,Mosta,Flats,,,,3,,,,,265000
+False,Dhalia,P000237153,Mosta,Flats,,,,3,,,,,265000
+False,Dhalia,P000237151,Mosta,Flats,,,,3,,,,,265000
+False,Dhalia,P000237150,Ta'L-ibrag,Gr Floor Maisonette,,,,3,,,,,388000
+False,Dhalia,P000237147,Birzebbuga,Penthouse,,,,2,,,,,320000
+False,Dhalia,P000237144,Birzebbuga,Flats,,,,2,,,,,275000
+False,Dhalia,P000237143,Mellieha,Flats,,,,1,,,,,305000
+False,Dhalia,P000237138,Sliema,Townhouse,,,,4,,,,,784000
+False,Dhalia,P000237134,Lija,Maisonette,,,,3,,,,,340000
+False,Dhalia,P000237132,L-Iklin,Detached Bungalow,,,,5,,,,,2500000
+False,Dhalia,P000237130,Birzebbuga,Flats,,,,2,,,,,180000
+False,Dhalia,P000237125,Birzebbuga,Flats,,,,2,,,,,200000
+False,Dhalia,P000237123,Birzebbuga,Maisonette,,,,3,,,,,240000
+False,Dhalia,P000237122,Qawra,Flats,,,,3,,,,,320000
+False,Dhalia,P000237120,Sliema,Flats,,,,1,,,,,255000
+False,Dhalia,P000237118,Lija,House of Character,,,,4,,,,,3000000
+False,Dhalia,P000237116,Mellieha,Garage,,,,,,,,,85000
+False,Dhalia,P000237115,Mellieha,Garage,,,,,,,,,45000
+False,Dhalia,P000237114,Mellieha,Penthouse,,,,2,,,,,630000
+False,Dhalia,P000237113,Mellieha,Flats,,,,3,,,,,477000
+False,Dhalia,P000237112,Mellieha,Flats,,,,3,,,,,477000
+False,Dhalia,P000237111,Mellieha,Flats,,,,3,,,,,371000
+False,Dhalia,P000237110,Mellieha,Maisonette,,,,3,,,,,371000
+False,Dhalia,P000237109,Fgura,Penthouse,,,,2,,,,,236000
+False,Dhalia,P000237108,Marsascala,Gr Floor Maisonette,,,,2,,,,,245000
+False,Dhalia,P000237107,Siggiewi,Townhouse,,,,3,,,,,424000
+False,Dhalia,P000237100,St Paul's Bay,Flats,,,,2,,,,,179000
+False,Dhalia,P000237085,Kirkop,Flats,,,,2,,,,,286000
+False,Dhalia,P000237083,Gzira,Flats,,,,2,,,,,325000
+False,Dhalia,P000237068,Rabat,House of Character,,,,3,,,,,952000
+False,Dhalia,P000237067,Qormi,Penthouse,,,,3,,,,,397000
+False,Dhalia,P000237066,Siggiewi,Maisonette,,,,3,,,,,450000
+False,Dhalia,P000237063,Qormi,Penthouse,,,,3,,,,,285000
+False,Dhalia,P000237062,Qormi,Flats,,,,3,,,,,239000
+False,Dhalia,P000237061,Qormi,Flats,,,,3,,,,,235000
+False,Dhalia,P000237060,Qormi,Flats,,,,3,,,,,228000
+False,Dhalia,P000237055,Gudja,Townhouse,,,,3,,,,,556000
+False,Dhalia,P000237052,Fgura,Flats,,,,3,,,,,200000
+False,Dhalia,P000237051,Fgura,Flats,,,,3,,,,,200000
+False,Dhalia,P000237050,Fgura,Flats,,,,3,,,,,200000
+False,Dhalia,P000237046,Gharghur,Townhouse,,,,3,,,,,519000
+False,Dhalia,P000237040,Gozo Marsalforn,Flats,,,,2,,,,,150000
+False,Dhalia,P000237038,Zabbar,Duplex Maisonette,,,,3,,,,,245000
+False,Dhalia,P000237035,Santa Venera,Office,,,,,,,,,2200000
+False,Dhalia,P000237027,Qormi,Flats,,,,3,,,,,250000
+False,Dhalia,P000237026,Marsascala,Penthouse,,,,2,,,,,299500
+False,Dhalia,P000237025,Mosta,Garage,,,,,,,,,35000
+False,Dhalia,P000237023,Mosta,Penthouse,,,,2,,,,,415000
+False,Dhalia,P000237021,Mosta,Flats,,,,3,,,,,308000
+False,Dhalia,P000237018,Mosta,Flats,,,,3,,,,,288000
+False,Dhalia,P000237017,Mosta,Gr Floor Maisonette,,,,3,,,,,340000
+False,Dhalia,P000237013,Mosta,Flats,,,,3,,,,,318000
+False,Dhalia,P000237011,Mosta,Flats,,,,3,,,,,308000
+False,Dhalia,P000237008,Mosta,Flats,,,,3,,,,,298000
+False,Dhalia,P000237006,Mosta,Flats,,,,3,,,,,325000
+False,Dhalia,P000237001,Attard,Flats,,,,3,,,,,250000
+False,Dhalia,P000237000,Birkirkara,Townhouse,,,,4,,,,,850000
+False,Dhalia,P000236999,Attard,1st Floor Maisonette,,,,3,,,,,350000
+False,Dhalia,P000236998,Marsascala,Maisonette,,,,3,,,,,235000
+False,Dhalia,P000236997,Marsaxlokk,Penthouse,,,,2,,,,,380000
+False,Dhalia,P000236995,Marsaxlokk,Flats,,,,2,,,,,225000
+False,Dhalia,P000236994,Marsaxlokk,Flats,,,,2,,,,,225000
+False,Dhalia,P000236993,Marsaxlokk,Flats,,,,2,,,,,225000
+False,Dhalia,P000236992,Sliema,Penthouse,,,,2,,,,,690000
+False,Dhalia,P000236990,Marsaxlokk,Flats,,,,2,,,,,220000
+False,Dhalia,P000236987,Naxxar,Gr Floor Maisonette,,,,2,,,,,290000
+False,Dhalia,P000236985,Marsascala,Flats,,,,3,,,,,300000
+False,Dhalia,P000236984,Valletta,Flats,,,,2,,,,,450000
+False,Dhalia,P000236980,Zabbar,Townhouse,,,,3,,,,,330000
+False,Dhalia,P000236977,Birkirkara,Duplex Apartment,,,,3,,,,,298000
+False,Dhalia,P000236972,Zebbiegh,Terraced House,,,,3,,,,,585000
+False,Dhalia,P000236969,Gozo Fontana,Penthouse,,,,2,,,,,188000
+False,Dhalia,P000236968,Gozo Fontana,Flats,,,,3,,,,,171000
+False,Dhalia,P000236967,Gozo Fontana,Flats,,,,2,,,,,148000
+False,Dhalia,P000236966,Msida,Penthouse,,,,2,,,,,314000
+False,Dhalia,P000236960,Sliema,Flats,,,,3,,,,,530000
+False,Dhalia,P000236955,Zurrieq,Penthouse,,,,3,,,,,385000
+False,Dhalia,P000236953,Zurrieq,Maisonette,,,,2,,,,,275000
+False,Dhalia,P000236948,Senglea,Palazzo,,,,4,,,,,465000
+False,Dhalia,P000236946,Sliema,Townhouse,,,,3,,,,,1500000
+False,Dhalia,P000236944,Msida,Flats,,,,3,,,,,259000
+False,Dhalia,P000236939,Gozo Ghajnsielem,Flats,,,,3,,,,,795000
+False,Dhalia,P000236938,Balzan,House of Character,,,,4,,,,,1200000
+False,Dhalia,P000236935,Cospicua,Flats,,,,2,,,,,213000
+False,Dhalia,P000236923,Siggiewi,Flats,,,,3,,,,,485000
+False,Dhalia,P000236922,Gozo Marsalforn,Flats,,,,2,,,,,231000
+False,Dhalia,P000236921,Qormi,House of Character,,,,3,,,,,742000
+False,Dhalia,P000236920,Gozo Marsalforn,Flats,,,,2,,,,,208000
+False,Dhalia,P000236919,Gozo Marsalforn,Flats,,,,3,,,,,275000
+False,Dhalia,P000236918,Gozo Marsalforn,Flats,,,,1,,,,,183000
+False,Dhalia,P000236917,Sliema,Townhouse,,,,3,,,,,1250000
+False,Dhalia,P000236915,Swieqi,Gr Floor Maisonette,,,,3,,,,,543000
+False,Dhalia,P000236914,Gozo Sannat,Penthouse,,,,2,,,,,155000
+False,Dhalia,P000236913,Gozo Sannat,Flats,,,,2,,,,,125000
+False,Dhalia,P000236912,St Paul's Bay,Penthouse,,,,3,,,,,455000
+False,Dhalia,P000236911,Gozo Sannat,Flats,,,,2,,,,,120000
+False,Dhalia,P000236910,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,178000
+False,Dhalia,P000236909,L-Iklin,Flats,,,,2,,,,,250000
+False,Dhalia,P000236908,Zurrieq,Flats,,,,1,,,,,170000
+False,Dhalia,P000236907,Zurrieq,Flats,,,,3,,,,,340000
+False,Dhalia,P000236906,Valletta,House of Character,,,,6,,,,,1800000
+False,Dhalia,P000236903,Gozo Sannat,Penthouse,,,,2,,,,,160000
+False,Dhalia,P000236902,Gozo Sannat,Flats,,,,3,,,,,140000
+False,Dhalia,P000236901,Gozo Sannat,Flats,,,,3,,,,,130000
+False,Dhalia,P000236900,St Julians,Penthouse,,,,1,,,,,432000
+False,Dhalia,P000236899,St Julians,Flats,,,,2,,,,,316000
+False,Dhalia,P000236896,Gozo Sannat,Gr Floor Maisonette,,,,3,,,,,138000
+False,Dhalia,P000236894,St Julians,Flats,,,,2,,,,,313000
+False,Dhalia,P000236890,St Julians,Flats,,,,2,,,,,310000
+False,Dhalia,P000236886,St Julians,Flats,,,,2,,,,,307000
+False,Dhalia,P000236882,St Julians,Flats,,,,2,,,,,304000
+False,Dhalia,P000236878,St Julians,Maisonette,,,,2,,,,,337000
+False,Dhalia,P000236875,St Julians,Garage,,,,,,,,,35500
+False,Dhalia,P000236872,St Julians,Garage,,,,,,,,,71500
+False,Dhalia,P000236868,St Julians,Block of Flats,,,,2,,,,,313000
+False,Dhalia,P000236865,Rabat,Detached Bungalow,,,,4,,,,,3150000
+False,Dhalia,P000236864,Pieta,Flats,,,,2,,,,,204000
+False,Dhalia,P000236863,Qormi,Penthouse,,,,3,,,,,255000
+False,Dhalia,P000236862,Qormi,Flats,,,,3,,,,,202000
+False,Dhalia,P000236861,Qormi,Maisonette,,,,2,,,,,255000
+False,Dhalia,P000236857,Marsascala,Penthouse,,,,3,,,,,350000
+False,Dhalia,P000236853,Marsascala,Flats,,,,2,,,,,280000
+False,Dhalia,P000236852,Marsascala,Flats,,,,2,,,,,280000
+False,Dhalia,P000236840,Marsascala,Flats,,,,2,,,,,265000
+False,Dhalia,P000236839,Marsascala,Flats,,,,2,,,,,265000
+False,Dhalia,P000236835,Marsascala,Flats,,,,2,,,,,265000
+False,Dhalia,P000236829,Marsascala,Flats,,,,2,,,,,275000
+False,Dhalia,P000236827,Marsascala,Flats,,,,2,,,,,275000
+False,Dhalia,P000236825,Marsascala,Flats,,,,2,,,,,275000
+False,Dhalia,P000236821,Gozo L-Gharb,Penthouse,,,,2,,,,,180000
+False,Dhalia,P000236820,Zejtun,Townhouse,,,,3,,,,,585000
+False,Dhalia,P000236812,Gozo L-Gharb,Flats,,,,3,,,,,153000
+False,Dhalia,P000236811,Marsascala,Site,,,,1,,,,,450000
+False,Dhalia,P000236809,Swieqi,Penthouse,,,,2,,,,,495000
+False,Dhalia,P000236808,Swieqi,Flats,,,,3,,,,,370000
+False,Dhalia,P000236807,Swieqi,Flats,,,,3,,,,,360000
+False,Dhalia,P000236806,Swieqi,Flats,,,,3,,,,,350000
+False,Dhalia,P000236805,Swieqi,Gr Floor Maisonette,,,,3,,,,,445000
+False,Dhalia,P000236804,Msida,Penthouse,,,,1,,,,,225000
+False,Dhalia,P000236803,Qormi,Townhouse,,,,3,,,,,365000
+False,Dhalia,P000236802,Sliema,Townhouse,,,,2,,,,,445000
+False,Dhalia,P000236800,Gozo L-Gharb,Maisonette,,,,2,,,,,149000
+False,Dhalia,P000236797,Pieta,Semi-Detached Villa,,,,3,,,,,590000
+False,Dhalia,P000236795,Gozo Ghajnsielem,Penthouse,,,,1,,,,,180000
+False,Dhalia,P000236793,The Village,Block of Flats,,,,7,,,,,1200000
