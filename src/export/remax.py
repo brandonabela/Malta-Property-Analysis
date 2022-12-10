@@ -3,7 +3,7 @@ import pandas as pd
 
 from tqdm import tqdm
 
-from helper.scrape import Scrape
+from helper.fetch import Fetch
 
 
 class Remax(object):
@@ -23,7 +23,7 @@ class Remax(object):
         while True:
             # Retrieve data based on dynamically built URL
             url = f'https://remax-malta.com/api/properties?Residential=True&Commercial=False&ForSale={is_sale}&ForRent={not is_sale}&page={page}&Take=250'
-            request = requests.get(url, headers=Scrape.header).json()
+            request = requests.get(url, headers=Fetch.header).json()
 
             # Break loop id data key not found
             if len(request['data']['Properties']) == 0:

@@ -5,18 +5,20 @@ from tqdm import tqdm
 
 from export.remax import Remax
 from export.dhalia import Dhalia
+from export.saragrech import SaraGrech
 from helper.mappings import Mappings
 
 
 if __name__ == "__main__":
     remax_path = "data/remax.csv"
     dhalia_path = "data/dhalia.csv"
+    saragrech_path = "data/saragrech.csv"
 
     # ===================================
     # Create Progress Bar
     # ===================================
 
-    pbar = tqdm(total=3)
+    pbar = tqdm(total=4)
 
     # ===================================
     # Fetching Remax Data
@@ -35,13 +37,22 @@ if __name__ == "__main__":
     pbar.update(1)
 
     # ===================================
+    # Fetching Sara Grech Data
+    # ===================================
+
+    saragrech = SaraGrech.fetch_all()
+    saragrech.to_csv(saragrech_path, index=False)
+    pbar.update(1)
+
+    # ===================================
     # Process a common Dataset
     # ===================================
 
     remax = pd.read_csv(remax_path)
     dhalia = pd.read_csv(dhalia_path)
+    saragrech = pd.read_csv(saragrech_path)
 
-    dataset = pd.concat([remax, dhalia])
+    dataset = pd.concat([remax, dhalia, saragrech])
     towns = Mappings.town_mapping()
     regions = Mappings.region_mapping()
 
@@ -60,12 +71,15 @@ if __name__ == "__main__":
 
     # Exclude invalid entries
     dataset = dataset[
-        dataset['Bedrooms'].notnull() &
+        pd.to_numeric(dataset['Bedrooms'], errors='coerce').notnull() &
+        pd.to_numeric(dataset['Bathrooms'], errors='coerce').notnull() &
         pd.to_numeric(dataset['Price'], errors='coerce').notnull()
     ]
 
+    dataset = dataset.dropna(subset=dataset.columns[:5])
+
     # Saving Dataset
-    dataset.to_csv("data/dataset.csv", index=False)
+    dataset.to_csv('data/dataset.csv', index=False)
     pbar.update(1)
 
     # ===================================

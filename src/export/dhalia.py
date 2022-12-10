@@ -3,12 +3,14 @@ import pandas as pd
 from tqdm import tqdm
 from selenium.webdriver.common.by import By
 
-from helper.scrape import Scrape
+from helper.fetch import Fetch
 
 
 class Dhalia(object):
     url_buy = 'https://www.dhalia.com/buy/?pageIndex='
     url_rent = 'https://www.dhalia.com/rent/?pageIndex='
+
+    source = 'Dhalia'
 
     columns = [
         'Reference', 'Town', 'Type',
@@ -23,13 +25,13 @@ class Dhalia(object):
         data = pd.DataFrame()
 
         url = Dhalia.url_buy if is_sale else Dhalia.url_rent
-        proxies = Scrape.load_proxies()
+        proxies = Fetch.load_proxies()
 
         page_type = 'buy' if is_sale else 'rent'
         page_element = f'//div[@class="searchForm searchForm--quick-search page-{page_type}"]'
 
         while True:
-            driver = Scrape.get_dynamic(f'{url}{page}', proxies, page_element)
+            driver = Fetch.get_dynamic(f'{url}{page}', proxies, page_element)
 
             x_cards = '//div[@class="ItemContent"]'
             cards = driver.find_elements(By.XPATH, x_cards)
@@ -70,6 +72,9 @@ class Dhalia(object):
                     total_sqm, int_area, ext_area, price
                 ])
 
+            # Print Current Page
+            print(f'Source {Dhalia.source} Type {page_type} Page {page:03d}')
+
             # Concatenate previous data frame with data of current page
             page_data = pd.DataFrame(listing, columns=Dhalia.columns)
             data = pd.concat([data, page_data])
@@ -77,14 +82,14 @@ class Dhalia(object):
 
             # Break loop if last page
             x_last_pager = '//li[@class="pager__last"]'
-            is_last_pager = Scrape.await_element(driver, x_last_pager, 3)
+            is_last_pager = Fetch.await_element(driver, x_last_pager, 3)
 
             if not is_last_pager:
                 break
 
         # Add source and rename columns
         data.insert(0, 'Is_Sale', is_sale)
-        data.insert(1, 'Source', 'Dhalia')
+        data.insert(1, 'Source', Dhalia.source)
 
         # Return the data
         return data

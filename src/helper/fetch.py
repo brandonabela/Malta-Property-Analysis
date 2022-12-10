@@ -2,7 +2,6 @@ import random
 import requests
 
 from bs4 import BeautifulSoup
-
 from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.webdriver import Chrome, ChromeOptions
@@ -11,13 +10,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.common.exceptions import WebDriverException
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
+from helper.dynamic_scrape import DynamicScrape
 
 
-class Scrape(object):
+class Fetch(object):
     h_session: requests.Session = requests.Session()
     j_driver: WebDriver = None
 
@@ -29,7 +25,7 @@ class Scrape(object):
     def load_proxies():
         url = 'https://sslproxies.org/'
 
-        response = requests.get(url, headers=Scrape.header)
+        response = requests.get(url, headers=Fetch.header)
         soup = BeautifulSoup(response.content, 'lxml')
 
         https_proxies = filter(lambda item: "yes" in item.text, soup.select("table.table tr"))
@@ -46,27 +42,18 @@ class Scrape(object):
         rand = random.randint(0, len(proxies) - 1)
         proxy = {'http': proxies[rand]}
 
-        page = Scrape.h_session.get(url, headers=Scrape.header, proxies=proxy)
+        page = Fetch.h_session.get(url, headers=Fetch.header, proxies=proxy)
         soup = BeautifulSoup(page.text.encode('utf-8').decode('ascii', 'ignore'), 'lxml')
 
         return soup
 
     @staticmethod
-    def await_element(driver: WebDriver, x_path: str, seconds: int = 10) -> bool:
-        if x_path:
-            try:
-                WebDriverWait(driver, seconds).until(EC.visibility_of_element_located((By.XPATH, x_path)))
-                return True
-            except TimeoutException:
-                return False
-
-    @staticmethod
     def get_dynamic(url: str, proxies, x_path_await_element):
         rand = random.randint(0, len(proxies) - 1)
 
-        if Scrape.j_driver is not None:
-            Scrape.j_driver.close()
-            Scrape.j_driver.quit()
+        if Fetch.j_driver is not None:
+            Fetch.j_driver.close()
+            Fetch.j_driver.quit()
 
         options = ChromeOptions()
         options.add_argument('--headless')
@@ -85,19 +72,19 @@ class Scrape(object):
             'noProxy': ''
         })
 
-        header = Scrape.header[list(Scrape.header.keys())[0]]
+        header = Fetch.header[list(Fetch.header.keys())[0]]
         options.add_argument(f'user-agent={header}')
 
         try:
             chrome_executable = Service(executable_path=ChromeDriverManager().install(), log_path='NUL')
-            Scrape.j_driver = Chrome(service=chrome_executable, options=options)
-            Scrape.j_driver.get(url)
+            Fetch.j_driver = Chrome(service=chrome_executable, options=options)
+            Fetch.j_driver.get(url)
 
-            valid = Scrape.await_element(Scrape.j_driver, x_path_await_element)
+            valid = DynamicScrape.await_element(Fetch.j_driver, x_path_await_element)
 
             if not valid:
                 return None
 
-            return Scrape.j_driver
+            return Fetch.j_driver
         except WebDriverException:
             return None
