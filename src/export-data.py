@@ -18,21 +18,21 @@ if __name__ == "__main__":
 
     pbar = tqdm(total=3)
 
-    # # ===================================
-    # # Fetching Remax Data
-    # # ===================================
+    # ===================================
+    # Fetching Remax Data
+    # ===================================
 
-    # # remax = Remax.fetch_all()
-    # # remax.to_csv(remax_path, index=False)
-    # # pbar.update(1)
+    remax = Remax.fetch_all()
+    remax.to_csv(remax_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetching Dhalia Data
-    # # ===================================
+    # ===================================
+    # Fetching Dhalia Data
+    # ===================================
 
-    # dhalia = Dhalia.fetch_all()
-    # dhalia.to_csv(dhalia_path, index=False)
-    # pbar.update(1)
+    dhalia = Dhalia.fetch_all()
+    dhalia.to_csv(dhalia_path, index=False)
+    pbar.update(1)
 
     # ===================================
     # Process a common Dataset
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     # Save Unmapped Towns
     unmapped_towns = dataset[dataset['Province'].isnull()]['Town'].value_counts()
-    unmapped_towns.to_csv('unmapped_towns.csv')
+    unmapped_towns.to_csv('data/unmapped_towns.csv')
 
     # Exclude invalid entries
     dataset = dataset[
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     ]
 
     # Saving Dataset
-    dataset.to_csv("dataset.csv", index=False)
+    dataset.to_csv("data/dataset.csv", index=False)
     pbar.update(1)
 
     # ===================================
