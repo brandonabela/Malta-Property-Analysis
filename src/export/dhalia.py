@@ -1,7 +1,7 @@
-import unicodedata
 import pandas as pd
 
 from tqdm import tqdm
+from selenium.webdriver.common.by import By
 
 from helper.scrape import Scrape
 
@@ -11,10 +11,10 @@ class Dhalia(object):
     url_rent = 'https://www.dhalia.com/rent/?pageIndex='
 
     columns = [
-        'Reference', 'Town', 'PropertyType',
+        'Reference', 'Town', 'Type',
         'Latitude', 'Longitude',
-        'TotalRooms', 'TotalBedrooms', 'TotalBathrooms',
-        'TotalSqm', 'TotalIntArea', 'TotalExtArea', 'Price'
+        'Rooms', 'Bedrooms', 'Bathrooms',
+        'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
 
     @staticmethod
@@ -25,40 +25,49 @@ class Dhalia(object):
         url = Dhalia.url_buy if is_sale else Dhalia.url_rent
         proxies = Scrape.load_proxies()
 
-        while True:
-            soup = Scrape.get_static(f'{url}{page}', proxies)
+        page_type = 'buy' if is_sale else 'rent'
+        page_element = f'//div[@class="searchForm searchForm--quick-search page-{page_type}"]'
 
-            grid = soup.find('div', class_='search-results__wrapper__grid')
-            cards = grid.find_all('div', class_='ItemContent')
+        while True:
+            driver = Scrape.get_dynamic(f'{url}{page}', proxies, page_element)
+
+            x_cards = '//div[@class="ItemContent"]'
+            cards = driver.find_elements(By.XPATH, x_cards)
 
             listing = []
 
+            x_reference = './/span[@class="propertybox__ref-link"]'
+            x_town = './/div[@class="propertybox__left-col"]/h2'
+            x_type = './/div[@class="propertybox__left-col"]/h3'
+            x_bedrooms = './/div[@class="propertybox__footer"]'
+            x_price = './/span[@class="propertybox__price"]'
+
             for card in cards:
-                reference = card.find('span', class_='propertybox__ref-link').text
-                town = card.find('div', class_='propertybox__left-col').find('h2').text
-                property_type = card.find('div', class_='propertybox__left-col').find('h3').text
+                reference = card.find_element(By.XPATH, x_reference).text
+                town = card.find_element(By.XPATH, x_town).text
+                type = card.find_element(By.XPATH, x_type).text
                 latitude = None
                 longitude = None
 
-                total_rooms = None
+                rooms = None
 
-                total_bedrooms = card.find('div', class_='propertybox__footer').text.replace('Sole Agency', '')
-                total_bedrooms = total_bedrooms.split(' ')[1] if total_bedrooms else None
+                bedrooms = card.find_element(By.XPATH, x_bedrooms).text.replace('Sole Agency', '')
+                bedrooms = bedrooms.split(' ')[1].replace('\n', '') if bedrooms else None
 
-                total_bathrooms = None
+                bathrooms = None
 
                 total_sqm = None
-                total_int_area = None
-                total_ext_area = None
+                int_area = None
+                ext_area = None
 
-                price = card.find('span', class_='propertybox__price').text
-                price = price.split(' ')[0].replace(',', '')
+                price = card.find_element(By.XPATH, x_price).text
+                price = price.split(' ')[0].replace('€', '').replace(',', '')
 
                 listing.append([
-                    reference, town, property_type,
+                    reference, town, type,
                     latitude, longitude,
-                    total_rooms, total_bedrooms, total_bathrooms,
-                    total_sqm, total_int_area, total_ext_area, price
+                    rooms, bedrooms, bathrooms,
+                    total_sqm, int_area, ext_area, price
                 ])
 
             # Concatenate previous data frame with data of current page
@@ -67,9 +76,10 @@ class Dhalia(object):
             page += 1
 
             # Break loop if last page
-            last_pager = soup.find('li', class_='pager__last')
+            x_last_pager = '//li[@class="pager__last"]'
+            is_last_pager = Scrape.await_element(driver, x_last_pager, 3)
 
-            if last_pager is None:
+            if not is_last_pager:
                 break
 
         # Add source and rename columns

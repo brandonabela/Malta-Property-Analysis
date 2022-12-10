@@ -7,6 +7,13 @@ from helper.scrape import Scrape
 
 
 class Remax(object):
+    columns = [
+        'Reference', 'Town', 'Type',
+        'Latitude', 'Longitude',
+        'Rooms', 'Bedrooms', 'Bathrooms',
+        'TotalSqm', 'IntArea', 'ExtArea', 'Price'
+    ]
+
     @staticmethod
     def fetch_data(is_sale: bool) -> pd.DataFrame:
         page = 1
@@ -37,13 +44,12 @@ class Remax(object):
             data = pd.concat([data, page_data])
             page += 1
 
+        # Override column names
+        data.columns = Remax.columns
+
         # Add source and rename columns
         data.insert(0, 'Is_Sale', is_sale)
         data.insert(1, 'Source', 'Remax')
-
-        data = data.rename(columns={
-            'MLS': 'Reference'
-        })
 
         # Return the data
         return data
