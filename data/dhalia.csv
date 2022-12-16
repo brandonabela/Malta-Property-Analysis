@@ -271,7 +271,6 @@ True,Dhalia,P000237962,Tarxien,House of Character,,,,2,,,,,215000
 True,Dhalia,P000237958,Sliema,Garage,,,,,,,,,75000
 True,Dhalia,P000237957,Mellieha,Penthouse,,,,3,,,,,350000
 True,Dhalia,P000237953,Msida,Penthouse,,,,1,,,,,255000
-True,Dhalia,P000237952,Senglea,Townhouse,,,,3,,,,,395000
 True,Dhalia,P000237945,Attard,Flats,,,,2,,,,,240000
 True,Dhalia,P000237938,Xemxija,Flats,,,,3,,,,,235000
 True,Dhalia,P000237929,Valletta,Palazzo,,,,4,,,,,2400000
@@ -809,6 +808,13 @@ True,Dhalia,P000236804,Msida,Penthouse,,,,1,,,,,225000
 True,Dhalia,P000236803,Qormi,Townhouse,,,,3,,,,,365000
 True,Dhalia,P000236802,Sliema,Townhouse,,,,2,,,,,445000
 True,Dhalia,P000236800,Gozo L-Gharb,Maisonette,,,,2,,,,,149000
+True,Dhalia,P000236797,Pieta,Semi-Detached Villa,,,,3,,,,,590000
+False,Dhalia,P000238438,Gozo Xaghra,House of Character,,,,6,,,,,2500
+False,Dhalia,P000238437,Gozo Marsalforn,Flats,,,,3,,,,,600
+False,Dhalia,P000238436,Gozo Il-Qala,Flats,,,,3,,,,,900
+False,Dhalia,P000238434,Gozo In-Nadur,Flats,,,,3,,,,,700
+False,Dhalia,P000238433,Gozo Ghajnsielem,Flats,,,,3,,,,,750
+False,Dhalia,P000238432,Qawra,Penthouse,,,,1,,,,,800
 False,Dhalia,P000238416,Gozo Xaghra,Flats,,,,3,,,,,850
 False,Dhalia,P000238401,St Julians,Penthouse,,,,2,,,,,2300
 False,Dhalia,P000238397,Gozo In-Nadur,Flats,,,,3,,,,,800
@@ -1613,9 +1619,3 @@ False,Dhalia,P000232510,Gozo Il-Qala,Flats,,,,2,,,,,800
 False,Dhalia,P000232502,Sliema,Flats,,,,2,,,,,950
 False,Dhalia,P000232501,Gozo San Lawrenz,Farmhouse,,,,3,,,,,800
 False,Dhalia,P000232500,Gozo Il-Qala,Terraced House,,,,3,,,,,1050
-False,Dhalia,P000232499,Msida,Maisonette,,,,3,,,,,1200
-False,Dhalia,P000232498,Bugibba,Flats,,,,3,,,,,1300
-False,Dhalia,P000232496,Gozo Xaghra,Flats,,,,3,,,,,850
-False,Dhalia,P000232489,Zurrieq,Flats,,,,3,,,,,800
-False,Dhalia,P000232468,Ghaxaq,Gr Floor Maisonette,,,,2,,,,,750
-False,Dhalia,P000232465,Swieqi,Flats,,,,3,,,,,1100

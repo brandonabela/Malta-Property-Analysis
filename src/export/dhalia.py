@@ -1,15 +1,12 @@
 import pandas as pd
 
 from tqdm import tqdm
-from selenium.webdriver.common.by import By
 
 from helper.fetch import Fetch
+from helper.dynamic_scrape import DynamicScrape
 
 
 class Dhalia(object):
-    url_buy = 'https://www.dhalia.com/buy/?pageIndex='
-    url_rent = 'https://www.dhalia.com/rent/?pageIndex='
-
     source = 'Dhalia'
 
     columns = [
@@ -21,20 +18,19 @@ class Dhalia(object):
 
     @staticmethod
     def fetch_data(is_sale: bool) -> pd.DataFrame:
-        page = 1
         data = pd.DataFrame()
-
-        url = Dhalia.url_buy if is_sale else Dhalia.url_rent
         proxies = Fetch.load_proxies()
 
         page_type = 'buy' if is_sale else 'rent'
         page_element = f'//div[@class="searchForm searchForm--quick-search page-{page_type}"]'
+        driver = Fetch.get_dynamic(f'https://www.dhalia.com/{page_type}/?pageIndex=1', proxies, page_element)
 
-        while True:
-            driver = Fetch.get_dynamic(f'{url}{page}', proxies, page_element)
+        x_pages = '//li[@class="pager__last"]/a'
+        pages = int(DynamicScrape.get_href(driver, x_pages).split('=')[1])
 
+        for page in tqdm(range(1, pages+1)):
             x_cards = '//div[@class="ItemContent"]'
-            cards = driver.find_elements(By.XPATH, x_cards)
+            cards = DynamicScrape.get_elements(driver, x_cards)
 
             listing = []
 
@@ -45,24 +41,21 @@ class Dhalia(object):
             x_price = './/span[@class="propertybox__price"]'
 
             for card in cards:
-                reference = card.find_element(By.XPATH, x_reference).text
-                town = card.find_element(By.XPATH, x_town).text
-                type = card.find_element(By.XPATH, x_type).text
+                reference = DynamicScrape.get_text(card, x_reference)
+                town = DynamicScrape.get_text(card, x_town)
+                type = DynamicScrape.get_text(card, x_type)
                 latitude = None
                 longitude = None
 
                 rooms = None
-
-                bedrooms = card.find_element(By.XPATH, x_bedrooms).text.replace('Sole Agency', '')
-                bedrooms = bedrooms.split(' ')[1].replace('\n', '') if bedrooms else None
-
+                bedrooms = DynamicScrape.get_text(card, x_bedrooms).replace('\nSole Agency', '').strip()
                 bathrooms = None
 
                 total_sqm = None
                 int_area = None
                 ext_area = None
 
-                price = card.find_element(By.XPATH, x_price).text
+                price = DynamicScrape.get_text(card, x_price)
                 price = price.split(' ')[0].replace('€', '').replace(',', '')
 
                 listing.append([
@@ -72,20 +65,14 @@ class Dhalia(object):
                     total_sqm, int_area, ext_area, price
                 ])
 
-            # Print Current Page
-            print(f'Source {Dhalia.source} Type {page_type} Page {page:03d}')
-
             # Concatenate previous data frame with data of current page
             page_data = pd.DataFrame(listing, columns=Dhalia.columns)
             data = pd.concat([data, page_data])
-            page += 1
 
-            # Break loop if last page
-            x_last_pager = '//li[@class="pager__last"]'
-            is_last_pager = Fetch.await_element(driver, x_last_pager, 3)
-
-            if not is_last_pager:
-                break
+            # Click Next Page
+            x_next_page = f'//ul[@class="pager"]/li/a/span[text()="{page+1}"]'
+            x_await_page = f'//ul[@class="pager"]/li[@class="pager__current"]/a/span[text()="{page+1}"]'
+            DynamicScrape.click_element(driver, x_next_page, x_await_page)
 
         # Add source and rename columns
         data.insert(0, 'Is_Sale', is_sale)

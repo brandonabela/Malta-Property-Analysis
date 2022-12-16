@@ -33,7 +33,23 @@ class DynamicScrape(object):
             return None
 
     @staticmethod
-    def get_text(driver: WebDriver, x_path: str) -> Union[None, str]:
+    def get_text(driver: WebDriver, x_path: str) -> str:
         element = DynamicScrape.get_element(driver, x_path)
 
         return element.text if element else ''
+
+    @staticmethod
+    def get_href(driver: WebDriver, x_path: str) -> str:
+        element = DynamicScrape.get_element(driver, x_path)
+
+        return element.get_attribute('href') if element else ''
+
+    @staticmethod
+    def click_element(driver: WebDriver, x_path: str, x_path_await: str = '') -> bool:
+        element = DynamicScrape.get_element(driver, x_path)
+
+        if element:
+            driver.execute_script("arguments[0].click();", element)
+            return DynamicScrape.await_element(driver, x_path_await)
+        else:
+            return False
