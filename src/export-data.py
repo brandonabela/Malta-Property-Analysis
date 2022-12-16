@@ -118,7 +118,7 @@ if __name__ == "__main__":
     dataset = dataset.merge(imply_province, on='Town', how='left')
 
     # Replace 0 as NAN
-    dataset[['Rooms', 'Bedrooms', 'Bathrooms']] = dataset[['Rooms', 'Bedrooms', 'Bathrooms']].replace(0, np.nan)
+    dataset[['Bedrooms', 'Bathrooms']] = dataset[['Bedrooms', 'Bathrooms']].replace(0, np.nan)
 
     # Exclude invalid entries
     dataset = dataset[

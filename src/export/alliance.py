@@ -12,7 +12,7 @@ class Alliance(object):
     columns = [
         'Reference', 'Town', 'Type',
         'Latitude', 'Longitude',
-        'Rooms', 'Bedrooms', 'Bathrooms',
+        'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
 
@@ -53,7 +53,6 @@ class Alliance(object):
                 latitude = None
                 longitude = None
 
-                rooms = None
                 bedrooms = DynamicScrape.get_text(card, x_bedrooms)
                 bathrooms = DynamicScrape.get_text(card, x_bathrooms)
 
@@ -67,7 +66,7 @@ class Alliance(object):
                 listing.append([
                     reference, town, type,
                     latitude, longitude,
-                    rooms, bedrooms, bathrooms,
+                    bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])
 

@@ -12,7 +12,7 @@ class SaraGrech(object):
     columns = [
         'Reference', 'Town', 'Type',
         'Latitude', 'Longitude',
-        'Rooms', 'Bedrooms', 'Bathrooms',
+        'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
 
@@ -49,7 +49,6 @@ class SaraGrech(object):
                 latitude = None
                 longitude = None
 
-                rooms = None
                 bedrooms = None
                 bathrooms = None
 
@@ -86,7 +85,7 @@ class SaraGrech(object):
                 listing.append([
                     reference, town, type,
                     latitude, longitude,
-                    rooms, bedrooms, bathrooms,
+                    bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])
 

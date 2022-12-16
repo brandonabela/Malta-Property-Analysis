@@ -12,7 +12,7 @@ class Belair(object):
     columns = [
         'Reference', 'Town', 'Type',
         'Latitude', 'Longitude',
-        'Rooms', 'Bedrooms', 'Bathrooms',
+        'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
 
@@ -49,7 +49,6 @@ class Belair(object):
                 latitude = None
                 longitude = None
 
-                rooms = None
                 bedrooms = DynamicScrape.get_text(card, x_bedrooms).replace(' Bedrooms', '')
                 bathrooms = DynamicScrape.get_text(card, x_bathrooms).replace(' Bathrooms', '')
 
@@ -64,7 +63,7 @@ class Belair(object):
                 listing.append([
                     reference, town, type,
                     latitude, longitude,
-                    rooms, bedrooms, bathrooms,
+                    bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])
 

@@ -10,7 +10,7 @@ class Remax(object):
     columns = [
         'Reference', 'Town', 'Type',
         'Latitude', 'Longitude',
-        'Rooms', 'Bedrooms', 'Bathrooms',
+        'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
 
@@ -36,7 +36,7 @@ class Remax(object):
             page_data = page_data[[
                 'MLS', 'Town', 'PropertyType',
                 'Latitude', 'Longitude',
-                'TotalRooms', 'TotalBedrooms', 'TotalBathrooms',
+                'TotalBedrooms', 'TotalBathrooms',
                 'TotalSqm', 'TotalIntArea', 'TotalExtArea', 'Price'
             ]]
 
