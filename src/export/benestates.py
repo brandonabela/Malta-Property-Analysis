@@ -11,7 +11,6 @@ class BenEstates(object):
 
     columns = [
         'Reference', 'Town', 'Type',
-        'Latitude', 'Longitude',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -50,9 +49,6 @@ class BenEstates(object):
                     town = type_town[1]
                     type = type_town[0]
 
-                latitude = None
-                longitude = None
-
                 bedrooms = DynamicScrape.get_text(card, x_bedrooms)
                 bathrooms = DynamicScrape.get_text(card, x_bathrooms)
 
@@ -65,7 +61,6 @@ class BenEstates(object):
 
                 listing.append([
                     reference, town, type,
-                    latitude, longitude,
                     bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])

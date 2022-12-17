@@ -11,7 +11,6 @@ class Dhalia(object):
 
     columns = [
         'Reference', 'Town', 'Type',
-        'Latitude', 'Longitude',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -44,8 +43,6 @@ class Dhalia(object):
                 reference = DynamicScrape.get_text(card, x_reference)
                 town = DynamicScrape.get_text(card, x_town)
                 type = DynamicScrape.get_text(card, x_type)
-                latitude = None
-                longitude = None
 
                 bedrooms = DynamicScrape.get_text(card, x_bedrooms).replace('\nSole Agency', '').strip()
                 bathrooms = None
@@ -59,7 +56,6 @@ class Dhalia(object):
 
                 listing.append([
                     reference, town, type,
-                    latitude, longitude,
                     bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])

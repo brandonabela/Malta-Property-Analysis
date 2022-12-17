@@ -11,7 +11,6 @@ class FrankSalt(object):
 
     columns = [
         'Reference', 'Town', 'Type',
-        'Latitude', 'Longitude',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -51,9 +50,6 @@ class FrankSalt(object):
                     town = type_town[1]
                     type = type_town[0]
 
-                latitude = None
-                longitude = None
-
                 bedrooms = DynamicScrape.get_text(card, x_bedrooms)
                 bathrooms = DynamicScrape.get_text(card, x_bathrooms)
 
@@ -61,11 +57,10 @@ class FrankSalt(object):
                 int_area = None
                 ext_area = None
 
-                price = DynamicScrape.get_text(card, x_price).replace(',', '')
+                price = DynamicScrape.get_text(card, x_price).replace(',', '').replace('/month', '')
 
                 listing.append([
                     reference, town, type,
-                    latitude, longitude,
                     bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])

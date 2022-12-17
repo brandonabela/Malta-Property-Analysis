@@ -11,7 +11,6 @@ class SaraGrech(object):
 
     columns = [
         'Reference', 'Town', 'Type',
-        'Latitude', 'Longitude',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -46,8 +45,6 @@ class SaraGrech(object):
                 reference = DynamicScrape.get_text(card, x_reference).replace('ID. ', '')
                 town = DynamicScrape.get_text(card, x_town)
                 type = DynamicScrape.get_text(card, x_type)
-                latitude = None
-                longitude = None
 
                 bedrooms = None
                 bathrooms = None
@@ -84,7 +81,6 @@ class SaraGrech(object):
 
                 listing.append([
                     reference, town, type,
-                    latitude, longitude,
                     bedrooms, bathrooms,
                     total_sqm, int_area, ext_area, price
                 ])

@@ -15,13 +15,13 @@ from helper.configuration import Configuration
 
 
 if __name__ == "__main__":
-    remax_path = 'data/remax.csv'
-    dhalia_path = 'data/dhalia.csv'
-    saragrech_path = 'data/saragrech.csv'
-    alliance_path = 'data/alliance.csv'
-    franksalt_path = 'data/franksalt.csv'
-    benestates_path = 'data/benestates.csv'
-    belair_path = 'data/belair.csv'
+    remax_path = 'raw/remax.csv'
+    dhalia_path = 'raw/dhalia.csv'
+    saragrech_path = 'raw/saragrech.csv'
+    alliance_path = 'raw/alliance.csv'
+    franksalt_path = 'raw/franksalt.csv'
+    benestates_path = 'raw/benestates.csv'
+    belair_path = 'raw/belair.csv'
 
     # ===================================
     # Create Progress Bar
@@ -29,61 +29,61 @@ if __name__ == "__main__":
 
     pbar = tqdm(total=8)
 
-    # # ===================================
-    # # Fetch Remax Data
-    # # ===================================
+    # ===================================
+    # Fetch Remax Data
+    # ===================================
 
-    # remax = Remax.fetch_all()
-    # remax.to_csv(remax_path, index=False)
-    # pbar.update(1)
+    remax = Remax.fetch_all()
+    remax.to_csv(remax_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Dhalia Data
-    # # ===================================
+    # ===================================
+    # Fetch Dhalia Data
+    # ===================================
 
-    # dhalia = Dhalia.fetch_all()
-    # dhalia.to_csv(dhalia_path, index=False)
-    # pbar.update(1)
+    dhalia = Dhalia.fetch_all()
+    dhalia.to_csv(dhalia_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Sara Grech Data
-    # # ===================================
+    # ===================================
+    # Fetch Sara Grech Data
+    # ===================================
 
-    # saragrech = SaraGrech.fetch_all()
-    # saragrech.to_csv(saragrech_path, index=False)
-    # pbar.update(1)
+    saragrech = SaraGrech.fetch_all()
+    saragrech.to_csv(saragrech_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Alliance Data
-    # # ===================================
+    # ===================================
+    # Fetch Alliance Data
+    # ===================================
 
-    # alliance = Alliance.fetch_all()
-    # alliance.to_csv(alliance_path, index=False)
-    # pbar.update(1)
+    alliance = Alliance.fetch_all()
+    alliance.to_csv(alliance_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Frank Salt Data
-    # # ===================================
+    # ===================================
+    # Fetch Frank Salt Data
+    # ===================================
 
-    # franksalt = FrankSalt.fetch_all()
-    # franksalt.to_csv(franksalt_path, index=False)
-    # pbar.update(1)
+    franksalt = FrankSalt.fetch_all()
+    franksalt.to_csv(franksalt_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Ben Estate Data
-    # # ===================================
+    # ===================================
+    # Fetch Ben Estate Data
+    # ===================================
 
-    # benestates = BenEstates.fetch_all()
-    # benestates.to_csv(benestates_path, index=False)
-    # pbar.update(1)
+    benestates = BenEstates.fetch_all()
+    benestates.to_csv(benestates_path, index=False)
+    pbar.update(1)
 
-    # # ===================================
-    # # Fetch Belair Data
-    # # ===================================
+    # ===================================
+    # Fetch Belair Data
+    # ===================================
 
-    # belair = Belair.fetch_all()
-    # belair.to_csv(belair_path, index=False)
-    # pbar.update(1)
+    belair = Belair.fetch_all()
+    belair.to_csv(belair_path, index=False)
+    pbar.update(1)
 
     # ===================================
     # Process a common Dataset
@@ -130,8 +130,17 @@ if __name__ == "__main__":
 
     dataset['Price'] = pd.to_numeric(dataset['Price'])
 
+    # Implying Total SQM from Internal and External Area
+
+    sqm_filter = [0, np.nan]
+
+    dataset.loc[
+        (dataset['TotalSqm'].isin(sqm_filter) & ~ dataset['IntArea'].isin(sqm_filter) & ~ dataset['ExtArea'].isin(sqm_filter)),
+        'TotalSqm'
+    ] = dataset['IntArea'] + dataset['ExtArea']
+
     # Exclude anomaly values
-    dataset = dataset[dataset.groupby(['Type', 'Town', 'Bedrooms'])['Price'].transform(zscore).abs() < 2]
+    dataset = dataset[dataset.groupby(['Is_Sale', 'Type'])['Price'].transform(zscore).abs() <= 1]
 
     # Saving Dataset
     dataset.to_csv('data/dataset.csv', index=False)

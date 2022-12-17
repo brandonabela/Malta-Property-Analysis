@@ -9,7 +9,6 @@ from helper.fetch import Fetch
 class Remax(object):
     columns = [
         'Reference', 'Town', 'Type',
-        'Latitude', 'Longitude',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -31,11 +30,9 @@ class Remax(object):
 
             # Create data frame and select specific columns
             page_data = pd.DataFrame(request['data']['Properties'])
-            page_data[['Latitude', 'Longitude']] = page_data['Coordinates'].apply(pd.Series)
 
             page_data = page_data[[
                 'MLS', 'Town', 'PropertyType',
-                'Latitude', 'Longitude',
                 'TotalBedrooms', 'TotalBathrooms',
                 'TotalSqm', 'TotalIntArea', 'TotalExtArea', 'Price'
             ]]
