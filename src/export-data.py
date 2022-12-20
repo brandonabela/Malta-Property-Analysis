@@ -4,54 +4,32 @@ import pandas as pd
 from tqdm import tqdm
 from scipy.stats import zscore
 
-from export.remax import Remax
-from export.dhalia import Dhalia
-from export.saragrech import SaraGrech
 from export.alliance import Alliance
-from export.franksalt import FrankSalt
-from export.benestates import BenEstates
 from export.belair import Belair
+from export.benestates import BenEstates
+from export.dhalia import Dhalia
+from export.franksalt import FrankSalt
+from export.remax import Remax
+from export.saragrech import SaraGrech
+from export.zanzi import Zanzi
 from helper.configuration import Configuration
 
 
 if __name__ == "__main__":
-    remax_path = 'raw/remax.csv'
-    dhalia_path = 'raw/dhalia.csv'
-    saragrech_path = 'raw/saragrech.csv'
     alliance_path = 'raw/alliance.csv'
-    franksalt_path = 'raw/franksalt.csv'
-    benestates_path = 'raw/benestates.csv'
     belair_path = 'raw/belair.csv'
+    benestates_path = 'raw/benestates.csv'
+    dhalia_path = 'raw/dhalia.csv'
+    franksalt_path = 'raw/franksalt.csv'
+    remax_path = 'raw/remax.csv'
+    saragrech_path = 'raw/saragrech.csv'
+    zanzi_path = 'raw/zanzi.csv'
 
     # ===================================
     # Create Progress Bar
     # ===================================
 
-    pbar = tqdm(total=8)
-
-    # ===================================
-    # Fetch Remax Data
-    # ===================================
-
-    remax = Remax.fetch_all()
-    remax.to_csv(remax_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Dhalia Data
-    # ===================================
-
-    dhalia = Dhalia.fetch_all()
-    dhalia.to_csv(dhalia_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Sara Grech Data
-    # ===================================
-
-    saragrech = SaraGrech.fetch_all()
-    saragrech.to_csv(saragrech_path, index=False)
-    pbar.update(1)
+    pbar = tqdm(total=9)
 
     # ===================================
     # Fetch Alliance Data
@@ -59,22 +37,6 @@ if __name__ == "__main__":
 
     alliance = Alliance.fetch_all()
     alliance.to_csv(alliance_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Frank Salt Data
-    # ===================================
-
-    franksalt = FrankSalt.fetch_all()
-    franksalt.to_csv(franksalt_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Ben Estate Data
-    # ===================================
-
-    benestates = BenEstates.fetch_all()
-    benestates.to_csv(benestates_path, index=False)
     pbar.update(1)
 
     # ===================================
@@ -86,18 +48,70 @@ if __name__ == "__main__":
     pbar.update(1)
 
     # ===================================
+    # Fetch Ben Estate Data
+    # ===================================
+
+    benestates = BenEstates.fetch_all()
+    benestates.to_csv(benestates_path, index=False)
+    pbar.update(1)
+
+    # ===================================
+    # Fetch Dhalia Data
+    # ===================================
+
+    dhalia = Dhalia.fetch_all()
+    dhalia.to_csv(dhalia_path, index=False)
+    pbar.update(1)
+
+    # ===================================
+    # Fetch Frank Salt Data
+    # ===================================
+
+    franksalt = FrankSalt.fetch_all()
+    franksalt.to_csv(franksalt_path, index=False)
+    pbar.update(1)
+
+    # ===================================
+    # Fetch Remax Data
+    # ===================================
+
+    remax = Remax.fetch_all()
+    remax.to_csv(remax_path, index=False)
+    pbar.update(1)
+
+    # ===================================
+    # Fetch Sara Grech Data
+    # ===================================
+
+    saragrech = SaraGrech.fetch_all()
+    saragrech.to_csv(saragrech_path, index=False)
+    pbar.update(1)
+
+    # ===================================
+    # Fetch Zanzi Data
+    # ===================================
+
+    zanzi = Zanzi.fetch_all()
+    zanzi.to_csv(zanzi_path, index=False)
+    pbar.update(1)
+
+    # ===================================
     # Process a common Dataset
     # ===================================
 
-    remax = pd.read_csv(remax_path)
-    dhalia = pd.read_csv(dhalia_path)
-    saragrech = pd.read_csv(saragrech_path)
     alliance = pd.read_csv(alliance_path)
-    franksalt = pd.read_csv(franksalt_path)
-    benestates = pd.read_csv(benestates_path)
     belair = pd.read_csv(belair_path)
+    benestates = pd.read_csv(benestates_path)
+    dhalia = pd.read_csv(dhalia_path)
+    franksalt = pd.read_csv(franksalt_path)
+    remax = pd.read_csv(remax_path)
+    saragrech = pd.read_csv(saragrech_path)
+    zanzi = pd.read_csv(zanzi_path)
 
-    dataset = pd.concat([remax, dhalia, saragrech, alliance, franksalt, benestates, belair])
+    dataset = pd.concat([
+        alliance, belair, benestates, dhalia,
+        franksalt, remax, saragrech, zanzi
+    ])
 
     exclude_types = Configuration.exclude_types()
     exclude_towns = Configuration.exclude_towns()

@@ -39,6 +39,12 @@ class DynamicScrape(object):
         return element.text if element else ''
 
     @staticmethod
+    def get_hidden_text(driver: WebDriver, x_path: str) -> str:
+        element = DynamicScrape.get_element(driver, x_path)
+
+        return element.get_attribute('textContent') if element else ''
+
+    @staticmethod
     def get_href(driver: WebDriver, x_path: str) -> str:
         element = DynamicScrape.get_element(driver, x_path)
 
