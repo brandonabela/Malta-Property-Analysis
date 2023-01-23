@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from tqdm import tqdm
+from threading import Thread
 from scipy.stats import zscore
 
 from export.alliance import Alliance
@@ -10,6 +10,7 @@ from export.benestates import BenEstates
 from export.dhalia import Dhalia
 from export.franksalt import FrankSalt
 from export.remax import Remax
+from export.quicklets import QuickLets
 from export.saragrech import SaraGrech
 from export.zanzi import Zanzi
 from helper.configuration import Configuration
@@ -22,78 +23,39 @@ if __name__ == "__main__":
     dhalia_path = 'raw/dhalia.csv'
     franksalt_path = 'raw/franksalt.csv'
     remax_path = 'raw/remax.csv'
+    quicklets_path = 'raw/quicklets.csv'
     saragrech_path = 'raw/saragrech.csv'
     zanzi_path = 'raw/zanzi.csv'
 
     # ===================================
-    # Create Progress Bar
+    # Create Threads
     # ===================================
 
-    pbar = tqdm(total=9)
+    threads = [
+        Thread(target=Alliance.fetch_all, args=(alliance_path,)),
+        Thread(target=Belair.fetch_all, args=(belair_path,)),
+        Thread(target=BenEstates.fetch_all, args=(benestates_path,)),
+        Thread(target=Dhalia.fetch_all, args=(dhalia_path,)),
+        Thread(target=FrankSalt.fetch_all, args=(franksalt_path,)),
+        Thread(target=QuickLets.fetch_all, args=(quicklets_path,)),
+        Thread(target=Remax.fetch_all, args=(remax_path,)),
+        Thread(target=SaraGrech.fetch_all, args=(saragrech_path,)),
+        Thread(target=Zanzi.fetch_all, args=(zanzi_path,)),
+    ]
 
     # ===================================
-    # Fetch Alliance Data
+    # Start Threads
     # ===================================
 
-    alliance = Alliance.fetch_all()
-    alliance.to_csv(alliance_path, index=False)
-    pbar.update(1)
+    for thread in threads:
+        thread.start()
 
     # ===================================
-    # Fetch Belair Data
+    # Wait until Threads Finish
     # ===================================
 
-    belair = Belair.fetch_all()
-    belair.to_csv(belair_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Ben Estate Data
-    # ===================================
-
-    benestates = BenEstates.fetch_all()
-    benestates.to_csv(benestates_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Dhalia Data
-    # ===================================
-
-    dhalia = Dhalia.fetch_all()
-    dhalia.to_csv(dhalia_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Frank Salt Data
-    # ===================================
-
-    franksalt = FrankSalt.fetch_all()
-    franksalt.to_csv(franksalt_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Remax Data
-    # ===================================
-
-    remax = Remax.fetch_all()
-    remax.to_csv(remax_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Sara Grech Data
-    # ===================================
-
-    saragrech = SaraGrech.fetch_all()
-    saragrech.to_csv(saragrech_path, index=False)
-    pbar.update(1)
-
-    # ===================================
-    # Fetch Zanzi Data
-    # ===================================
-
-    zanzi = Zanzi.fetch_all()
-    zanzi.to_csv(zanzi_path, index=False)
-    pbar.update(1)
+    for thread in threads:
+        thread.join()
 
     # ===================================
     # Process a common Dataset
@@ -105,17 +67,19 @@ if __name__ == "__main__":
     dhalia = pd.read_csv(dhalia_path)
     franksalt = pd.read_csv(franksalt_path)
     remax = pd.read_csv(remax_path)
+    quicklets = pd.read_csv(quicklets_path)
     saragrech = pd.read_csv(saragrech_path)
     zanzi = pd.read_csv(zanzi_path)
 
     dataset = pd.concat([
         alliance, belair, benestates, dhalia,
-        franksalt, remax, saragrech, zanzi
+        franksalt, remax, quicklets, saragrech, zanzi
     ])
 
     exclude_types = Configuration.exclude_types()
     exclude_towns = Configuration.exclude_towns()
 
+    mapping_stages = Configuration.mapping_stages()
     mapping_types = Configuration.mapping_types()
     mapping_towns = Configuration.mapping_towns()
     imply_province = Configuration.imply_province()
@@ -124,9 +88,15 @@ if __name__ == "__main__":
     dataset = dataset[~ dataset['Type'].isin(exclude_types)]
     dataset = dataset[~ dataset['Town'].isin(exclude_towns)]
 
-    # Standardise Type and Town Names
-    dataset['Type'] = dataset['Type'].replace(mapping_types)
-    dataset['Town'] = dataset['Town'].replace(mapping_towns)
+    # Standardise Stages, Type and Town Names
+    for _, row in mapping_stages.iterrows():
+        dataset['Stage'] = dataset['Stage'].replace(row['Variant'], row['Standard'])
+
+    for _, row in mapping_types.iterrows():
+        dataset['Type'] = dataset['Type'].replace(row['Variant'], row['Standard'])
+
+    for _, row in mapping_towns.iterrows():
+        dataset['Town'] = dataset['Town'].replace(row['Variant'], row['Standard'])
 
     # Determining Regions
     dataset = dataset.merge(imply_province, on='Town', how='left')
@@ -158,7 +128,6 @@ if __name__ == "__main__":
 
     # Saving Dataset
     dataset.to_csv('data/dataset.csv', index=False)
-    pbar.update(1)
 
     # Save Unmapped Towns
     variant_types = dataset['Type'].value_counts()
@@ -167,9 +136,3 @@ if __name__ == "__main__":
     # Save Unmapped Towns
     unmapped_towns = dataset[dataset['Province'].isnull()]['Town'].value_counts()
     unmapped_towns.to_csv('data/unmapped_towns.csv')
-
-    # ===================================
-    # Close Progress Bar
-    # ===================================
-
-    pbar.close()

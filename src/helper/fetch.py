@@ -48,12 +48,11 @@ class Fetch(object):
         return soup
 
     @staticmethod
-    def get_dynamic(url: str, proxies, x_path_await_element):
+    def get_dynamic(url: str, proxies, x_path_await_element, is_multi_thread: bool = False):
         rand = random.randint(0, len(proxies) - 1)
 
-        if Fetch.j_driver is not None:
-            Fetch.j_driver.close()
-            Fetch.j_driver.quit()
+        if not is_multi_thread and Fetch.j_driver is not None:
+            Fetch.dynamic_close_browser(Fetch.j_driver)
 
         options = ChromeOptions()
         options.add_argument('--headless')
@@ -64,6 +63,10 @@ class Fetch(object):
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-setuid-sandbox')
         options.add_argument('--disable-gpu')
+        options.add_argument('--log-level=3')
+
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        options.add_experimental_option("prefs", prefs)
 
         options.proxy = Proxy({
             'proxyType': ProxyType.MANUAL,
@@ -77,14 +80,22 @@ class Fetch(object):
 
         try:
             chrome_executable = Service(executable_path=ChromeDriverManager().install(), log_path='NUL')
-            Fetch.j_driver = Chrome(service=chrome_executable, options=options)
-            Fetch.j_driver.get(url)
+            j_driver = Chrome(service=chrome_executable, options=options)
+            j_driver.get(url)
 
-            valid = DynamicScrape.await_element(Fetch.j_driver, x_path_await_element)
+            valid = DynamicScrape.await_element(j_driver, x_path_await_element)
 
             if not valid:
                 return None
 
-            return Fetch.j_driver
+            if not is_multi_thread:
+                Fetch.j_driver = j_driver
+
+            return j_driver
         except WebDriverException:
             return None
+
+    @staticmethod
+    def dynamic_close_browser(driver) -> None:
+        driver.close()
+        driver.quit()

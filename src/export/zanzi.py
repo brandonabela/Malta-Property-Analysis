@@ -1,16 +1,16 @@
+import datetime
 import pandas as pd
-
-from tqdm import tqdm
 
 from helper.fetch import Fetch
 from helper.dynamic_scrape import DynamicScrape
+from helper.property_helper import PropertyHelper
 
 
 class Zanzi(object):
     source = 'Zanzi'
 
     columns = [
-        'Reference', 'Town', 'Type',
+        'Reference', 'Town', 'Type', 'Stage',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -21,45 +21,64 @@ class Zanzi(object):
         data = pd.DataFrame()
         proxies = Fetch.load_proxies()
 
+        page_type = 'buy' if is_sale else 'rent'
         page_element = '//div[@class="properties-holder filter-box-holder"]'
-        driver = Fetch.get_dynamic('https://www.zanzihomes.com/property-in-malta', proxies, page_element)
+        driver = Fetch.get_dynamic('https://www.zanzihomes.com/property-in-malta', proxies, page_element, True)
 
         while True:
-            x_cards = '//div[@class="properties-item filtration-box"]'
-            cards = DynamicScrape.get_elements(driver, x_cards)
+            x_links = '//div[@class="properties-item filtration-box"]//div[@class="bg-hide"]/a'
+            links = DynamicScrape.get_links(driver, x_links)
 
             listing = []
 
-            x_reference = './/div[@class="info-prop"]/span'
-            x_town = './/a[@class="city"]/span[2]'
-            x_type = './/div[@class="bg-hide"]//span[@class="apart-name"]'
-            x_bedrooms = './/div[@class="bg-hide"]//ul[@class="flat-info"]/li[1]'
-            x_bathrooms = './/div[@class="bg-hide"]//ul[@class="flat-info"]/li[2]'
-            x_total_sqm = './/div[@class="bg-hide"]//div[@class="hide-info-prop"]/span'
-            x_price = './/div[@class="price"]/span'
+            x_features = './/div[@class="info-holder"]//div[@class="pro-info"]/dl'
+            x_town_type = './/div[@class="slider-head"]/h1'
+            x_description = './/div[@class="description"]/div'
+            x_price = './/div[@class="info-holder"]//div[@class="price"]'
 
-            for card in cards:
-                reference = DynamicScrape.get_text(card, x_reference).replace('REF No. ', '')
-                town = DynamicScrape.get_text(card, x_town)
-                type = DynamicScrape.get_hidden_text(card, x_type)
+            for i, link in enumerate(links):
+                page_element = '//div[@class="main-info"]'
+                successful = DynamicScrape.open_tab_link(driver, link, page_element)
 
-                bedrooms = DynamicScrape.get_hidden_text(card, x_bedrooms).replace(' Bedrooms', '').strip()
-                bathrooms = DynamicScrape.get_hidden_text(card, x_bathrooms).replace(' Bathrooms', '').strip()
+                if successful:
+                    features = DynamicScrape.get_texts(driver, x_features)
 
-                total_sqm = DynamicScrape.get_hidden_text(card, x_total_sqm).replace(' sqm', '')
-                int_area = None
-                ext_area = None
+                    reference = [feature for feature in features if 'Ref No.:\n' in feature]
+                    reference = reference[0].replace('Ref No.:\n', '') if len(reference) else None
 
-                price = DynamicScrape.get_text(card, x_price).replace('€', '').replace(',', '')
+                    town_type = DynamicScrape.get_text(driver, x_town_type)
+                    town = town_type.split(' - ')[0].strip()
+                    type = town_type.split(' - ')[1].strip()
 
-                listing.append([
-                    reference, town, type,
-                    bedrooms, bathrooms,
-                    total_sqm, int_area, ext_area, price
-                ])
+                    stage = PropertyHelper.determine_stage(driver, x_description, is_sale)
 
-            # Print Current Page
-            print(f'{Zanzi.source} {"Buy" if is_sale else "Rent"} - {page:03d}')
+                    bedrooms = [side_info for side_info in features if 'Bedrooms:\n' in side_info]
+                    bedrooms = bedrooms[0].replace('Bedrooms:\n', '') if len(bedrooms) else None
+
+                    bathrooms = [side_info for side_info in features if 'Bathrooms:\n' in side_info]
+                    bathrooms = bathrooms[0].replace('Bathrooms:\n', '') if len(bathrooms) else None
+
+                    total_sqm = [side_info for side_info in features if 'SQM:\n' in side_info]
+                    total_sqm = total_sqm[0].replace('SQM:\n', '') if len(total_sqm) else None
+
+                    int_area = None
+                    ext_area = None
+
+                    price = DynamicScrape.get_text(driver, x_price)
+                    price = price.replace('€', '').replace(',', '')
+
+                    listing.append([
+                        reference, town, type, stage,
+                        bedrooms, bathrooms,
+                        total_sqm, int_area, ext_area, price
+                    ])
+
+                DynamicScrape.close_tab_link(driver)
+
+                print(
+                    '%s\t %s\t Page %03d of XXX\t Entry %03d of %03d' %
+                    (datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S"), Zanzi.source + ' ' + page_type.title(), page, i+1, len(links))
+                )
 
             # Concatenate previous data frame with data of current page
             page_data = pd.DataFrame(listing, columns=Zanzi.columns)
@@ -81,6 +100,9 @@ class Zanzi(object):
         data.insert(0, 'Is_Sale', is_sale)
         data.insert(1, 'Source', Zanzi.source)
 
+        # Close Driver
+        Fetch.dynamic_close_browser(driver)
+
         # Return the data
         return data
 
@@ -89,19 +111,12 @@ class Zanzi(object):
         return Zanzi.fetch_data(True)
 
     @staticmethod
-    def fetch_all():
-        # Create progress bar
-        pbar = tqdm(total=1)
-
+    def fetch_all(file_path: str) -> None:
         # Fetching data
         res_sale = Zanzi.fetch_res_sale()
-        pbar.update(1)
-
-        # Close progress bar
-        pbar.close()
 
         # Concatenate Data
         data = pd.concat([res_sale])
 
-        # Return Desired Data
-        return data
+        # Save data frame to CSV file
+        data.to_csv(file_path, index=False)

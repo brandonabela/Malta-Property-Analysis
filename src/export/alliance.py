@@ -1,6 +1,5 @@
+import datetime
 import pandas as pd
-
-from tqdm import tqdm
 
 from helper.fetch import Fetch
 from helper.dynamic_scrape import DynamicScrape
@@ -10,7 +9,7 @@ class Alliance(object):
     source = 'Alliance'
 
     columns = [
-        'Reference', 'Town', 'Type',
+        'Reference', 'Town', 'Type', 'Stage',
         'Bedrooms', 'Bathrooms',
         'TotalSqm', 'IntArea', 'ExtArea', 'Price'
     ]
@@ -21,52 +20,93 @@ class Alliance(object):
         data = pd.DataFrame()
         proxies = Fetch.load_proxies()
 
-        page_type = 'for-sale' if is_sale else 'to-let'
+        page_type = 'Buy' if is_sale else 'Rent'
         page_element = '//div[@class="pgl-property"][last()]'
-        driver = Fetch.get_dynamic(f'https://search.alliance.mt/{page_type}', proxies, page_element)
+        driver = Fetch.get_dynamic(f'https://search.alliance.mt/{"for-sale" if is_sale else "to-let"}', proxies, page_element, True)
+
+        x_flt_res_com = '//aside[1]//div[@class="row"]//button[contains(@class, "dropdown-toggle")]'
+        x_flt_com_value = '//aside[1]//div[@class="row"]//ul/li[5]'
+        x_flt_search = '//aside[1]//button[@type="submit"]'
+        DynamicScrape.get_element(driver, x_flt_res_com).click()
+        DynamicScrape.get_element(driver, x_flt_com_value).click()
+        DynamicScrape.click_element(driver, x_flt_search, page_element)
+
+        x_sort = '//*[@id="sort_options_chosen"]'
+        x_sort_latest = '//*[@id="sort_options_chosen"]//li[6]'
+        DynamicScrape.await_element(driver, x_sort)
+        DynamicScrape.get_element(driver, x_sort).click()
+        DynamicScrape.await_element(driver, x_sort_latest)
+        DynamicScrape.click_element(driver, x_sort_latest, page_element)
 
         while True:
-            x_cards = '//div[@class="pgl-property"]'
-            cards = DynamicScrape.get_elements(driver, x_cards)
+            x_links = '//div[@class="col-xs-4 animation"]/a'
+            links = DynamicScrape.get_links(driver, x_links)
 
             listing = []
 
-            x_reference = './/div[@class="property-thumb-info-content"]/address'
-            x_type_town = './/div[@class="property-thumb-info-content"]/h3'
-            x_bedrooms = './/div[@class="amenities clearfix"]//ul[@class="pull-right"]/li[1]'
-            x_bathrooms = './/div[@class="amenities clearfix"]//ul[@class="pull-right"]/li[2]'
-            x_total_sqm = './/div[@class="amenities clearfix"]//ul[@class="pull-left"]'
-            x_price = './/span[@class="label price"]'
+            x_features = './/ul[@class="list-unstyled amenities amenities-detail"]/li'
+            x_type_town = './/div[@class="pgl-detail"]//h1'
+            x_price = './/ul[@class="slides"]/li[1]//span[@class="label price"]'
 
-            for card in cards:
-                reference = DynamicScrape.get_text(card, x_reference).replace('#', '')
-                town = None
-                type = None
+            for i, link in enumerate(links):
+                page_element = '//div[@class="pgl-detail"]'
+                successful = DynamicScrape.open_tab_link(driver, link, page_element)
 
-                type_town = DynamicScrape.get_text(card, x_type_town).split(' in ')
+                if successful:
+                    features = DynamicScrape.get_texts(driver, x_features)
+                    features = [feature for feature in features if 'Form: ' not in feature]
 
-                if len(type_town) == 2:
-                    town = type_town[1]
-                    type = type_town[0]
+                    reference = [feature for feature in features if 'Reference: ' in feature]
+                    reference = reference[0].replace('Reference: ', '') if len(reference) else None
 
-                bedrooms = DynamicScrape.get_text(card, x_bedrooms)
-                bathrooms = DynamicScrape.get_text(card, x_bathrooms)
+                    type_town = DynamicScrape.get_text(driver, x_type_town)
+                    town = type_town.split(' IN ')[1].strip().title()
+                    type = type_town.split(' IN ')[0].strip().title()
 
-                total_sqm = DynamicScrape.get_text(card, x_total_sqm).replace('Area:', '').replace('m2', '')
-                int_area = None
-                ext_area = None
+                    stage = [feature for feature in features if 'Furnished Type: ' in feature]
+                    stage = stage[0].replace('Furnished Type: ', '') if len(stage) else 'Unclassified'
 
-                price = DynamicScrape.get_text(card, x_price).replace('€', '').replace(',', '')
-                price = price.replace(' p/day', '').replace(' p/month', '').replace(' p/year', '')
+                    bedrooms = [feature for feature in features if ' Bedrooms' in feature]
+                    bedrooms = bedrooms[0].replace(': ', '').replace(' Bedrooms', '') if len(bedrooms) else None
 
-                listing.append([
-                    reference, town, type,
-                    bedrooms, bathrooms,
-                    total_sqm, int_area, ext_area, price
-                ])
+                    bathrooms = [feature for feature in features if ' Bathrooms' in feature]
+                    bathrooms = bathrooms[0].replace(': ', '').replace(' Bathrooms', '') if len(bathrooms) else None
 
-            # Print Current Page
-            print(f'{Alliance.source} {"Buy" if is_sale else "Rent"} - {page:03d}')
+                    total_sqm = [feature for feature in features if 'Plot Area: ' in feature]
+                    total_sqm = total_sqm[0].replace('Plot Area: ', '').replace('m2', '') if len(total_sqm) else None
+
+                    int_area = [feature for feature in features if 'Inside Area: ' in feature]
+                    int_area = int_area[0].replace('Inside Area: ', '').replace('m2', '') if len(int_area) else None
+
+                    ext_area = [feature for feature in features if 'Outside Area: ' in feature]
+                    ext_area = ext_area[0].replace('Outside Area: ', '').replace('m2', '') if len(ext_area) else None
+
+                    price = DynamicScrape.get_text(driver, x_price).replace('€', '').replace(',', '').strip()
+
+                    try:
+                        if ' p/day' in price:
+                            price = int(price.replace(' p/day', '')) * 30
+                        if ' p/week' in price:
+                            price = int(price.replace(' p/week', '')) * 4
+                        elif ' p/month' in price:
+                            price = int(price.replace(' p/month', ''))
+                        elif ' p/year' in price:
+                            price = round(int(price.replace(' p/year', '')) / 12)
+                    except ValueError:
+                        price = None
+
+                    listing.append([
+                        reference, town, type, stage,
+                        bedrooms, bathrooms,
+                        total_sqm, int_area, ext_area, price
+                    ])
+
+                DynamicScrape.close_tab_link(driver)
+
+                print(
+                    '%s\t %s\t Page %03d of XXX\t Entry %03d of %03d' %
+                    (datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S"), Alliance.source + ' ' + page_type.title(), page, i+1, len(links))
+                )
 
             # Concatenate previous data frame with data of current page
             page_data = pd.DataFrame(listing, columns=Alliance.columns)
@@ -88,6 +128,9 @@ class Alliance(object):
         data.insert(0, 'Is_Sale', is_sale)
         data.insert(1, 'Source', Alliance.source)
 
+        # Close Driver
+        Fetch.dynamic_close_browser(driver)
+
         # Return the data
         return data
 
@@ -100,22 +143,13 @@ class Alliance(object):
         return Alliance.fetch_data(False)
 
     @staticmethod
-    def fetch_all():
-        # Create progress bar
-        pbar = tqdm(total=2)
-
+    def fetch_all(file_path: str) -> None:
         # Fetching data
         res_sale = Alliance.fetch_res_sale()
-        pbar.update(1)
-
         res_rent = Alliance.fetch_res_rent()
-        pbar.update(1)
-
-        # Close progress bar
-        pbar.close()
 
         # Concatenate Data
         data = pd.concat([res_sale, res_rent])
 
-        # Return Desired Data
-        return data
+        # Save data frame to CSV file
+        data.to_csv(file_path, index=False)
