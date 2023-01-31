@@ -6,6 +6,9 @@ This project aims to uncover the most profitable real estate opportunities in Ma
 
 For the analysis of the property market to occur, a dataset had to be compiled. The selenium python package was used for this purpose, with the implementation of multithreading to allow for concurrent scraping of multiple websites. The websites ```Alliance```, ```Belair```, ```Ben Estates```, ```Dhalia```, ```Frank Salt```, ```Remax```, ```Sara Grech``` were scraped for properties for sale and rental. In addition, ```Quicklets``` was scraped specifically for rental properties and ```Zanzi``` was scraped for properties for sale.
 
+![Source Distribution](https://user-images.githubusercontent.com/23166383/215691494-a33f8c7a-3f80-44c5-93f2-80055c4457cc.png)
+
+
 Every data source had its own unique logic to ensure that every feature was at a common baseline, and every data source was saved as a separate ```CSV```. The use of multithreading in the scraping process allowed for efficient and quick compilation of a comprehensive dataset containing information on properties for sale and rental from multiple sources, providing a thorough understanding of the current property market in the area.
 
 The following details highlight the key features extracted from the website sources for both sale and rental properties.
@@ -37,11 +40,13 @@ The following are explanations of the implied features:
 
 The dataset contains 86,906 rows and 16 columns. There are 75,291 missing values in the External Area and Internal Area columns, 56,168 missing values in the Total Square meter column, and 4,831 missing values in the Bathrooms column. All missing values in the dataset have been filled with the value ```unclassified```.
 
+![City Plot](https://user-images.githubusercontent.com/23166383/215432109-0221dc71-7e99-4cc7-a3d3-27766bc2ad51.png)
+
 The data reveals that Remax, Frank Salt, and Zanzi have the highest number of properties for sale, while Remax, QuickLets, and Frank Salt have the highest number of rental listings. In regards to property staging, Remax leads in properties on plan, shell, and finished stages. Meanwhile, Frank Salt has the most furnished properties. Additionally, Ben Estate has the largest number of properties without proper classification.
 
 The top 10 towns in terms of combined property listings for sales and rental are ```Sliema```, ```Saint Julian's```, ```Gzira```, ```Swieqi```, ```Marsaskala```, ```Saint Paul's Bay```, ```Msida```, ```Qawra```, ```Mellieha```, and ```Mosta```. ```Saint Paul's Bay``` has the most property listings for sale, while ```Sliema``` has the most property listings for rent. For sale apartments, the 1st quartile is 225K, the median is 265K, and the 3rd quartile is 319K. For rental apartments, the 1st quartile is 900, the median is 1200, and the 3rd quartile is 1500.
 
-![Cities](https://user-images.githubusercontent.com/23166383/215432109-0221dc71-7e99-4cc7-a3d3-27766bc2ad51.png)
+![Top 10 Towns](https://user-images.githubusercontent.com/23166383/215691237-85a6c587-75e4-406d-8a6b-539f89f4242c.png)
 
 When analysing the correlation between features and the sale price, it has been determined that the number of bedrooms, bathrooms, and external area are positively correlated with the sale price. This means that as these features increase, the sale price is likely to increase as well. On the other hand, the total square meter and internal area have no correlation with the sale price.
 
